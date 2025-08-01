@@ -1,131 +1,200 @@
-CAPM Mock Exam Platform ReadMe
-Purpose
-The CAPM Mock Exam Platform is a self-hosted web application designed for personal preparation for the Certified Associate in Project Management (CAPM) certification, emulating the Pearson VUE exam experience based on the 2023–2025 CAPM Exam Content Outline (ECO). It supports the user's progress in the Google Project Management Certificate (Courses 1–2 up to Module 2 completed, samples for Courses 3–4, detailed for Courses 5–6). The platform provides two modes: Study Mode (immediate feedback with explanations, module/range selection) and Timed Exam Mode (3-hour timer, navigation, flagging, review of unanswered/flagged questions, domain-based review intelligence). It is hosted on a Synology NAS using DSM Container Manager and is designed for expansion to a 300+ question library for comprehensive practice.
-Structure
+# 📘 CAPM Mock Exam Platform
 
-Files:
-index.html (~2 KB): Frontend with three-phase interface (program selection: Foundations, Google PM Cert, Agile, Capstone; Study/Timed Mode; single/multiple module selection).
-styles.css (~1 KB): Local CSS for styling, replacing Tailwind CDN.
-questions.json (~37 KB): JSON database with 150 questions (54 Domain 1, 26 Domain 2, 30 Domain 3, 40 Domain 4).
-ReadMe.md (~7 KB): This comprehensive documentation.
-docker-compose.yml (~1 KB): Nginx Docker configuration for deployment.
-handover_report.md (~6 KB): Consolidated handover details.
-question_library_instructions.md (~3 KB): Question library sources and structure.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/version-1.4.0-success)
+![Questions](https://img.shields.io/badge/questions-150-blue)
+![Mode](https://img.shields.io/badge/modes-Study_&_Timed-critical)
 
+---
 
-Question Library: 150 questions aligned with CAPM ECO:
-Domain 1: Fundamentals & Core Concepts (36%, 54 questions).
-Domain 2: Predictive Plan-Based Methodologies (17%, 26 questions).
-Domain 3: Agile Frameworks/Methodologies (20%, 30 questions).
-Domain 4: Business Analysis Frameworks (27%, 40 questions).
+## 🧭 Purpose
 
+**The CAPM Mock Exam Platform** is a self-hosted web application created by **Andrew John Holland** as a personal learning and demonstration tool for the *Certified Associate in Project Management (CAPM)* exam. It replicates the Pearson VUE testing experience aligned to the **2023–2025 CAPM Exam Content Outline (ECO)**.
 
-Question Types:
-Single-answer multiple choice (60 questions).
-Multiple-selection (30 questions).
-Matching (22 questions, drag-and-drop).
-Sequencing (22 questions, drag-and-drop).
-Scenario-based (16 questions, situational).
+This project also showcases Andrew's competencies as an aspiring **IT Deployment Project Manager**, applying the five process groups: *Initiating, Planning, Executing, Monitoring & Controlling, and Closing*. The content supports Andrew's active study in the **Grow with Google: Google Project Management Professional Certificate** on Coursera (Courses 1–2 completed through Module 2, sample mapping for Courses 3–4, detailed alignment with Courses 5–6).
 
+---
 
-Design: Cyberpunk Monk palette (dark blue #0F172A background, gray #D1D5DB cards, blue #3B82F6 buttons, pink #F472B6 hover), consistent with https://www.andrewholland.com/.
-Features:
-Program selection: Foundations (Course 1), Google PM Cert (Course 2), Agile (Course 5), Capstone (Course 6).
-Study/Timed Modes with navigation (Previous/Next), flagging, review of unanswered/flagged questions.
-Domain review intelligence: Error counts/rates (e.g., "Domain 1: 5 errors (33.33% error rate)").
-Quiz History: Tracks results (e.g., "31/07/2025, 11:44:55: 5/5 (100.00%) [Timed]").
+## 🗂️ File Structure
 
+| File                                        | Description                                                            |
+| ------------------------------------------- | ---------------------------------------------------------------------- |
+| `index.html` (\~2 KB)                       | Frontend interface for mode and module selection                       |
+| `styles.css` (\~1 KB)                       | Local CSS (replacing Tailwind CDN), themed with Cyberpunk Monk palette |
+| `questions.json` (\~37 KB)                  | JSON database with 150 questions across 4 ECO domains                  |
+| `ReadMe.md` (\~7 KB)                        | This comprehensive documentation                                       |
+| `docker-compose.yml` (\~1 KB)               | Docker config for Nginx deployment                                     |
+| `handover_report.md` (\~6 KB)               | Handover notes and deployment details                                  |
+| `question_library_instructions.md` (\~3 KB) | Guidelines for question sourcing/structure                             |
 
+---
 
-Setup and Hosting
+## 🧠 Question Library Overview
 
-Prerequisites:
+**Total Questions: 150**, mapped to ECO domains:
 
-Synology NAS (192.168.1.248) with DSM Container Manager and File Station.
-Shared folder /volume1/Exam_Prep/html with Read/Write permissions for admin, silicastorm, gituser; ReadOnly for Guest.
-Local directory: M:\OneDrive\Documents\GitHub\CAPM_Mock_Exam_Platform.
-Docker installed on NAS.
+* **Domain 1: Fundamentals & Core Concepts** (36% — 54 questions)
+* **Domain 2: Predictive Plan-Based Methodologies** (17% — 26 questions)
+* **Domain 3: Agile Frameworks/Methodologies** (20% — 30 questions)
+* **Domain 4: Business Analysis Frameworks** (27% — 40 questions)
 
+**Question Types:**
 
-File Preparation:
+* 60 Single-answer multiple choice
+* 30 Multiple-selection
+* 22 Matching (drag-and-drop)
+* 22 Sequencing (drag-and-drop)
+* 16 Scenario-based (situational)
 
-Create files (index.html, styles.css, questions.json, ReadMe.md, docker-compose.yml, handover_report.md, question_library_instructions.md) in M:\OneDrive\Documents\GitHub\CAPM_Mock_Exam_Platform using Notepad.
-Verify locally:cd M:\OneDrive\Documents\GitHub\CAPM_Mock_Exam_Platform
+---
+
+## 🎨 Design & UI
+
+**Color Palette: Cyberpunk Monk** (harmonized with [https://www.andrewholland.com/](https://www.andrewholland.com/))
+
+* Background: `#0F172A` (Dark Blue)
+* Cards: `#D1D5DB` (Gray)
+* Buttons: `#3B82F6` (Blue)
+* Hover: `#F472B6` (Pink)
+
+---
+
+## 🚀 Platform Features
+
+* 🔀 **Program Selection**: Foundations (Course 1), Google PM Cert (Course 2), Agile (Course 5), Capstone (Course 6)
+* 🎯 **Modes**:
+
+  * **Study Mode**: Immediate feedback, select module(s)
+  * **Timed Exam Mode**: 150 questions (135 scored + 15 unscored), 3-hour limit, navigation, flagging
+* 📊 **Review Intelligence**: Tracks error counts and percentages by domain
+* 📁 **Quiz History Logging**: Logs date/time, score, and mode (e.g., `31/07/2025, 11:44:55: 5/5 (100.00%) [Timed]`)
+
+---
+
+## 🔧 Setup & Hosting Instructions
+
+### 🔑 Prerequisites
+
+* Synology NAS at `192.168.1.248`
+* DSM Container Manager + File Station
+* Shared Folder: `/volume1/Exam_Prep/html`
+* Local Dev Dir: `M:\OneDrive\Documents\GitHub\CAPM_Mock_Exam_Platform`
+* Users: `admin`, `silicastorm`, `gituser` (RW); `Guest` (RO)
+* Docker installed on NAS
+
+### 📝 File Preparation
+
+* Create all files in `M:\OneDrive\Documents\GitHub\CAPM_Mock_Exam_Platform`
+* Verify locally via CMD:
+
+```bash
+cd M:\OneDrive\Documents\GitHub\CAPM_Mock_Exam_Platform
 dir
+```
 
+### 📤 Upload Files to NAS
 
+* Log in to DSM: `http://192.168.1.248:5000`
+* Open **File Station** > navigate to `/volume1/Exam_Prep/html`
+* Delete old files > Upload new files from local directory
+* Confirm upload success
 
+### 🔍 Verify via SSH
 
-Upload Files:
-
-Log in to DSM: http://192.168.1.248:5000
-Open File Station > Navigate to volume1/Exam_Prep/html.
-Delete outdated files.
-Upload all files from M:\OneDrive\Documents\GitHub\CAPM_Mock_Exam_Platform.
-Verify in File Station.
-
-
-Verify on NAS:
+```bash
 ssh admin@192.168.1.248
 ls /volume1/Exam_Prep/html
 cat /volume1/Exam_Prep/html/questions.json | wc -l
 exit
+```
 
+### 🐳 Docker Deployment
 
-Check: ls shows all files; wc -l shows ~1500 lines for questions.json.
+* DSM > Container Manager > Project > **Create (Manual Input)**
+* Use `docker-compose.yml`, expose port `8081`
+* Name project: `capm-quiz`
+* Stop `qBittorrent` (uses 8080)
 
+### 🧪 Testing
 
-Deploy Docker:
+* Open in browser: `http://192.168.1.248:8081/index.html`
+* Expected: Program selection screen → Study/Timed Mode → Module selector (Study Mode)
 
-In DSM > Container Manager > Project > Create > Manual Input.
-Use docker-compose.yml content (port 8081).
-Name: capm-quiz, apply.
-Stop qBittorrent: DSM > Container Manager > Container > Stop qbittorrent.
+---
 
+## 📚 Usage Instructions
 
-Test:
+### 🧩 Program Selection
 
-Open: http://192.168.1.248:8081/index.html
-Expected: Program selection (Foundations, Google PM Cert, Agile, Capstone), Study/Timed Mode, module selection (Study Mode), no runtime errors.
+Choose from:
 
+* Foundations (Course 1)
+* Google PM Cert (Course 2)
+* Agile (Course 5)
+* Capstone (Course 6)
 
+### 🕹️ Modes
 
-Usage
+* **Study Mode**: Immediate feedback, module/range selection (e.g., C1M1–C2M4)
+* **Timed Exam Mode**: Full 150-question exam, navigation, no feedback until end
 
-Program Selection:
-Choose from Foundations, Google PM Cert, Agile, Capstone to filter modules.
+### 📈 Review Intelligence
 
+* Displays results like: `Domain 1: 5 errors (33.33% error rate)`
 
-Modes:
-Study Mode: Immediate feedback, select single module (e.g., Course 1 Module 1) or range (e.g., Course 1 Module 1 to Course 2 Module 4).
-Timed Exam Mode: 150 questions (135 scored, 15 unscored), 3 hours, navigation, flagging, review, no feedback until end.
+### 📆 Quiz History
 
+* Tracks attempt details, scores, and timestamped logs
 
-Review Intelligence: Results show domain error counts/rates to guide study.
-Quiz History: Tracks performance with mode indication.
+---
 
-Development Notes
+## 🛠️ Development Notes
 
-Version: 1.4.0 (RAM-optimized, questions.json separated).
-Alignment: Questions map to Google PM Certificate (Courses 1–2 for Domain 1, Course 2 Modules 3–4 for Domain 2, Courses 5–6 for Domains 3–4, samples for Courses 3–4).
-CAPM Emulation: 150 questions, 3 hours, ECO domains, no hot spot questions.
-Quality Assurance: Questions align with PMI standards, verified against ECO tasks.
-GitHub: gituser has Read/Write access to /volume1/Exam_Prep for sync.
-Future: Expand to 300+ questions, add analytics.
-Owner: Andrew John Holland.
+* **Version**: 1.4.0
+* **Optimized**: RAM usage lowered, Tailwind CDN removed
+* **Mappings**:
 
-Change Log
+  * Domains 1–2 → Courses 1–2
+  * Domain 2 → Course 2 Modules 3–4
+  * Domains 3–4 → Courses 5–6
+  * Courses 3–4: Partial/sample support
+* **Standards**: ECO-compliant, no hotspot-style questions
+* **QA**: Manually validated for domain alignment
+* **GitHub Access**: `gituser` can sync to `/volume1/Exam_Prep`
+* **Future Goals**: 300+ questions, analytics dashboard
 
-[2025-07-31] Initial version, 20 questions (ID: 3675a440-f713-4627-87b8-636af0448b4f).
-[2025-07-31] Added palette (ID: 3675a440-f713-4627-87b8-636af0448b4f).
-[2025-07-31] Fixed runtime error, 60 questions (ID: 0f0c857c-0ac7-4ef1-b9d9-e477faab987a).
-[2025-07-31] 150 questions, Exam_Prep folder (ID: 5f6a7b8c-c9d0-4e1a-a2b3-f4a5b6c7d8e9).
-[2025-08-01] Added program selection, fixed Tailwind/JSON errors (ID: 7a8b9c0d-e1f2-4a3b-b4c5-d6e7f8a9b0c1).
+---
 
-Troubleshooting
+## 📅 Change Log
 
-Crashes: Use Notepad, File Station to avoid RAM spikes.
-Upload Failures: scp errors resolved with File Station.
-Runtime Errors: Fixed Tailwind CDN with styles.css; JSON error fixed with valid questions.json.
-Port Conflicts: qBittorrent on 8080—use 8081 or scan with nmap 192.168.1.248 -p 8081-8090 (on request).
-Permissions: ssh admin@192.168.1.248, sudo chmod 755 /volume1/Exam_Prep/html.
+| Date       | Update                                                              |
+| ---------- | ------------------------------------------------------------------- |
+| 2025-07-31 | Initial version, 20 questions                                       |
+| 2025-07-31 | Added palette                                                       |
+| 2025-07-31 | Fixed runtime error, 60 questions total                             |
+| 2025-07-31 | Expanded to 150 questions, moved to Exam\_Prep folder               |
+| 2025-08-01 | Added program selection, fixed Tailwind/JSON-related runtime issues |
+
+---
+
+## 🧯 Troubleshooting
+
+* ❗ **RAM Crashes**: Use Notepad and File Station, not high-RAM editors like VSCode
+* 🔐 **Upload Errors**: Use File Station; SCP/SSH can fail due to permission issues
+* 🛑 **Runtime Errors**: Replaced Tailwind CDN with `styles.css`; fixed invalid JSON
+* 🔌 **Port Conflicts**: qBittorrent uses 8080 → switch to 8081 or scan with:
+
+```bash
+nmap 192.168.1.248 -p 8081-8090
+```
+
+* 🔧 **Permissions**:
+
+```bash
+ssh admin@192.168.1.248
+sudo chmod 755 /volume1/Exam_Prep/html
+```
+
+---
+
+*This ReadMe documents a project built by Andrew John Holland to aid in his pursuit of CAPM certification and to exhibit his project planning, technical deployment, and content mapping skills.*
