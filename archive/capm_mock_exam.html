@@ -1,0 +1,369 @@
+<!-- 
+Metadata:
+- Filename: capm_mock_exam.html
+- Owner: Andrew John Holland
+- Purpose: Realistic CAPM mock testing platform for personal study, emulating the Pearson VUE exam experience based on the 2023–2025 CAPM Exam Content Outline (ECO). Supports Study Mode (immediate feedback) and Timed Exam Mode (3-hour timer, navigation, flagging, review) with single, multiple, matching, sequencing, and scenario-based questions.
+- Version Control: 1.3.0
+- Change Log:
+  1. [2025-07-31] Initial version with mode selection, 20 sample questions, timer, navigation, flagging, and review functionality (ID: 3675a440-f713-4627-87b8-636af0448b4f).
+  2. [2025-07-31] Added Cyberpunk Monk palette and tile style for consistency with user's website (ID: 3675a440-f713-4627-87b8-636af0448b4f).
+  3. [2025-07-31] Fixed runtime error, expanded to 60 questions, refined drag-and-drop (ID: 0f0c857c-0ac7-4ef1-b9d9-e477faab987a).
+  4. [2025-07-31] Expanded to 150 questions, updated for Exam_Prep shared folder, Vim support in Git Bash (ID: 5f6a7b8c-c9d0-4e1a-a2b3-f4a5b6c7d8e9).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPM Mock Exam Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A;
+            color: #FFFFFF;
+        }
+        .card {
+            background-color: #D1D5DB;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        button {
+            transition: background-color 0.2s;
+        }
+        .option-btn:hover {
+            background-color: #F472B6;
+            color: #1F2937;
+        }
+        .draggable {
+            cursor: grab;
+            padding: 8px;
+            margin: 4px;
+            background-color: #FFFFFF;
+            border: 1px solid #D1D5DB;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .dropzone {
+            min-height: 50px;
+            border: 2px dashed #D1D5DB;
+            margin: 4px;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .timer {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #DC2626;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto p-6 max-w-3xl">
+        <h1 class="text-3xl font-bold mb-4 text-center">CAPM Mock Exam Platform</h1>
+        <div id="mode-selection" class="card p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4 text-gray-800">Select Testing Mode</h2>
+            <div class="space-y-4">
+                <button id="study-mode-btn" class="block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full">Study Mode</button>
+                <button id="timed-exam-mode-btn" class="block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full">Timed Exam Mode</button>
+            </div>
+        </div>
+        <div id="selection-container" class="card p-6 mb-6 hidden">
+            <h2 class="text-xl font-semibold mb-4 text-gray-800">Select Quiz Content</h2>
+            <p class="mb-4 text-gray-600">Available content: All 6 courses (27 modules). Select a single module or a range across courses.</p>
+            <div class="mb-4">
+                <label class="block mb-2 text-gray-800">
+                    <input type="radio" name="selection-type" value="single" checked class="mr-2"> Test a Single Module
+                </label>
+                <label class="block text-gray-800">
+                    <input type="radio" name="selection-type" value="range" class="mr-2"> Test a Range of Modules
+                </label>
+            </div>
+            <div id="single-selection" class="mb-4">
+                <label for="single-course-module" class="block mb-2 text-gray-800">Select Course and Module:</label>
+                <select id="single-course-module" class="w-full p-2 border rounded border-gray-300">
+                    <optgroup label="Course 1: Foundations of Project Management">
+                        <option value="1-1">Module 1: Defining Project Management</option>
+                        <option value="1-2">Module 2: Project Manager Roles</option>
+                        <option value="1-3">Module 3: Project Life Cycle and Methodologies</option>
+                        <option value="1-4">Module 4: Organizational Structures</option>
+                    </optgroup>
+                    <optgroup label="Course 2: Project Initiation: Starting a Successful Project">
+                        <option value="2-1">Module 1: Project Goals and Scope</option>
+                        <option value="2-2">Module 2: Stakeholder Analysis</option>
+                        <option value="2-3">Module 3: Project Charter</option>
+                        <option value="2-4">Module 4: Project Management Tools</option>
+                    </optgroup>
+                    <optgroup label="Course 3: Project Planning: Putting It All Together">
+                        <option value="3-1">Module 1: Course Introduction and Planning Basics</option>
+                        <option value="3-2">Module 2: Building a Project Plan</option>
+                        <option value="3-3">Module 3: Project Budgeting and Procurement</option>
+                        <option value="3-4">Module 4: Risk Management</option>
+                        <option value="3-5">Module 5: Communication and Documentation</option>
+                    </optgroup>
+                    <optgroup label="Course 4: Project Execution: Running the Project">
+                        <option value="4-1">Module 1: Tracking and Managing Projects</option>
+                        <option value="4-2">Module 2: Quality Management and Continuous Improvement</option>
+                        <option value="4-3">Module 3: Data-Informed Decision-Making</option>
+                        <option value="4-4">Module 4: Team Management</option>
+                        <option value="4-5">Module 5: Effective Communication</option>
+                        <option value="4-6">Module 6: Closing the Project</option>
+                    </optgroup>
+                    <optgroup label="Course 5: Agile Project Management">
+                        <option value="5-1">Module 1: Introduction to Agile Project Management and Scrum Theory</option>
+                        <option value="5-2">Module 2: Pillars of Scrum and Scrum Team Roles</option>
+                        <option value="5-3">Module 3: Building and Managing Product Backlog and Scrum Events</option>
+                        <option value="5-4">Module 4: Implementing Agile Strategies and Coaching Agile Teams</option>
+                    </optgroup>
+                    <optgroup label="Course 6: Capstone: Applying Project Management in the Real World">
+                        <option value="6-1">Module 1: Analyzing Project Documents and Supporting Materials</option>
+                        <option value="6-2">Module 2: Examining Project Documentation and Identifying Tasks</option>
+                        <option value="6-3">Module 3: Quality Management Standards and Retrospectives</option>
+                        <option value="6-4">Module 4: Communicating and Escalating Project Problems</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div id="range-selection" class="mb-4 hidden">
+                <label for="from-course-module" class="block mb-2 text-gray-800">From Course and Module:</label>
+                <select id="from-course-module" class="w-full p-2 border rounded border-gray-300 mb-2">
+                    <optgroup label="Course 1: Foundations of Project Management">
+                        <option value="1-1">Module 1: Defining Project Management</option>
+                        <option value="1-2">Module 2: Project Manager Roles</option>
+                        <option value="1-3">Module 3: Project Life Cycle and Methodologies</option>
+                        <option value="1-4">Module 4: Organizational Structures</option>
+                    </optgroup>
+                    <optgroup label="Course 2: Project Initiation: Starting a Successful Project">
+                        <option value="2-1">Module 1: Project Goals and Scope</option>
+                        <option value="2-2">Module 2: Stakeholder Analysis</option>
+                        <option value="2-3">Module 3: Project Charter</option>
+                        <option value="2-4">Module 4: Project Management Tools</option>
+                    </optgroup>
+                    <optgroup label="Course 3: Project Planning: Putting It All Together">
+                        <option value="3-1">Module 1: Course Introduction and Planning Basics</option>
+                        <option value="3-2">Module 2: Building a Project Plan</option>
+                        <option value="3-3">Module 3: Project Budgeting and Procurement</option>
+                        <option value="3-4">Module 4: Risk Management</option>
+                        <option value="3-5">Module 5: Communication and Documentation</option>
+                    </optgroup>
+                    <optgroup label="Course 4: Project Execution: Running the Project">
+                        <option value="4-1">Module 1: Tracking and Managing Projects</option>
+                        <option value="4-2">Module 2: Quality Management and Continuous Improvement</option>
+                        <option value="4-3">Module 3: Data-Informed Decision-Making</option>
+                        <option value="4-4">Module 4: Team Management</option>
+                        <option value="4-5">Module 5: Effective Communication</option>
+                        <option value="4-6">Module 6: Closing the Project</option>
+                    </optgroup>
+                    <optgroup label="Course 5: Agile Project Management">
+                        <option value="5-1">Module 1: Introduction to Agile Project Management and Scrum Theory</option>
+                        <option value="5-2">Module 2: Pillars of Scrum and Scrum Team Roles</option>
+                        <option value="5-3">Module 3: Building and Managing Product Backlog and Scrum Events</option>
+                        <option value="5-4">Module 4: Implementing Agile Strategies and Coaching Agile Teams</option>
+                    </optgroup>
+                    <optgroup label="Course 6: Capstone: Applying Project Management in the Real World">
+                        <option value="6-1">Module 1: Analyzing Project Documents and Supporting Materials</option>
+                        <option value="6-2">Module 2: Examining Project Documentation and Identifying Tasks</option>
+                        <option value="6-3">Module 3: Quality Management Standards and Retrospectives</option>
+                        <option value="6-4">Module 4: Communicating and Escalating Project Problems</option>
+                    </optgroup>
+                </select>
+                <label for="to-course-module" class="block mb-2 text-gray-800">To Course and Module:</label>
+                <select id="to-course-module" class="w-full p-2 border rounded border-gray-300">
+                    <optgroup label="Course 1: Foundations of Project Management">
+                        <option value="1-1">Module 1: Defining Project Management</option>
+                        <option value="1-2">Module 2: Project Manager Roles</option>
+                        <option value="1-3">Module 3: Project Life Cycle and Methodologies</option>
+                        <option value="1-4">Module 4: Organizational Structures</option>
+                    </optgroup>
+                    <optgroup label="Course 2: Project Initiation: Starting a Successful Project">
+                        <option value="2-1">Module 1: Project Goals and Scope</option>
+                        <option value="2-2">Module 2: Stakeholder Analysis</option>
+                        <option value="2-3">Module 3: Project Charter</option>
+                        <option value="2-4">Module 4: Project Management Tools</option>
+                    </optgroup>
+                    <optgroup label="Course 3: Project Planning: Putting It All Together">
+                        <option value="3-1">Module 1: Course Introduction and Planning Basics</option>
+                        <option value="3-2">Module 2: Building a Project Plan</option>
+                        <option value="3-3">Module 3: Project Budgeting and Procurement</option>
+                        <option value="3-4">Module 4: Risk Management</option>
+                        <option value="3-5">Module 5: Communication and Documentation</option>
+                    </optgroup>
+                    <optgroup label="Course 4: Project Execution: Running the Project">
+                        <option value="4-1">Module 1: Tracking and Managing Projects</option>
+                        <option value="4-2">Module 2: Quality Management and Continuous Improvement</option>
+                        <option value="4-3">Module 3: Data-Informed Decision-Making</option>
+                        <option value="4-4">Module 4: Team Management</option>
+                        <option value="4-5">Module 5: Effective Communication</option>
+                        <option value="4-6">Module 6: Closing the Project</option>
+                    </optgroup>
+                    <optgroup label="Course 5: Agile Project Management">
+                        <option value="5-1">Module 1: Introduction to Agile Project Management and Scrum Theory</option>
+                        <option value="5-2">Module 2: Pillars of Scrum and Scrum Team Roles</option>
+                        <option value="5-3">Module 3: Building and Managing Product Backlog and Scrum Events</option>
+                        <option value="5-4">Module 4: Implementing Agile Strategies and Coaching Agile Teams</option>
+                    </optgroup>
+                    <optgroup label="Course 6: Capstone: Applying Project Management in the Real World">
+                        <option value="6-1">Module 1: Analyzing Project Documents and Supporting Materials</option>
+                        <option value="6-2">Module 2: Examining Project Documentation and Identifying Tasks</option>
+                        <option value="6-3">Module 3: Quality Management Standards and Retrospectives</option>
+                        <option value="6-4">Module 4: Communicating and Escalating Project Problems</option>
+                    </optgroup>
+                </select>
+            </div>
+            <button id="start-quiz-btn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Start Quiz</button>
+        </div>
+        <p id="content-scope" class="text-center mb-4 text-slate-200 hidden"><strong>Content Scope:</strong> This quiz covers material from the Google Project Management Professional Certificate based on your selection.</p>
+        <div id="quiz-container" class="card p-6 mb-6 hidden">
+            <div id="timer" class="timer text-center mb-4 hidden"></div>
+            <div id="question-number" class="text-gray-800 mb-2"></div>
+            <div id="question" class="text-lg mb-4 text-gray-800"></div>
+            <div id="options" class="space-y-2"></div>
+            <div id="feedback" class="mt-4 hidden"></div>
+            <div class="mt-4 flex justify-between">
+                <button id="previous-btn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 hidden">Previous</button>
+                <button id="flag-btn" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 hidden">Flag</button>
+                <button id="submit-btn" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Submit</button>
+                <button id="next-btn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 hidden">Next</button>
+            </div>
+            <button id="review-btn" class="mt-4 bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 hidden">Review Flagged/Unanswered</button>
+        </div>
+        <div id="results" class="card p-6 mb-6 hidden">
+            <h2 class="text-xl font-semibold mb-2 text-gray-800">Quiz Results</h2>
+            <p id="score" class="mb-2 text-gray-800"></p>
+            <div id="incorrect-answers" class="mb-4 text-gray-800"></div>
+            <p id="domains-to-review" class="mb-4 text-gray-800"></p>
+            <button id="new-quiz-btn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Take New Quiz</button>
+        </div>
+        <div id="history" class="card p-6">
+            <h2 class="text-xl font-semibold mb-2 text-gray-800">Quiz History</h2>
+            <ul id="history-list" class="list-disc pl-5 text-gray-800"></ul>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Domain 1: Project Management Fundamentals & Core Concepts (36%, 54 questions)
+            {
+                id: 1,
+                type: 'single',
+                domain: 1,
+                question: "What is the primary purpose of a project charter?",
+                options: [
+                    "To track project progress",
+                    "To formally authorize the project and define objectives",
+                    "To finalize the project budget",
+                    "To close the project"
+                ],
+                answer: 1,
+                explanation: "A project charter formally authorizes the project, outlining objectives, scope, and stakeholders (Domain 1, Task 2, Google PM Course 2)."
+            },
+            {
+                id: 2,
+                type: 'multiple',
+                domain: 1,
+                question: "Which are included in a project management plan? (Select all that apply)",
+                options: [
+                    "Scope baseline",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Stakeholder feedback"
+                ],
+                answer: [0, 1, 2],
+                explanation: "A project management plan includes scope, schedule, and cost baselines (Domain 1, Task 4, Google PM Course 3)."
+            },
+            {
+                id: 3,
+                type: 'matching',
+                domain: 1,
+                question: "Match the project roles to their responsibilities.",
+                options: {
+                    left: ["Project Manager", "Sponsor", "Team Member", "Stakeholder"],
+                    right: ["Provides resources and support", "Executes project tasks", "Influenced by or influences the project", "Leads and manages the project"]
+                },
+                answer: {
+                    "Project Manager": "Leads and manages the project",
+                    "Sponsor": "Provides resources and support",
+                    "Team Member": "Executes project tasks",
+                    "Stakeholder": "Influenced by or influences the project"
+                },
+                explanation: "Matching roles to responsibilities ensures clarity (Domain 1, Task 3, Google PM Course 1)."
+            },
+            {
+                id: 4,
+                type: 'sequencing',
+                domain: 1,
+                question: "Arrange the project management process groups in the correct order.",
+                options: ["Initiating", "Planning", "Executing", "Monitoring and Controlling", "Closing"],
+                answer: ["Initiating", "Planning", "Executing", "Monitoring and Controlling", "Closing"],
+                explanation: "Process groups: Initiating, Planning, Executing, Monitoring and Controlling, Closing (Domain 1, Task 1, Google PM Course 1)."
+            },
+            {
+                id: 5,
+                type: 'scenario',
+                domain: 1,
+                question: "Scenario: A project manager is assigned to a new project with a diverse team. What should they do first?",
+                options: [
+                    "Develop the project schedule",
+                    "Define the project scope and objectives",
+                    "Conduct a risk assessment",
+                    "Assign tasks to team members"
+                ],
+                answer: 1,
+                explanation: "Defining scope and objectives aligns the team (Domain 1, Task 2, Google PM Course 2)."
+            },
+            {
+                id: 6,
+                type: 'single',
+                domain: 1,
+                question: "What is a Work Breakdown Structure (WBS)?",
+                options: [
+                    "A budget tracking tool",
+                    "A decomposition of deliverables into tasks",
+                    "A stakeholder list",
+                    "A project closure document"
+                ],
+                answer: 1,
+                explanation: "A WBS decomposes deliverables into manageable tasks (Domain 1, Task 4, Google PM Course 3)."
+            },
+            {
+                id: 7,
+                type: 'multiple',
+                domain: 1,
+                question: "Which are components of effective stakeholder engagement? (Select all that apply)",
+                options: [
+                    "Regular communication",
+                    "Ignoring stakeholder feedback",
+                    "Stakeholder analysis",
+                    "Conflict resolution"
+                ],
+                answer: [0, 2, 3],
+                explanation: "Engagement includes communication, analysis, and conflict resolution (Domain 1, Task 3, Google PM Course 2)."
+            },
+            {
+                id: 8,
+                type: 'matching',
+                domain: 1,
+                question: "Match the artifacts to their purposes.",
+                options: {
+                    left: ["Project Charter", "Risk Register", "Stakeholder Register"],
+                    right: ["Lists potential risks", "Authorizes the project", "Documents stakeholder details"]
+                },
+                answer: {
+                    "Project Charter": "Authorizes the project",
+                    "Risk Register": "Lists potential risks",
+                    "Stakeholder Register": "Documents stakeholder details"
+                },
+                explanation: "Matching artifacts to purposes (Domain 1, Task 2, Google PM Course 2)."
+            },
+            {
+                id: 9,
+                type: 'sequencing',
+                domain: 1,
+                question: "Arrange the steps in developing a project charter.",
+                options: ["Identify stakeholders", "Define objectives", "Obtain approval", "Document scope"],
+                answer: ["Identify stakeholders", "Define objectives", "Document scope", "Obtain approval"],
+                explanation: "Steps: Identify stakeholders, Define objectives, Document

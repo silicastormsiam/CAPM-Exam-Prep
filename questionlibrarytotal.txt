@@ -1,0 +1,170 @@
+1. What is the primary purpose of a project charter?
+2. Which are included in a project management plan? (Select all that apply)
+3. Match the project roles to their responsibilities.
+4. Arrange the project management process groups in the correct order.
+5. Scenario: A project manager is assigned to a new project with a diverse team. What should they do first?
+6. Which technique is used to identify roles and the level of responsibilities?
+7. A project is just beginning, and management creates a long list of potential stakeholders. Which statement about identifying and engaging stakeholders is correct?
+8. During a team meeting, a team member asks about the measurements that will be used on the project to judge performance. The team member feels that some of the measures related to activities assigned to him are not valid measurements. The project is BEST considered in what part of the project management process?
+9. Your company just won a major new project. It will begin in three months and is valued at 2m USD. You are the project manager for an existing project. What is the FIRST thing you should do once you hear of the new project?
+10. You are a new project manager who has never managed a project before. It would be BEST in this situation to rely on _____ during planning in order to improve your chance of success.
+11. A manager and the head of engineering discuss a change to a major work package. After the meeting, the manager contacts you and tells you to complete the paperwork to make the change. This is an example of:
+12. A project manager has finished the project charter draft and presents it to the sponsor. Which two of the following should be included?
+13. Which is an example of leveraging evolving trends and emerging practices in Project Integration Management?
+14. The project manager is creating the communications management plan. Which group of inputs is required to begin?
+15. What is the primary purpose of the project charter?
+16. Which process group includes the development of the project management plan?
+17. What is a key output of the Close Project or Phase process?
+18. Which of the following is a tool or technique used in the Develop Project Team process?
+19. What does the acronym EVM stand for in project management?
+20. Which organizational structure gives the project manager the least authority?
+21. What is the main purpose of a stakeholder register?
+22. Which document defines how the project scope will be managed?
+23. What is the primary responsibility of a project manager in terms of stakeholder engagement?
+24. Which tool is used to visually represent project dependencies?
+25. What is the purpose of a lessons learned register?
+26. Which process involves formally accepting project deliverables?
+27. What is the primary purpose of a RACI matrix in project management?
+28. How does a burndown chart help in managing a project?
+29. Which technique is commonly used to prioritize requirements during project planning?
+30. What is the main purpose of developing a work breakdown structure (WBS)?
+31. What should a project charter include to ensure project approval?
+32. Which leadership style is characterized by providing vision and inspiring team members to achieve goals?
+33. Which stakeholders should be managed most closely according to the power/interest grid?
+34. During project execution, a team member comes to the project manager because he is not sure of what work he needs to accomplish on the project. Which of the following documents contain detailed descriptions of work packages?
+35. During a meeting with some of the project stakeholders, the project manager is asked to add work to the project scope. The project manager had access to correspondence about the project before the project charter was signed and remembers that the project sponsor specifically denied funding for the scope mentioned by these stakeholders. The BEST thing for the project manager to do is to:
+36. Your project management plan results in a project schedule that is too long. If the project network diagram cannot change but you have extra personnel resources, what is the BEST thing to do?
+37. An activity has an early start (ES) of day 3, a late start (LS) of day 13, an early finish (EF) of day 9, and a late finish (LF) of day 19. The activity:
+38. Early in the life of your project, you are having a discussion with the sponsor about what estimating techniques should be used. You want a form of expert judgment, but the sponsor argues for analogous estimating. It would be BEST to:
+39. A schedule performance index, SPI, of 0.75 means:
+40. You are the program-level manager with several project activities underway. In the executing process group, you begin to become concerned about the accuracy of progress reports from the projects. What would BEST support your opinion that there is a problem?
+41. You are a project manager for a major information systems project. Someone from the quality department comes to see you about beginning a quality audit of your project. The team, already under pressure to complete the project as soon as possible, objects to the audit. You should explain to the team that the purpose of a quality audit is:
+42. What is the net present value (NPV) of a project with an initial investment of $30,000 and cash inflows of $10,000 per year for 5 years, assuming a discount rate of 10%?
+43. Which of the following is a technique used to identify project risks?
+44. Which of the following is a tool used in the design phase of a project?
+45. What is the primary purpose of a requirements traceability matrix?
+46. Which process involves activities such as testing and inspecting to ensure that project deliverables meet quality standards?
+47. What is a key output of the business case development process?
+48. What is the typical range of contingency reserves for high-risk projects?
+49. How should user stories be prioritized in an agile project?
+50. A project team is working closely with the product owner to determine inputs for the scope. Due to the complexity of the project, the team will develop a hierarchical description of the project requirements in order to deliver the expected business value. Which artifact will be developed?
+51. Once the make-or-buy analysis is completed, which document defines the project delivery method?
+52. What should a project manager use to determine how much money is needed to complete a project?
+53. What is an agile control method that shows where the project is going over time?
+54. At a requirements workshop, the attendees have stated that all of the elicited requirements are "must haves." Which tool can be used to prioritize the requirements?
+55. Which of the following is a technique used to validate requirements?
+56. What is the purpose of a sprint review meeting?
+57. Which meeting is typically held to ensure all potential bidders have a clear and common understanding of the procurement?
+58. When should risk management be performed in a project?
+59. How should change requests be prioritized in a project?
+60. During project planning, the project manager identifies that a key resource will be unavailable for two months. What should the project manager do NEXT?
+61. Which tool is used to determine the critical path in a project schedule?
+62. What is the primary purpose of a risk register?
+63. In a predictive project, what is the purpose of the change control board (CCB)?
+64. Which estimating technique uses historical data from similar projects to estimate project duration or cost?
+65. What is the term for adding extra features to a project that were not part of the approved scope?
+66. Which process group includes activities to define and document stakeholders' needs to meet project objectives?
+67. What is the primary purpose of a cost baseline?
+68. In a predictive project, what is the purpose of the scope baseline?
+69. Which tool is used to monitor project performance in terms of cost and schedule?
+70. What is the primary purpose of a quality management plan?
+71. Which process involves identifying and documenting project roles and responsibilities?
+72. What is the primary purpose of a procurement management plan?
+73. Which tool is used to analyze the impact of risks on project objectives?
+74. In a predictive project, what is the purpose of the schedule baseline?
+75. Which process involves developing a detailed project budget?
+76. What is the primary purpose of a communication management plan?
+77. Which tool is used to prioritize risks based on their probability and impact?
+78. In a predictive project, what is the purpose of the cost performance index (CPI)?
+79. Which process involves identifying and analyzing stakeholder needs and expectations?
+80. What is the primary purpose of a resource management plan?
+81. Which tool is used to track the status of project activities?
+82. In a predictive project, what is the purpose of the quality baseline?
+83. Which process involves monitoring and controlling project work to meet objectives?
+84. What is the primary purpose of a risk management plan?
+85. Which tool is used to identify the root cause of a problem?
+86. In a predictive project, what is the purpose of the procurement statement of work (SOW)?
+87. Which process involves closing out all procurement contracts?
+88. What is the primary purpose of a change management plan?
+89. Which tool is used to estimate the duration of project activities?
+90. In a predictive project, what is the purpose of the project management plan?
+91. Which process involves ensuring that project deliverables meet quality requirements?
+92. What is the primary purpose of a scope management plan?
+93. Which tool is used to monitor the progress of agile projects?
+94. In an agile project, what is the purpose of the product backlog?
+95. Which process involves refining the product backlog in an agile project?
+96. What is the primary purpose of a daily scrum meeting?
+97. Which tool is used to visualize workflow in an agile project?
+98. In an agile project, what is the purpose of the definition of done (DoD)?
+99. Which process involves selecting the work to be done in the next iteration?
+100. What is the primary purpose of a sprint retrospective?
+101. Which tool is used to estimate effort in an agile project?
+102. In an agile project, what is the role of the product owner?
+103. Which process involves reviewing completed work with stakeholders in an agile project?
+104. What is the primary purpose of velocity in an agile project?
+105. Which tool is used to limit work in progress in an agile project?
+106. In an agile project, what is the role of the scrum master?
+107. Which process involves identifying the work to be done in an agile project?
+108. What is the primary purpose of a burnup chart in an agile project?
+109. Which tool is used to prioritize features in an agile project?
+110. In an agile project, what is the purpose of the sprint goal?
+111. Which process involves analyzing stakeholder needs in a business analysis context?
+112. What is the primary purpose of a business case?
+113. Which tool is used to elicit requirements in a business analysis context?
+114. In a business analysis context, what is the purpose of a use case?
+115. Which process involves validating requirements in a business analysis context?
+116. What is the primary purpose of a requirements traceability matrix?
+117. Which tool is used to prioritize requirements in a business analysis context?
+118. In a business analysis context, what is the purpose of a process model?
+119. Which process involves managing changes to requirements in a business analysis context?
+120. What is the primary purpose of a stakeholder analysis?
+121. Which tool is used to analyze requirements in a business analysis context?
+122. In a business analysis context, what is the purpose of a data flow diagram?
+123. Which process involves approving requirements in a business analysis context?
+124. What is the primary purpose of a solution evaluation?
+125. Which tool is used to validate a solution in a business analysis context?
+126. In a business analysis context, what is the purpose of a gap analysis?
+127. Which process involves eliciting requirements in a business analysis context?
+128. What is the primary purpose of a requirements management plan?
+129. Which tool is used to document requirements in a business analysis context?
+130. In a business analysis context, what is the purpose of a SWOT analysis?
+131. Which process involves prioritizing requirements in a business analysis context?
+132. What is the primary purpose of a feasibility study?
+133. Which tool is used to model requirements in a business analysis context?
+134. In a business analysis context, what is the purpose of a stakeholder map?
+135. Which process involves monitoring requirements in a business analysis context?
+136. What is the primary purpose of a business analysis plan?
+137. Which tool is used to analyze stakeholder influence in a business analysis context?
+138. In a business analysis context, what is the purpose of a decision table?
+139. Which process involves assessing stakeholder needs in a business analysis context?
+140. What is the primary purpose of a requirements elicitation plan?
+141. Which tool is used to validate requirements in a business analysis context?
+142. In a business analysis context, what is the purpose of a context diagram?
+143. Which process involves documenting requirements in a business analysis context?
+144. What is the primary purpose of a solution scope?
+145. Which tool is used to prioritize stakeholder needs in a business analysis context?
+146. In a business analysis context, what is the purpose of a traceability matrix?
+147. Which process involves analyzing requirements in a business analysis context?
+148. What is the primary purpose of a requirements validation plan?
+149. Which tool is used to elicit stakeholder needs in a business analysis context?
+150. In a business analysis context, what is the purpose of a stakeholder engagement plan?
+151. Which process involves approving stakeholder needs in a business analysis context?
+152. What is the primary purpose of a requirements prioritization plan?
+153. Which tool is used to model stakeholder interactions in a business analysis context?
+154. In a business analysis context, what is the purpose of a solution assessment?
+155. Which process involves validating stakeholder needs in a business analysis context?
+156. What is the primary purpose of a requirements approval process?
+157. Which tool is used to analyze stakeholder needs in a business analysis context?
+158. In a business analysis context, what is the purpose of a requirements change management plan?
+159. Which process involves prioritizing stakeholder needs in a business analysis context?
+160. What is the primary purpose of a requirements communication plan?
+161. Which tool is used to validate stakeholder interactions in a business analysis context?
+162. In a business analysis context, what is the purpose of a requirements traceability plan?
+163. Which process involves eliciting stakeholder needs in a business analysis context?
+164. What is the primary purpose of a requirements documentation plan?
+165. Which tool is used to prioritize requirements in a business analysis context?
+166. In a business analysis context, what is the purpose of a stakeholder requirements document?
+167. Which process involves monitoring stakeholder needs in a business analysis context?
+168. What is the primary purpose of a requirements verification plan?
+169. Which tool is used to analyze stakeholder interactions in a business analysis context?
+170. In a business analysis context, what is the purpose of a solution evaluation plan?

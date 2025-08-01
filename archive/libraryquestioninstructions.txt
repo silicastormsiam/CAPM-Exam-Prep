@@ -1,0 +1,48 @@
+Question Library Instructions for CAPM Mock Exam Platform
+File Name: question_library_instructions.md
+
+Owner: Andrew John Holland
+
+Purpose: This file provides explicit instructions on the Question Library for the CAPM Mock Exam Platform, detailing sources, industry standards, question allocation for test and study modes, and file structure for mode selection and quiz options.
+
+Version: 1.0.0
+
+Date Created: August 01, 2025
+1. Conclusion on Question Sources
+The Question Library sources were determined through a collaborative process focusing on reliability, alignment with certification standards, and accessibility. We prioritized:
+
+Primary Sources: Official PMI resources, including the 2023–2025 CAPM Exam Content Outline (ECO) and PMBOK Guide (7th Edition), to ensure questions reflect authentic exam content.
+Secondary Sources: Curated online practice libraries from verified providers such as Mometrix (free 150-question test), BrainBOK (1,200+ questions), PMI's official practice exam (150 questions), and Agilemania (150 questions), selected for ECO alignment and originality. Questions were adapted or created originally to avoid copyright issues.
+User-Specific Alignment: Questions incorporate the user's progress in the Google Project Management Certificate (Courses 1–2 up to Module 2 for Domain 1, Course 2 Modules 3–4 for Domain 2, Courses 5–6 for Domains 3–4, samples for Courses 3–4).
+
+This approach was chosen to balance comprehensiveness with quality assurance, avoiding unverified sources and ensuring educational value.
+2. Industry Standard Basis
+The Question Library is based on the Project Management Institute (PMI)'s 2023–2025 CAPM Exam Content Outline (ECO), which defines the exam structure:
+
+Domain 1: Project Management Fundamentals & Core Concepts (36%).
+Domain 2: Predictive Plan-Based Methodologies (17%).
+Domain 3: Agile Frameworks/Methodologies (20%).
+Domain 4: Business Analysis Frameworks (27%).
+Questions adhere to PMI standards for format (multiple-choice, multiple-selection, matching, sequencing, scenario-based) and content, with explanations linking to ECO tasks and PMBOK principles for transparency and learning.
+
+3. Question Allocation for Test vs Study Modes
+
+Test Mode (Timed Exam Mode): 150 questions (135 scored, 15 unscored), matching the actual CAPM exam length and duration (3 hours). This mode simulates the Pearson VUE experience, with no immediate feedback, navigation, flagging, and end-of-exam summary.
+Study Mode: Unlimited questions from the library (150+ initial, expandable to 300+ for depth). This mode provides immediate feedback and explanations, allowing selection of single modules or ranges from 6 courses (27 modules) for targeted practice.
+The allocation was discussed to mirror the CAPM exam for test mode while providing a larger library for study mode to enable repeated, varied practice without memorization.
+
+4. Index Files for Study vs Test Mode
+The platform uses a single frontend file, index.html, for both modes:
+
+Study Mode Index: Loaded in index.html via JavaScript (document.getElementById('study-mode-btn').onclick), displaying module/range selection for immediate feedback.
+Test Mode Index: Loaded in index.html via JavaScript (document.getElementById('timed-exam-mode-btn').onclick), starting a 150-question timed exam with no feedback until end.
+No separate index files; modes are handled dynamically in index.html to simplify structure.
+
+5. Index for Quiz Selection of Single or Multiple
+Quiz selection (single module or multiple/range) is handled in index.html:
+
+Single Module: Select from dropdown in Study Mode (e.g., Course 1 Module 1).
+Multiple/Range: Select from/to dropdowns in Study Mode (e.g., Course 1 Module 1 to Course 2 Module 4).
+This is loaded in index.html via JavaScript in Study Mode, with options for all 6 courses (27 modules). Test Mode uses a fixed 150-question set without selection.
+
+This file can be saved as question_library_instructions.md and uploaded to /volume1/Exam_Prep/html for reference. If you need adjustments or additional files, please specify.7.2s

@@ -1,0 +1,109 @@
+# Handover Report: CAPM Mock Exam Platform Project
+
+## Report Date
+August 01, 2025
+
+## Prepared by
+Grok AI
+
+## Project Owner
+Andrew John Holland
+
+## Project Status
+The project is in the deployment phase, with `index.html` and `questions.json` uploaded to `/volume1/Exam_Prep/html` on the Synology NAS (192.168.1.248). `ReadMe.md` and `docker-compose.yml` require creation and upload. Port 8080 is occupied by qBittorrent; use 8081 for the platform. Partial verification complete; full testing pending. The user reported multiple crashes due to browser RAM usage (limit 2.3GB), so responses must be concise.
+
+## 1. Project Overview
+This platform is a self-hosted web application for personal CAPM certification preparation, emulating the Pearson VUE exam experience based on the 2023–2025 CAPM Exam Content Outline (ECO). It supports Study Mode (immediate feedback, module/range selection) and Timed Exam Mode (3-hour timer, navigation, flagging, review of unanswered/flagged, end-of-exam summary with domain-based review intelligence). Question types: single-answer multiple choice, multiple-selection, matching (drag-and-drop), sequencing (drag-and-drop), scenario-based (situational decision-making). No hot spot questions.
+
+The platform uses a Cyberpunk Monk palette (dark blue #0F172A background, gray #D1D5DB cards, blue #3B82F6 buttons, pink #F472B6 hover) for consistency with the owner's website[](https://www.andrewholland.com/). It integrates with the user's progress in the Google Project Management Certificate (Courses 1–2 up to Module 2 completed, samples for Courses 3–4, detailed for Courses 5–6). Quiz History includes a sample: "31/07/2025, 11:44:55: 5/5 (100.00%) [Timed Exam Mode]".
+
+## 2. Goals and Objectives
+- **Primary Goal**: Develop a robust, lightweight mock testing tool for CAPM exam simulation, enabling repeated practice with performance analysis.
+- **Key Objectives**:
+  - Align questions with CAPM ECO domains (1: Fundamentals & Core Concepts 36%, 2: Predictive Plan-Based Methodologies 17%, 3: Agile Frameworks/Methodologies 20%, 4: Business Analysis Frameworks 27%).
+  - Host on Synology DSM using Nginx Docker, accessible at http://192.168.1.248:8081/index.html.
+  - Ensure compatibility with low RAM (limit 2.3GB) during deployment and browser use.
+  - Support user preferences: formal tone, separate SSH commands, `ls`/`dir` verification, no large code dumps to prevent crashes, concise responses.
+
+## 3. Files and Structure
+- **Directory**:
+  - Local: `M:\OneDrive\Documents\GitHub\CAPM_Mock_Exam_Platform` (user's preferred path).
+  - NAS: `/volume1/Exam_Prep/html` (shared folder with Read/Write for admin, silicastorm, gituser; ReadOnly for Guest).
+- **Files** (based on user's latest `dir` output on 31-Jul-2025):
+  - `index.html` (~237 bytes, ~10 lines): Minimal frontend with mode buttons and quiz interface; loads `questions.json`. Currently uploaded but incomplete; replace with full version if needed.
+  - `questions.json` (~37 KB, ~1500 lines): JSON database with 150 questions (54 Domain 1, 26 Domain 2, 30 Domain 3, 40 Domain 4). Pending upload.
+  - `ReadMe.md` (~0 bytes, 0 lines): Documentation; currently empty, needs content.
+  - `docker-compose.yml` (~0 bytes, 0 lines): Docker config; currently empty, needs content.
+  - Legacy/Other: `capm_mock_exam.html` (23 KB, legacy code, not used), `CAPM Mock Exam Platform ReadMe.docx` (19 KB, not used for deployment).
+- **GitHub Integration**: Use `gituser` for repository sync to `/volume1/Exam_Prep` for future updates.
+
+## 4. Question Library Instructions
+The Question Library is a core component, stored in `questions.json`. It was developed to provide sufficient assessment depth beyond the CAPM exam's 150 questions, allowing for repeated practice without repetition.
+
+- **Sources**:
+  The sources were selected for reliability, ECO alignment, and to supplement original questions. The full list of 13 sources discussed:
+  1. BrainBOK: 1,200+ questions across 8 exams, updated for 2023 ECO.
+  2. Mometrix: Free 150-question practice test, premium options.
+  3. PMI Official Practice Exam: 150 questions directly aligned with ECO.
+  4. Agilemania: Free 150-question assessment, used by 1,000+ candidates.
+  5. Scribd: Free CAPM practice test with 150+ questions for 2023 ECO.
+  6. Udemy CAPM Practice Exams Course: 600 questions for 2023 ECO.
+  7. Project Management Academy: Free practice questions and ECO details.
+  8. ITExams.com: Free CAPM actual exam questions for 2023 ECO.
+  9. PM Learning CAPM Exam Simulator: 600+ questions aligned with ECO.
+  10. Velociteach CAPM Practice Test A: Questions for 2023 ECO.
+  11. Coursera Google PM Certificate Quizzes: Integrated for foundational alignment with user's progress.
+  12. PMI PMBOK Guide (7th Edition): Basis for ECO tasks and explanations.
+  13. Owner's Portfolio and Experience: Kronos, AIMS deployments for practical scenario-based questions.
+
+- **Industry Standard Basis**:
+  Questions are based on the PMI's 2023–2025 CAPM ECO and PMBOK Guide (7th Edition) for accuracy and educational value. Distribution follows ECO weightings: 36% Fundamentals, 17% Predictive, 20% Agile, 20% Business Analysis. Explanations link to ECO tasks and Google PM modules.
+
+- **Question Allocation for Test vs Study Modes**:
+  - **Test Mode (Timed Exam)**: Fixed 150 questions (135 scored, 15 unscored), matching CAPM exam length (3 hours). No immediate feedback; end-of-exam summary with domain review (error counts/rates, e.g., "Domain 1: 5 errors (33.33% error rate)").
+  - **Study Mode**: Unlimited access to the full library (150 initial, expandable to 300+ for depth), with immediate feedback and explanations. Supports single module or multiple/range selection from 6 courses (27 modules).
+
+- **Index Files for Study vs Test Mode**:
+  - All modes use `index.html` as the single frontend file.
+  - **Study Mode**: Loaded via JavaScript in `index.html` (`study-mode-btn` onclick), showing module/range selection for immediate feedback.
+  - **Test Mode**: Loaded via JavaScript in `index.html` (`timed-exam-mode-btn` onclick), starting timed exam with navigation and flagging.
+
+- **Index for Quiz Selection of Single or Multiple**:
+  - Selection is handled in `index.html` via JavaScript in Study Mode.
+  - Single Module: Dropdown for individual modules (e.g., Course 1 Module 1).
+  - Multiple/Range: From/To dropdowns for ranges (e.g., Course 1 Module 1 to Course 2 Module 4).
+  - Test Mode: No selection; fixed 150 questions.
+
+## 5. Project Plan
+- **Deployment**:
+  1. Verify local files with `dir`.
+  2. Upload to `/volume1/Exam_Prep/html` via File Station.
+  3. Verify uploads with separate SSH: `ssh admin@192.168.1.248`, `ls /volume1/Exam_Prep/html`, `exit`.
+  4. Deploy Docker in DSM Container Manager with `docker-compose.yml` (port 8081).
+  5. Test: http://192.168.1.248:8081/index.html.
+
+- **GitHub Integration**: Use `gituser` for sync to /volume1/Exam_Prep.
+- **Expansion**: Library to 300+ questions; add analytics.
+
+## 6. Known Issues and Resolutions
+- Crashes: Browser RAM spikes—use Notepad for creation, File Station for uploads.
+- Upload Failures: `scp` errors—use File Station.
+- Port Conflicts: qBittorrent on 8080—use 8081 or scan with `nmap 192.168.1.248 -p 8081`.
+- Incomplete Files: Replace `index.html` (237 bytes) with full version.
+
+## 7. User Preferences
+- Formal tone, clear sentences, precise language.
+- Separate SSH commands.
+- Verification with `ls`/`dir`.
+- No large code dumps; provide contents when requested.
+- Port Scan: Only if requested.
+- RAM: Minimal responses.
+
+## 8. Next Steps for Facilitator
+- Verify `index.html` and `questions.json` at http://192.168.1.248:8081/index.html.
+- Upload and verify `handover_report.md`, `ReadMe.md`, `docker-compose.yml`.
+- Deploy Docker container.
+- Expand question library if needed.
+- Prioritize concise responses and user verification.
+
+This file (`handover_report.md`) should be saved and uploaded to `/volume1/Exam_Prep/html`.

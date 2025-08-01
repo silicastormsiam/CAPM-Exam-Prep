@@ -1,0 +1,15 @@
+body { font-family: 'Inter', sans-serif; background: #0F172A; color: #FFFFFF; }
+.container { max-width: 32rem; margin-left: auto; margin-right: auto; padding: 1rem; }
+.card { background: #D1D5DB; border-radius: 0.5rem; padding: 1rem; }
+button { background: #3B82F6; color: #FFFFFF; padding: 0.5rem 1rem; border-radius: 0.25rem; width: 100%; margin-bottom: 0.5rem; }
+button:hover { background: #F472B6; }
+.timer { color: #DC2626; font-weight: bold; }
+.text-2xl { font-size: 1.5rem; }
+.font-bold { font-weight: 700; }
+.mb-4 { margin-bottom: 1rem; }
+.text-center { text-align: center; }
+.text-lg { font-size: 1.125rem; }
+.text-gray-800 { color: #1F2937; }
+.hidden { display: none; }
+.flex { display: flex; }
+.justify-between { justify-content: space-between; }

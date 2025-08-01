@@ -1,0 +1,313 @@
+<!-- File Name: index.html
+     Owner: Andrew John Holland
+     Purpose: Frontend interface for CAPM Exam Preparation, providing mode, program, and module selection
+     Version: 1.5.1
+     Change Log:
+     [2025-07-31] Initial version, 20 questions (ID: 3675a440-f713-4627-87b8-636af0448b4f)
+     [2025-07-31] Added palette (ID: 3675a440-f713-4627-87b8-636af0448b4f)
+     [2025-07-31] Fixed runtime error, 60 questions (ID: 0f0c857c-0ac7-4ef1-b9d9-e477faab987a)
+     [2025-08-01] Corrected Course 2 name and module names to match Coursera syllabi (ID: 7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPM Exam Preparation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .course-item { display: flex; align-items: center; }
+        .course-icon { width: 20px; height: 20px; margin-left: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-2xl font-bold mb-4 text-center">CAPM Exam Preparation</h1>
+        <div id="error-message" class="card mb-4 hidden" style="color: #DC2626;"></div>
+        <div id="mode-selection" class="card mb-4">
+            <h2 class="text-lg font-semibold mb-2 text-gray-800">Select Mode</h2>
+            <button id="study-mode-btn" class="w-full mb-2">Study Mode</button>
+            <button id="timed-exam-mode-btn" class="w-full mb-2">Timed Exam Mode</button>
+        </div>
+        <div id="program-selection" class="card mb-4 hidden">
+            <h2 class="text-lg font-semibold mb-2 text-gray-800">Select Program</h2>
+            <div class="course-item">
+                <button id="course1-btn" class="w-full mb-2">Foundations of Project Management</button>
+                <a href="https://www.coursera.org/learn/project-management-foundations" target="_blank">
+                    <img src="https://www.coursera.org/favicon.ico" alt="Coursera" class="course-icon">
+                </a>
+            </div>
+            <div class="course-item">
+                <button id="course2-btn" class="w-full mb-2">Google Project Management: Professional Certificate</button>
+                <a href="https://www.coursera.org/professional-certificates/google-project-management" target="_blank">
+                    <img src="https://www.coursera.org/favicon.ico" alt="Coursera" class="course-icon">
+                </a>
+            </div>
+            <div class="course-item">
+                <button id="course3-btn" class="w-full mb-2">Agile Project Management</button>
+                <a href="https://www.coursera.org/learn/agile-project-management" target="_blank">
+                    <img src="https://www.coursera.org/favicon.ico" alt="Coursera" class="course-icon">
+                </a>
+            </div>
+            <div class="course-item">
+                <button id="course4-btn" class="w-full mb-2">Capstone: Applying Project Management in the Real World</button>
+                <a href="https://www.coursera.org/learn/applying-project-management" target="_blank">
+                    <img src="https://www.coursera.org/favicon.ico" alt="Coursera" class="course-icon">
+                </a>
+            </div>
+            <button id="back-to-mode-btn" class="w-full">Previous</button>
+        </div>
+        <div id="quiz-selection" class="card mb-4 hidden">
+            <h2 class="text-lg font-semibold mb-2 text-gray-800">Select Quiz Content</h2>
+            <div id="single-selection" class="mb-4">
+                <h3 class="text-md font-semibold mb-2 text-gray-800">Single Module</h3>
+                <label for="single-course-module" class="block mb-2 text-gray-800">Select Module:</label>
+                <select id="single-course-module" class="w-full p-2 border rounded border-gray-300"></select>
+            </div>
+            <div id="range-selection" class="mb-4">
+                <h3 class="text-md font-semibold mb-2 text-gray-800">Multiple Module</h3>
+                <label for="from-course-module" class="block mb-2 text-gray-800">From Module:</label>
+                <select id="from-course-module" class="w-full p-2 border rounded border-gray-300 mb-2"></select>
+                <label for="to-course-module" class="block mb-2 text-gray-800">To Module:</label>
+                <select id="to-course-module" class="w-full p-2 border rounded border-gray-300"></select>
+            </div>
+            <button id="start-quiz-btn" class="w-full mb-2">Start Quiz</button>
+            <button id="back-to-program-btn" class="w-full">Previous</button>
+        </div>
+        <div id="quiz-container" class="card mb-4 hidden">
+            <div id="timer" class="timer mb-2 hidden"></div>
+            <div id="question-number"></div>
+            <div id="question" class="mb-4"></div>
+            <div id="options"></div>
+            <div id="feedback" class="hidden"></div>
+            <div class="flex justify-between mt-4">
+                <button id="previous-btn">Previous</button>
+                <button id="submit-btn">Submit</button>
+                <button id="next-btn" class="hidden">Next</button>
+            </div>
+        </div>
+        <div id="results" class="card mb-4 hidden">
+            <h2 class="text-lg font-semibold mb-2">Results</h2>
+            <p id="score"></p>
+            <div id="incorrect-answers"></div>
+            <p id="domains-to-review"></p>
+            <button id="new-quiz-btn">New Quiz</button>
+        </div>
+        <div id="history" class="card">
+            <h2 class="text-lg font-semibold mb-2">Quiz History</h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+    <script>
+        let questions = [];
+        let selectedProgram = '';
+        let mode = '';
+        fetch('/questions.json')
+            .then(res => {
+                if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+                return res.json();
+            })
+            .then(data => {
+                questions = data;
+                document.getElementById('error-message').classList.add('hidden');
+                console.log('Questions loaded:', questions.length);
+            })
+            .catch(err => {
+                document.getElementById('error-message').classList.remove('hidden');
+                document.getElementById('error-message').innerText = `Failed to load questions: ${err.message}`;
+                console.error('Fetch error:', err);
+            });
+        let currentQuestion = 0, score = 0, incorrectAnswers = [], userAnswers = [], timerInterval, remainingTime = 10800;
+        let quizHistory = JSON.parse(localStorage.getItem('quizHistory')) || [{ date: "31/07/2025, 11:44:55", score: "5/5", percentage: "100.00", mode: "timed" }];
+        const programModules = {
+            'Foundations of Project Management': [
+                'Module 1: Embarking on a career in project management',
+                'Module 2: Becoming an effective project manager',
+                'Module 3: The project management lifecycle and methodologies',
+                'Module 4: Organizational structure, culture, and project management'
+            ],
+            'Google Project Management: Professional Certificate': [
+                'Module 1: Foundations of project management',
+                'Module 2: Project initiation',
+                'Module 3: Project planning',
+                'Module 4: Project execution',
+                'Module 5: Agile project management',
+                'Module 6: Project closure',
+                'Module 7: Applying AI and career preparation'
+            ],
+            'Agile Project Management': [
+                'Module 1: The fundamentals of Agile',
+                'Module 2: Sprints and Scrum methods',
+                'Module 3: Implementing Scrum',
+                'Module 4: Applying Agile in the organization'
+            ],
+            'Capstone: Applying Project Management in the Real World': [
+                'Module 1: Launching your project',
+                'Module 2: Planning your project',
+                'Module 3: Managing your project',
+                'Module 4: Closing your project'
+            ]
+        };
+        function selectRandomQuestions(maxQuestions) {
+            const shuffled = questions.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, maxQuestions);
+        }
+        function populateModuleDropdowns() {
+            const singleSelect = document.getElementById('single-course-module');
+            const fromSelect = document.getElementById('from-course-module');
+            const toSelect = document.getElementById('to-course-module');
+            singleSelect.innerHTML = '';
+            fromSelect.innerHTML = '';
+            toSelect.innerHTML = '';
+            programModules[selectedProgram].forEach(module => {
+                const option = document.createElement('option');
+                option.value = module;
+                option.textContent = module;
+                singleSelect.appendChild(option.cloneNode(true));
+                fromSelect.appendChild(option.cloneNode(true));
+                toSelect.appendChild(option.cloneNode(true));
+            });
+            console.log('Dropdowns populated for:', selectedProgram);
+        }
+        document.getElementById('study-mode-btn').onclick = () => {
+            console.log('Study Mode clicked');
+            mode = 'study';
+            document.getElementById('mode-selection').classList.add('hidden');
+            document.getElementById('program-selection').classList.remove('hidden');
+        };
+        document.getElementById('timed-exam-mode-btn').onclick = () => {
+            console.log('Timed Exam Mode clicked');
+            if (questions.length < 150) {
+                document.getElementById('error-message').classList.remove('hidden');
+                document.getElementById('error-message').innerText = 'Cannot start exam: Insufficient questions loaded';
+                console.error('Insufficient questions:', questions.length);
+                return;
+            }
+            mode = 'timed';
+            document.getElementById('mode-selection').classList.add('hidden');
+            document.getElementById('program-selection').classList.remove('hidden');
+        };
+        document.getElementById('course1-btn').onclick = () => {
+            console.log('Course 1 selected');
+            selectedProgram = 'Foundations of Project Management';
+            document.getElementById('program-selection').classList.add('hidden');
+            document.getElementById('quiz-selection').classList.remove('hidden');
+            if (mode === 'study') populateModuleDropdowns();
+            else {
+                questions = selectRandomQuestions(150);
+                document.getElementById('quiz-selection').classList.add('hidden');
+                document.getElementById('quiz-container').classList.remove('hidden');
+                document.getElementById('timer').classList.remove('hidden');
+                startTimer();
+            }
+        };
+        document.getElementById('course2-btn').onclick = () => {
+            console.log('Course 2 selected');
+            selectedProgram = 'Google Project Management: Professional Certificate';
+            document.getElementById('program-selection').classList.add('hidden');
+            document.getElementById('quiz-selection').classList.remove('hidden');
+            if (mode === 'study') populateModuleDropdowns();
+            else {
+                questions = selectRandomQuestions(150);
+                document.getElementById('quiz-selection').classList.add('hidden');
+                document.getElementById('quiz-container').classList.remove('hidden');
+                document.getElementById('timer').classList.remove('hidden');
+                startTimer();
+            }
+        };
+        document.getElementById('course3-btn').onclick = () => {
+            console.log('Course 3 selected');
+            selectedProgram = 'Agile Project Management';
+            document.getElementById('program-selection').classList.add('hidden');
+            document.getElementById('quiz-selection').classList.remove('hidden');
+            if (mode === 'study') populateModuleDropdowns();
+            else {
+                questions = selectRandomQuestions(150);
+                document.getElementById('quiz-selection').classList.add('hidden');
+                document.getElementById('quiz-container').classList.remove('hidden');
+                document.getElementById('timer').classList.remove('hidden');
+                startTimer();
+            }
+        };
+        document.getElementById('course4-btn').onclick = () => {
+            console.log('Course 4 selected');
+            selectedProgram = 'Capstone: Applying Project Management in the Real World';
+            document.getElementById('program-selection').classList.add('hidden');
+            document.getElementById('quiz-selection').classList.remove('hidden');
+            if (mode === 'study') populateModuleDropdowns();
+            else {
+                questions = selectRandomQuestions(150);
+                document.getElementById('quiz-selection').classList.add('hidden');
+                document.getElementById('quiz-container').classList.remove('hidden');
+                document.getElementById('timer').classList.remove('hidden');
+                startTimer();
+            }
+        };
+        document.getElementById('back-to-mode-btn').onclick = () => {
+            console.log('Back to mode selection');
+            document.getElementById('program-selection').classList.add('hidden');
+            document.getElementById('mode-selection').classList.remove('hidden');
+        };
+        document.getElementById('back-to-program-btn').onclick = () => {
+            console.log('Back to program selection');
+            document.getElementById('quiz-selection').classList.add('hidden');
+            document.getElementById('program-selection').classList.remove('hidden');
+        };
+        document.getElementById('start-quiz-btn').onclick = () => {
+            console.log('Start Quiz clicked');
+            if (questions.length === 0) {
+                document.getElementById('error-message').classList.remove('hidden');
+                document.getElementById('error-message').innerText = 'Cannot start quiz: No questions loaded';
+                console.error('No questions loaded');
+                return;
+            }
+            const singleModule = document.getElementById('single-course-module').value;
+            const fromModule = document.getElementById('from-course-module').value;
+            const toModule = document.getElementById('to-course-module').value;
+            if (mode === 'study') {
+                let selectedQuestions = [];
+                if (singleModule) {
+                    selectedQuestions = questions.filter(q => q.module === singleModule).slice(0, 10);
+                } else if (fromModule && toModule) {
+                    const moduleRange = programModules[selectedProgram].slice(
+                        programModules[selectedProgram].indexOf(fromModule),
+                        programModules[selectedProgram].indexOf(toModule) + 1
+                    );
+                    selectedQuestions = questions.filter(q => moduleRange.includes(q.module)).slice(0, 10);
+                }
+                questions = selectedQuestions.length > 0 ? selectedQuestions : selectRandomQuestions(10);
+            }
+            document.getElementById('quiz-selection').classList.add('hidden');
+            document.getElementById('quiz-container').classList.remove('hidden');
+            if (mode === 'timed') document.getElementById('timer').classList.remove('hidden');
+        };
+        document.getElementById('previous-btn').onclick = () => {
+            console.log('Previous question clicked');
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                // Add logic to display previous question
+            }
+        };
+        document.getElementById('submit-btn').onclick = () => {
+            console.log('Submit clicked');
+            document.getElementById('results').classList.remove('hidden');
+            document.getElementById('quiz-container').classList.add('hidden');
+            stopTimer();
+        };
+        document.getElementById('new-quiz-btn').onclick = () => {
+            console.log('New Quiz clicked');
+            document.getElementById('results').classList.add('hidden');
+            document.getElementById('mode-selection').classList.remove('hidden');
+        };
+        function startTimer() {
+            timerInterval = setInterval(() => {
+                remainingTime--;
+                const h = Math.floor(remainingTime / 3600), m = Math.floor((remainingTime % 3600) / 60), s = remainingTime % 60;
+                document.getElementById('timer').innerText = `${h}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+                if (remainingTime <= 0) { clearInterval(timerInterval); showResults(); }
+            }, 1000);
+        }
+        function stopTimer() { clearInterval(timerInterval); }
+    </script>
+</body>
+</html>
