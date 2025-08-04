@@ -1,0 +1,57 @@
+2025-08-04 01:28:28,023 - INFO - Flask app initialized with static_folder=/app
+2025-08-04 01:28:28,194 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8085
+ * Running on http://192.168.224.2:8085
+2025-08-04 01:28:28,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 01:28:28,204 - INFO -  * Restarting with stat
+2025-08-04 01:28:28,471 - INFO - Flask app initialized with static_folder=/app
+2025-08-04 01:28:28,509 - WARNING -  * Debugger is active!
+2025-08-04 01:28:28,509 - INFO -  * Debugger PIN: 102-306-428
+2025-08-04 01:28:34,685 - DEBUG - Serving static file: index.html
+2025-08-04 01:28:34,688 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-04 01:28:34,702 - DEBUG - Serving static file: styles.css
+2025-08-04 01:28:34,703 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2025-08-04 01:28:34,705 - DEBUG - Serving static file: jsonInterface.js
+2025-08-04 01:28:34,706 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "[36mGET /jsonInterface.js HTTP/1.1[0m" 304 -
+2025-08-04 01:28:34,708 - DEBUG - Serving static file: app.js
+2025-08-04 01:28:34,709 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "GET /app.js HTTP/1.1" 200 -
+2025-08-04 01:28:34,711 - DEBUG - Serving static file: cyberpunk-bg.jpg
+2025-08-04 01:28:34,712 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "[36mGET /cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-04 01:28:34,823 - ERROR - Client log: Initializing application
+2025-08-04 01:28:34,824 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:34,825 - ERROR - Client log: Initiating question fetch
+2025-08-04 01:28:34,826 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:34,827 - DEBUG - Loading questions.json
+2025-08-04 01:28:34,831 - INFO - Questions loaded successfully
+2025-08-04 01:28:34,840 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "GET /api/questions HTTP/1.1" 200 -
+2025-08-04 01:28:34,845 - ERROR - Client log: Loaded 301 questions from questions.json
+2025-08-04 01:28:34,846 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:34,847 - ERROR - Client log: Loaded 301 questions via jsonInterface.js
+2025-08-04 01:28:34,848 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:34] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:36,502 - ERROR - Client log: Button clicked: study Mode
+2025-08-04 01:28:36,503 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:36] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:36,504 - ERROR - Client log: Showed section: program-selection
+2025-08-04 01:28:36,504 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:36] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:37,920 - ERROR - Client log: Showed section: quiz-content
+2025-08-04 01:28:37,921 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:37] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:37,922 - ERROR - Client log: Selected program: 2
+2025-08-04 01:28:37,922 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:37] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:37,923 - ERROR - Client log: Populated module dropdowns for program 2
+2025-08-04 01:28:37,924 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:37] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:43,699 - ERROR - Client log: Filtered 26 questions for program 2, module range 2-2
+2025-08-04 01:28:43,700 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:43] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:43,701 - ERROR - Client log: Selected 10 questions for Study Mode
+2025-08-04 01:28:43,701 - ERROR - Client log: Starting quiz with Module Range: 2-2
+2025-08-04 01:28:43,702 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:43] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:43,703 - ERROR - Client log: Filtered 26 questions
+2025-08-04 01:28:43,704 - ERROR - Client log: Showed section: quiz
+2025-08-04 01:28:43,705 - ERROR - Client log: Rendering first question
+2025-08-04 01:28:43,706 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:43] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:43,707 - ERROR - Client log: Rendered question 1: 31
+2025-08-04 01:28:43,708 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:43] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:43,709 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:43] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:43,709 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:43] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:28:43,710 - INFO - 192.168.224.1 - - [04/Aug/2025 01:28:43] "POST /api/log HTTP/1.1" 200 -
+2025-08-04 01:29:03,930 - ERROR - Client log: Submitted answer for question 31: Incorrect
+2025-08-04 01:29:03,931 - INFO - 192.168.224.1 - - [04/Aug/2025 01:29:03] "POST /api/log HTTP/1.1" 200 -

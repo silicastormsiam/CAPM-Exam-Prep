@@ -1,0 +1,149 @@
+/* File Name: styles.css */
+/* Owner: Andrew John Holland */
+/* Purpose: Styling for CAPM Exam Prep frontend, supporting PC (2K monitor) and S23 Ultra Chrome */
+/* Version: 1.2.6 (August 04, 2025) - Refined table alignment for both Exam and Study Modes. */
+/* Change Log: */
+/* [2025-08-04] Refined #options table layout for checkbox/answer alignment in both modes (ID: stabilization-20250804-16). */
+/* [2025-08-04] Refined #options table with fixed layout for checkbox/answer alignment (ID: stabilization-20250804-15). */
+/* [2025-08-04] Switched #options to flexbox for better checkbox/answer alignment (ID: stabilization-20250804-11). */
+/* [2025-08-04] Adjusted #options padding and width for better checkbox/answer alignment (ID: stabilization-20250804-10). */
+/* [2025-08-04] Increased .container max-width to 48rem, keeping font size, mobile-safe (ID: stabilization-20250804-09). */
+/* [2025-08-03] Added .hidden class to fix frontend meltdown (ID: dsm-deployment-20250803-17) */
+/* [2025-08-03] Added .menu-item and .coursera-link styles for Select Quiz Content spacing and Coursera hyperlinks (ID: dsm-deployment-20250803-8) */
+/* [2025-08-02] Added cyberpunk-bg.jpg for DSM deployment at /volume1/CAPM_Exam (ID: dsm-deployment-20250802-16) */
+/* [2025-08-02] Added body background (#0F172A, image), media query for S23 Ultra */
+:root {
+  --bg-dark: #0F172A; /* Dark blue */
+  --text-white: #FFFFFF;
+  --button-blue: #3B82F6;
+  --button-pink: #F472B6;
+}
+body {
+  background-color: var(--bg-dark);
+  background-image: url('/cyberpunk-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--text-white);
+}
+.container {
+  max-width: 48rem; /* Updated to 48rem, font size unchanged */
+  margin: 0 auto;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+}
+.card {
+  margin-bottom: 1rem;
+}
+.hidden {
+  display: none !important;
+}
+#question {
+  background-color: var(--bg-dark);
+  padding: 15px;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+#options {
+  display: table; /* Ensured table layout for both modes */
+  width: 100%;
+  table-layout: fixed; /* Fixed layout for consistency */
+  border-collapse: collapse;
+}
+#options label {
+  display: table-row;
+}
+#options input[type="radio"],
+#options input[type="checkbox"] {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0.75rem; /* Increased for clarity */
+  width: 3rem; /* Adjusted for better spacing */
+  text-align: center;
+  border: 1px solid #ccc; /* Optional visual aid */
+}
+#options span {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0.75rem; /* Increased for clarity */
+  word-wrap: break-word; /* Ensure text wraps */
+  border: 1px solid #ccc; /* Optional visual aid */
+}
+button {
+  background-color: var(--button-blue);
+  color: var(--text-white);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+button:hover {
+  background-color: var(--button-pink);
+}
+.text-2xl {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+}
+select, input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0.25rem;
+}
+.flex {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.menu-item {
+  display: block;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.coursera-link {
+  color: var(--button-blue);
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+.coursera-link:hover {
+  color: var(--button-pink);
+  text-decoration: underline;
+}
+/* Media query for S23 Ultra (~360px) */
+@media (max-width: 360px) {
+  .container {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+  button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .text-2xl {
+    font-size: 1.2rem;
+  }
+  .text-lg {
+    font-size: 1rem;
+  }
+  select, input {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .flex {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .menu-item {
+    margin-bottom: 0.5rem;
+  }
+}

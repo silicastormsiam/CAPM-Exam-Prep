@@ -1,0 +1,137 @@
+<!-- File: index.html -->
+<!-- Owner: Andrew John Holland -->
+<!-- Purpose: Frontend for CAPM Exam Prep, with navigation and quiz interface -->
+<!-- Version: 1.2.17 (August 04, 2025) - Hid module selection for Exam Mode -->
+<!-- Change Log: -->
+<!-- - 2025-08-04: Added inline script to hide #quiz-content for Exam Mode (ID: stabilization-20250804-07) -->
+<!-- - 2025-08-04: Fixed Exam Mode to hide module selection, preserved Study Mode (ID: stabilization-20250804-06) -->
+<!-- - 2025-08-04: Removed Single and Multiple module selection from #quiz-content for Exam Mode realism (ID: stabilization-20250804-05) -->
+<!-- - 2025-08-04: Restored module selection visibility for Study Mode, fixed Exam Mode exclusion (ID: stabilization-20250804-03) -->
+<!-- - 2025-08-04: Removed Single and Multiple module selection from #quiz-content for Exam Mode realism (ID: stabilization-20250804-02) -->
+<!-- - 2025-08-04: Added data-mode-exclude="exam" to #quiz-content to prevent module selection in Exam Mode (ID: stabilization-20250804-01) -->
+<!-- - 2025-08-03: Added defer to script tags to ensure DOM readiness (ID: script-load-fix-20250803-01) -->
+<!-- - 2025-08-03: Added console log on page load for debugging (ID: dsm-deployment-20250803-43) -->
+<!-- - 2025-08-03: Ensured jsonInterface.js loads before app.js (ID: dsm-deployment-20250803-40) -->
+<!-- - 2025-08-03: Removed type="module" from scripts to fix button functionality (ID: dsm-deployment-20250803-38) -->
+<!-- - 2025-08-03: Added debug button for log access, ensured mode selection binding (ID: dsm-deployment-20250803-32) -->
+<!-- - 2025-08-03: Replaced from/to-module inputs with selects, updated labels to Start/Finish Module (ID: dsm-deployment-20250803-28) -->
+<!-- - 2025-08-03: Ensured no Domains dropdown, single-module select with Select Module label (ID: dsm-deployment-20250803-27) -->
+<!-- - 2025-08-03: Moved Coursera hyperlinks to icons beside buttons, removed Domains dropdown (ID: dsm-deployment-20250803-20) -->
+<!-- - 2025-08-03: Ensured Previous buttons and module-select dropdown (ID: dsm-deployment-20250803-14) -->
+<!-- - 2025-08-03: Added module-select dropdown and Previous buttons (ID: dsm-deployment-20250803-12) -->
+<!-- - 2025-08-03: Added Coursera icons/hyperlinks (ID: dsm-deployment-20250803-7) -->
+<!-- - 2025-08-03: Fixed onclick syntax for selectMode (ID: dsm-deployment-20250803-4) -->
+<!-- - 2025-08-02: Updated for DSM deployment, added Cyberpunk Monk palette (ID: dsm-deployment-20250802-16) -->
+<!-- - 2025-08-02: Created index.html (ID: dsm-deployment-20250802-2) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPM Exam Prep</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script>
+        console.log('index.html loaded at ' + new Date().toISOString());
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="mode-selection" class="card">
+            <h1 class="text-2xl">CAPM Exam Prep</h1>
+            <button onclick="selectMode('study')" class="text-lg"><i class="fa-solid fa-book"></i> Study Mode</button>
+            <button onclick="selectMode('exam')" class="text-lg"><i class="fa-solid fa-graduation-cap"></i> Exam Mode</button>
+            <button onclick="showSection('error-log')" class="text-lg">View Debug Log</button>
+        </div>
+        <div id="program-selection" class="card hidden">
+            <h2 class="text-2xl">Select Program</h2>
+            <div class="program-item">
+                <button onclick="selectProgram(1)" class="text-lg">Foundations</button>
+                <a href="https://www.coursera.org/learn/project-management-foundations" target="_blank" class="coursera-link"><i class="fa-brands fa-coursera"></i></a>
+            </div>
+            <div class="program-item">
+                <button onclick="selectProgram(2)" class="text-lg">Google PM</button>
+                <a href="https://www.coursera.org/professional-certificates/google-project-management" target="_blank" class="coursera-link"><i class="fa-brands fa-coursera"></i></a>
+            </div>
+            <div class="program-item">
+                <button onclick="selectProgram(3)" class="text-lg">Agile</button>
+                <a href="https://www.coursera.org/learn/agile-project-management" target="_blank" class="coursera-link"><i class="fa-brands fa-coursera"></i></a>
+            </div>
+            <div class="program-item">
+                <button onclick="selectProgram(4)" class="text-lg">Capstone</button>
+                <a href="https://www.coursera.org/learn/applying-project-management" target="_blank" class="coursera-link"><i class="fa-brands fa-coursera"></i></a>
+            </div>
+            <button onclick="goBack('mode-selection')" class="text-lg">Previous</button>
+        </div>
+        <div id="quiz-content" class="card hidden" data-mode-exclude="exam">
+            <h2 class="text-2xl">Select Quiz Content</h2>
+            <label class="text-lg">Single Module</label>
+            <select id="single-module" class="menu-item">
+                <option value="">Select Module</option>
+            </select>
+            <label class="text-lg">Multiple Module</label>
+            <div class="flex">
+                <select id="from-module" class="menu-item">
+                    <option value="">Start Module</option>
+                </select>
+                <select id="to-module" class="menu-item">
+                    <option value="">Finish Module</option>
+                </select>
+            </div>
+            <div class="flex">
+                <button onclick="goBack('program-selection')" class="text-lg">Previous</button>
+                <button onclick="startQuiz()" class="text-lg">Start Quiz</button>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const quizContent = document.getElementById('quiz-content');
+                    if (quizContent && mode === 'exam') {
+                        quizContent.style.display = 'none';
+                    } else if (quizContent && mode === 'study') {
+                        quizContent.style.display = 'block';
+                    }
+                });
+            </script>
+        </div>
+        <div id="quiz" class="card hidden">
+            <div id="timer"></div>
+            <div id="question"></div>
+            <div id="options"></div>
+            <div id="feedback" class="hidden"></div>
+            <div class="flex">
+                <button onclick="previousQuestion()">Previous</button>
+                <button onclick="submitAnswer()">Submit</button>
+                <button onclick="nextQuestion()">Next</button>
+            </div>
+        </div>
+        <div id="results" class="card hidden">
+            <h2 class="text-2xl">Results</h2>
+            <div id="score"></div>
+            <div id="domain-errors"></div>
+            <div id="references"></div>
+            <button onclick="viewHistory()">View History</button>
+            <button onclick="newQuiz()">New Quiz</button>
+        </div>
+        <div id="quiz-history" class="card hidden">
+            <h2 class="text-2xl">Quiz History</h2>
+            <div id="history-list"></div>
+            <button onclick="viewDetailedHistory()">Detailed History</button>
+            <button onclick="goBack('results')">Back</button>
+        </div>
+        <div id="detailed-history" class="card hidden">
+            <h2 class="text-2xl">Detailed History</h2>
+            <div id="study-history"></div>
+            <div id="exam-history"></div>
+            <button onclick="goBack('quiz-history')">Back</button>
+        </div>
+        <div id="error-log" class="card hidden">
+            <h2 class="text-2xl">Error Log</h2>
+            <div id="log-content"></div>
+            <button onclick="downloadLog()">Download Log</button>
+            <button onclick="goBack('mode-selection')">Back</button>
+        </div>
+    </div>
+    <script defer src="/jsonInterface.js"></script>
+    <script defer src="/app.js"></script>
+</body>
+</html>

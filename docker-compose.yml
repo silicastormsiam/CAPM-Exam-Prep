@@ -1,0 +1,24 @@
+# File: docker-compose.yml
+# Owner: Andrew Holland
+# Purpose: Docker configuration for CAPM Exam Prep, defining Flask service for DSM deployment
+# Version: 1.5 (updated 2025-08-02)
+# Change Log:
+#   - 2025-08-02: Simplified to single Flask service, fixed container startup for /volume1/CAPM_Exam, port 8085 (ID: dsm-deployment-20250802-16)
+#   - 2025-08-02: Created docker-compose.yml for DSM deployment at /volume1/CAPM_Exam, port 8085 (ID: dsm-deployment-20250802-2)
+
+version: '3.8'
+
+services:
+  flask:
+    image: capm_exam_flask
+    build:
+      context: /volume1/CAPM_Exam
+      dockerfile: Dockerfile
+    container_name: capm_flask
+    ports:
+      - "8085:8085"
+    volumes:
+      - /volume1/CAPM_Exam:/app
+    environment:
+      - FLASK_ENV=production
+    restart: unless-stopped
