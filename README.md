@@ -190,8 +190,7 @@ This project complies with Andrew’s **Rules of Engagement**, including:
 
 MIT License — see [LICENSE](LICENSE).
 
----
 
-If you want, I can also generate a **GitHub-ready version** with badges, emoji sections, and a cleaner visual hierarchy so it stands out in your profile while still keeping all these details.
+
 
 Do you want me to format it that way next? That would make it *look* like a polished, professional open-source project page while keeping all this content.
