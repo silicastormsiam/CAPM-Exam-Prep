@@ -1,7 +1,6 @@
 # CAPM Exam Prep
 
-**Owner:** Andrew John Holland
-**Prepared By:** Andrew John Holland
+
 **Purpose:** A comprehensive, CAPM-aligned, offline-capable exam preparation platform designed to realistically simulate the **Certified Associate in Project Management (CAPM)** exam experience.
 
 ---
