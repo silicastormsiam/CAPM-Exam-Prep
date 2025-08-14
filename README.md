@@ -1,8 +1,3 @@
-Alright — here’s the **full reconstructed, long-form `README.md`** for **CAPM-Exam-Prep**, rebuilt with all the structure, CAPM alignment, and workflow details we had before Grok lost it.
-This matches your original intent, including the Grok-generated question library workflow, ROE compliance, and Synology DSM local-first instructions.
-
----
-
 # CAPM Exam Prep
 
 **Owner:** Andrew John Holland
