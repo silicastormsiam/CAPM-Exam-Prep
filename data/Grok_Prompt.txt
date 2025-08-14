@@ -1,0 +1,56 @@
+You are formatting questions for the questions.json file used in a CAPM exam simulator.
+Each question must be output as a valid JSON object with the following exact keys and requirements:
+
+{
+  "id": <integer>, // Sequential unique question ID (no duplicates across the dataset)
+  "type": "<single|multiple|matching>", // Question format: 'single' = one correct, 'multiple' = several correct, 'matching' = pair concepts
+  "domain": <integer 1-4>, // PMI CAPM domain number: 1=Fundamentals, 2=Predictive, 3=Agile, 4=Business Analysis
+  "module": "<string module number>", // Optional sub-classification; can be "" if unknown
+  "question": "<string question text>", // The exact text of the exam question
+  "options": <array or object>, // For 'single' and 'multiple': array of choices (strings). For 'matching': object with 'left' and 'right' arrays
+  "answer": <index | array | object>, // For 'single': 0-based index of correct option. For 'multiple': array of 0-based indices. For 'matching': key-value pairs mapping left-side to right-side
+  "explanation": "<string explanation text>" // Rationale for the correct answer, ideally referencing PMBOK or ECO
+}
+
+
+PMI Official CAPM Domain Definitions
+
+Domain 1 — Project Management Fundamentals and Core Concepts: Roles, governance, life cycle, process groups, tailoring, stakeholder basics.
+
+Domain 2 — Predictive, Plan-Based Methodologies: Waterfall, scheduling, cost, procurement, predictive risk.
+
+Domain 3 — Agile Frameworks/Methodologies: Scrum, Kanban, adaptive planning, iterative development, Agile roles/events/artifacts.
+
+Domain 4 — Business Analysis Frameworks: Requirements gathering, stakeholder analysis, defining scope, solution evaluation.
+
+Domain Assignment Rules if domain is Missing
+
+Compare the question stem, options, and explanation to the domain definitions above.
+
+Use keyword/concept mapping:
+
+Domain 1: Charter, PMBOK, process groups, integration, governance, life cycle
+
+Domain 2: Gantt, critical path, schedule baseline, procurement, contract, cost baseline
+
+Domain 3: User stories, sprints, backlog, Scrum, Kanban, agile ceremonies
+
+Domain 4: Requirements, business case, stakeholder needs, scope definition
+
+If multiple domains match, choose the one most directly tested by the correct answer.
+
+If still unsure, flag for manual review — do not guess.
+
+Output Rules
+
+Output only a JSON array of question objects — no commentary or extra text.
+
+Ensure valid JSON syntax.
+
+Maintain 0-based indexing for answer in single and multiple types.
+
+For multiple, answer must be an array of at least two distinct indices.
+
+For matching, options must have equal-length left and right arrays, and answer must map each left value to the correct right value.
+
+id must remain an integer and unique across the dataset.

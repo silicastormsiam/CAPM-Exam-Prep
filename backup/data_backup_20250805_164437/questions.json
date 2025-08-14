@@ -1,0 +1,4674 @@
+[
+    {
+        "id": 1,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What is the primary purpose of a project charter?",
+        "options": [
+            "To track project progress",
+            "To formally authorize the project and define objectives",
+            "To finalize the project budget",
+            "To close the project"
+        ],
+        "answer": 1,
+        "explanation": "A project charter formally authorizes the project, outlining objectives, scope, and stakeholders (Domain 1, Task 2, Google PM Course 2)."
+    },
+    {
+        "id": 2,
+        "type": "multiple",
+        "domain": 1,
+        "module": "3",
+        "question": "Which are included in a project management plan? (Select all that apply)",
+        "options": [
+            "Scope baseline",
+            "Schedule baseline",
+            "Cost baseline",
+            "Stakeholder feedback"
+        ],
+        "answer": [
+            0,
+            1,
+            2
+        ],
+        "explanation": "A project management plan includes scope, schedule, and cost baselines (Domain 1, Task 4, Google PM Course 3)."
+    },
+    {
+        "id": 3,
+        "type": "matching",
+        "domain": 1,
+        "module": "1",
+        "question": "Match the project roles to their responsibilities.",
+        "options": {
+            "left": [
+                "Project Manager",
+                "Sponsor",
+                "Team Member",
+                "Stakeholder"
+            ],
+            "right": [
+                "Provides resources and support",
+                "Executes project tasks",
+                "Influenced by or influences the project",
+                "Leads and manages the project"
+            ]
+        },
+        "answer": {
+            "Project Manager": "Leads and manages the project",
+            "Sponsor": "Provides resources and support",
+            "Team Member": "Executes project tasks",
+            "Stakeholder": "Influenced by or influences the project"
+        },
+        "explanation": "Matching roles to responsibilities ensures clarity (Domain 1, Task 3, Google PM Course 1)."
+    },
+    {
+        "id": 4,
+        "type": "sequencing",
+        "domain": 1,
+        "module": "1",
+        "question": "Arrange the project management process groups in the correct order.",
+        "options": [
+            "Initiating",
+            "Planning",
+            "Executing",
+            "Monitoring and Controlling",
+            "Closing"
+        ],
+        "answer": [
+            "Initiating",
+            "Planning",
+            "Executing",
+            "Monitoring and Controlling",
+            "Closing"
+        ],
+        "explanation": "Process groups: Initiating, Planning, Executing, Monitoring and Controlling, Closing (Domain 1, Task 1, Google PM Course 1)."
+    },
+    {
+        "id": 5,
+        "type": "scenario",
+        "domain": 1,
+        "module": "2",
+        "question": "Scenario: A project manager is assigned to a new project with a diverse team. What should they do first?",
+        "options": [
+            "Develop the project schedule",
+            "Define the project scope and objectives",
+            "Conduct a risk assessment",
+            "Assign tasks to team members"
+        ],
+        "answer": 1,
+        "explanation": "Defining scope and objectives aligns the team (Domain 1, Task 2, Google PM Course 2)."
+    },
+    {
+        "id": 6,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "Which technique is used to identify roles and the level of responsibilities?",
+        "options": [
+            "a. Capability table",
+            "b. Dependency and responsibility tracker",
+            "c. Responsible, accountable, consulted, and informed (RACI) matrix",
+            "d. Affinity diagram"
+        ],
+        "answer": 2,
+        "explanation": "The RACI matrix is a tool for clarifying team roles and responsibilities, ensuring accountability in project execution. This aligns with ECO Domain 1 Task 1.1: Demonstrate an understanding of project roles, responsibilities, and organizational structures. Refer to PMBOK Guide (7th Edition), Section 2.3.2: Responsibility Assignment Matrix."
+    },
+    {
+        "id": 7,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "A project is just beginning, and management creates a long list of potential stakeholders. Which statement about identifying and engaging stakeholders is correct?",
+        "options": [
+            "a. The project manager should identify and deal with stakeholders only during the execution phase.",
+            "b. Stakeholder satisfaction should be identified immediately and managed as a project objective.",
+            "c. The project manager should focus on project objectives and deal with stakeholders as a secondary priority.",
+            "d. Stakeholder satisfaction is the most important goal, and project objectives should be considered a secondary priority."
+        ],
+        "answer": 1,
+        "explanation": "Stakeholder engagement is a core fundamental, requiring early identification to align expectations with project goals. This aligns with ECO Domain 1 Task 1.2: Demonstrate an understanding of stakeholder identification and engagement. Refer to PMBOK Guide (7th Edition), Section 2.4: Stakeholder Engagement."
+    },
+    {
+        "id": 8,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "During a team meeting, a team member asks about the measurements that will be used on the project to judge performance. The team member feels that some of the measures related to activities assigned to him are not valid measurements. The project is BEST considered in what part of the project management process?",
+        "options": [
+            "a. Initiating",
+            "b. Executing",
+            "c. Monitoring & Controlling",
+            "d. Closing"
+        ],
+        "answer": 1,
+        "explanation": "Performance measurements are discussed during execution when team members perform work and produce deliverables. This aligns with ECO Domain 1 Task 1.3: Demonstrate an understanding of project life cycles and processes. Refer to PMBOK Guide (7th Edition), Section 3.1: Project Processes."
+    },
+    {
+        "id": 9,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "Your company just won a major new project. It will begin in three months and is valued at 2m USD. You are the project manager for an existing project. What is the FIRST thing you should do once you hear of the new project?",
+        "options": [
+            "a. Ask management how the new project will use resources",
+            "b. Resource level your project",
+            "c. Crash your project",
+            "d. Ask management how the new project will affect your project"
+        ],
+        "answer": 3,
+        "explanation": "Assessing inter-project impacts is essential in multi-project environments to manage resources and priorities. This aligns with ECO Domain 1 Task 1.4: Demonstrate an understanding of organizational influences on projects. Refer to PMBOK Guide (7th Edition), Section 1.2: Organizational Influences."
+    },
+    {
+        "id": 10,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "You are a new project manager who has never managed a project before. It would be BEST in this situation to rely on _____ during planning in order to improve your chance of success.",
+        "options": [
+            "a. Your intuition and training",
+            "b. Stakeholder analysis",
+            "c. Historical information",
+            "d. Configuration management"
+        ],
+        "answer": 2,
+        "explanation": "Historical data from organizational process assets provides valuable insights for new managers to avoid common pitfalls. This aligns with ECO Domain 1 Task 1.5: Demonstrate an understanding of project planning fundamentals. Refer to PMBOK Guide (7th Edition), Section 2.1: Project Planning."
+    },
+    {
+        "id": 11,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "A manager and the head of engineering discuss a change to a major work package. After the meeting, the manager contacts you and tells you to complete the paperwork to make the change. This is an example of:",
+        "options": [
+            "a. Management attention to scope management.",
+            "b. Management planning.",
+            "c. A project expediter position.",
+            "d. A change control system."
+        ],
+        "answer": 2,
+        "explanation": "In an expediter role, the project manager has limited authority and focuses on administrative tasks like paperwork. This aligns with ECO Domain 1 Task 1.1: Demonstrate an understanding of project roles, responsibilities, and organizational structures. Refer to PMBOK Guide (7th Edition), Section 1.3: Project Manager Roles."
+    },
+    {
+        "id": 12,
+        "type": "multiple",
+        "domain": 1,
+        "module": "2",
+        "question": "A project manager has finished the project charter draft and presents it to the sponsor. Which two of the following should be included?",
+        "options": [
+            "a. High-level requirements",
+            "b. Stakeholder register",
+            "c. Assigned team members",
+            "d. High-level risks",
+            "e. Assumption log"
+        ],
+        "answer": [
+            0,
+            3
+        ],
+        "explanation": "The project charter must include high-level requirements and risks to provide a foundation for project approval. This aligns with ECO Domain 1 Task 1.6: Demonstrate an understanding of project initiation documents. Refer to PMBOK Guide (7th Edition), Section 2.2: Project Charter."
+    },
+    {
+        "id": 13,
+        "type": "single",
+        "domain": 1,
+        "module": "5",
+        "question": "Which is an example of leveraging evolving trends and emerging practices in Project Integration Management?",
+        "options": [
+            "a. Hybrid methodologies",
+            "b. Risk register updates",
+            "c. Outsourced project resources",
+            "d. Reliance on lessons learned documents"
+        ],
+        "answer": 0,
+        "explanation": "Hybrid methodologies represent emerging practices in integration. ECO Domain 1 Task 1.7: Demonstrate an understanding of emerging trends in project management. PMBOK 7th Edition, Section 1.4: Trends and Emerging Practices."
+    },
+    {
+        "id": 14,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "The project manager is creating the communications management plan. Which group of inputs is required to begin?",
+        "options": [
+            "a. Work performance reports, change requests, and risk register",
+            "b. Work performance data, project documents, and stakeholder engagement plan",
+            "c. Project charter, project management plan, and project documents",
+            "d. Work performance data, stakeholder register, and team management plan"
+        ],
+        "answer": 2,
+        "explanation": "The project charter and management plan are key inputs for communications planning. ECO Domain 1 Task 1.8: Demonstrate an understanding of communication fundamentals. PMBOK 7th Edition, Section 2.5: Communications."
+    },
+    {
+        "id": 15,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What is the primary purpose of the project charter?",
+        "options": [
+            "a. To authorize the project manager",
+            "b. To define the project scope",
+            "c. To detail the project schedule",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The project charter authorizes the project manager. ECO Domain 1 Task 1.6. PMBOK 7th Edition, Section 2.2."
+    },
+    {
+        "id": 16,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which process group includes the development of the project management plan?",
+        "options": [
+            "a. Initiating",
+            "b. Planning",
+            "c. Executing",
+            "d. Monitoring and Controlling"
+        ],
+        "answer": 1,
+        "explanation": "The planning process group includes developing the project management plan. ECO Domain 1 Task 1.3. PMBOK 7th Edition, Section 3.1."
+    },
+    {
+        "id": 17,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is a key output of the Close Project or Phase process?",
+        "options": [
+            "a. Project charter",
+            "b. Final product, service, or result transition",
+            "c. Work performance data",
+            "d. Change requests"
+        ],
+        "answer": 1,
+        "explanation": "The final product transition is a key output of closing. ECO Domain 1 Task 1.3. PMBOK 7th Edition, Section 3.1."
+    },
+    {
+        "id": 18,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "Which of the following is a tool or technique used in the Develop Project Team process?",
+        "options": [
+            "a. Expert judgment",
+            "b. Team-building activities",
+            "c. Cost-benefit analysis",
+            "d. Quality audits"
+        ],
+        "answer": 1,
+        "explanation": "Team-building activities are used in developing the team. ECO Domain 1 Task 1.1. PMBOK 7th Edition, Section 2.3."
+    },
+    {
+        "id": 19,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What does the acronym EVM stand for in project management?",
+        "options": [
+            "a. Earned Value Management",
+            "b. Effective Value Measurement",
+            "c. Estimated Value Method",
+            "d. Expected Value Model"
+        ],
+        "answer": 0,
+        "explanation": "EVM is Earned Value Management. ECO Domain 1 Task 1.5. PMBOK 7th Edition, Section 3.4."
+    },
+    {
+        "id": 20,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "Which organizational structure gives the project manager the least authority?",
+        "options": [
+            "a. Functional",
+            "b. Matrix",
+            "c. Projectized",
+            "d. Hybrid"
+        ],
+        "answer": 0,
+        "explanation": "Functional structure gives the PM the least authority. ECO Domain 1 Task 1.4. PMBOK 7th Edition, Section 1.2."
+    },
+    {
+        "id": 21,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What is the main purpose of a stakeholder register?",
+        "options": [
+            "a. To track project costs",
+            "b. To document stakeholder information and engagement strategies",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "The stakeholder register documents stakeholder information. ECO Domain 1 Task 1.2. PMBOK 7th Edition, Section 2.4."
+    },
+    {
+        "id": 22,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which document defines how the project scope will be managed?",
+        "options": [
+            "a. Scope statement",
+            "b. Scope management plan",
+            "c. WBS dictionary",
+            "d. Project charter"
+        ],
+        "answer": 1,
+        "explanation": "The scope management plan defines how scope is managed. ECO Domain 1 Task 1.5. PMBOK 7th Edition, Section 3.2."
+    },
+    {
+        "id": 23,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What is the primary responsibility of a project manager in terms of stakeholder engagement?",
+        "options": [
+            "a. Focus solely on delivering the project's specific deliverables",
+            "b. Communicate with stakeholders to understand the vision and purpose of the project",
+            "c. Complete the project as per the defined scope and requirements",
+            "d. Complete the project as per the defined scope"
+        ],
+        "answer": 1,
+        "explanation": "Communicate with stakeholders to understand the vision. ECO Domain 1 Task 1.2. PMBOK 7th Edition, Section 2.4."
+    },
+    {
+        "id": 24,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which tool is used to visually represent project dependencies?",
+        "options": [
+            "a. Gantt chart",
+            "b. Network diagram",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 1,
+        "explanation": "Network diagram shows dependencies. ECO Domain 1 Task 1.5. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 25,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the purpose of a lessons learned register?",
+        "options": [
+            "a. To document project costs",
+            "b. To capture knowledge gained during the project",
+            "c. To list stakeholder requirements",
+            "d. To track project risks"
+        ],
+        "answer": 1,
+        "explanation": "Lessons learned capture knowledge. ECO Domain 1 Task 1.3. PMBOK 7th Edition, Section 3.1."
+    },
+    {
+        "id": 26,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "Which process involves formally accepting project deliverables?",
+        "options": [
+            "a. Validate Scope",
+            "b. Control Scope",
+            "c. Define Scope",
+            "d. Close Project"
+        ],
+        "answer": 0,
+        "explanation": "Validate Scope involves accepting deliverables. ECO Domain 1 Task 1.3. PMBOK 7th Edition, Section 3.2."
+    },
+    {
+        "id": 27,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "What is the primary purpose of a RACI matrix in project management?",
+        "options": [
+            "a. To identify project risks",
+            "b. To assign roles and responsibilities",
+            "c. To track project budget",
+            "d. To develop the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "RACI assigns roles and responsibilities. ECO Domain 1 Task 1.1. PMBOK 7th Edition, Section 2.3.2."
+    },
+    {
+        "id": 28,
+        "type": "single",
+        "domain": 1,
+        "module": "5",
+        "question": "How does a burndown chart help in managing a project?",
+        "options": [
+            "a. It shows the project budget over time",
+            "b. It displays project progress over time",
+            "c. It identifies stakeholder roles",
+            "d. It develops the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "Burndown chart displays progress over time. ECO Domain 1 Task 1.5. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 29,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which technique is commonly used to prioritize requirements during project planning?",
+        "options": [
+            "a. Multivoting",
+            "b. Critical path method",
+            "c. Earned value management",
+            "d. Risk assessment"
+        ],
+        "answer": 0,
+        "explanation": "Multivoting is used to prioritize requirements. ECO Domain 1 Task 1.5. PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 30,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "What is the main purpose of developing a work breakdown structure (WBS)?",
+        "options": [
+            "a. To describe project requirements hierarchically",
+            "b. To identify project stakeholders",
+            "c. To track project expenses",
+            "d. To create a project charter"
+        ],
+        "answer": 0,
+        "explanation": "WBS describes requirements hierarchically. ECO Domain 1 Task 1.5. PMBOK 7th Edition, Section 3.2.1."
+    },
+    {
+        "id": 31,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What should a project charter include to ensure project approval?",
+        "options": [
+            "a. Detailed project schedules",
+            "b. High-level requirements and risks",
+            "c. Daily task assignments",
+            "d. Team member performance reviews"
+        ],
+        "answer": 1,
+        "explanation": "High-level requirements and risks in charter. ECO Domain 1 Task 1.6. PMBOK 7th Edition, Section 2.2."
+    },
+    {
+        "id": 32,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "Which leadership style is characterized by providing vision and inspiring team members to achieve goals?",
+        "options": [
+            "a. Transformational leadership",
+            "b. Directive leadership",
+            "c. Laissez-faire leadership",
+            "d. Servant leadership"
+        ],
+        "answer": 0,
+        "explanation": "Transformational leadership provides vision. ECO Domain 1 Task 1.1. PMBOK 7th Edition, Section 1.3."
+    },
+    {
+        "id": 33,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which stakeholders should be managed most closely according to the power/interest grid?",
+        "options": [
+            "a. Stakeholders with the highest level of power and interest",
+            "b. Stakeholders with the lowest level of power and interest",
+            "c. Stakeholders with the highest level of power and the lowest level interest",
+            "d. Stakeholders with the highest level of interest and involvement"
+        ],
+        "answer": 0,
+        "explanation": "High power and interest stakeholders managed closely. ECO Domain 1 Task 1.2. PMBOK 7th Edition, Section 2.4."
+    },
+    {
+        "id": 34,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "During project execution, a team member comes to the project manager because he is not sure of what work he needs to accomplish on the project. Which of the following documents contain detailed descriptions of work packages?",
+        "options": [
+            "a. WBS Dictionary",
+            "b. Activity List",
+            "c. Project scope statement",
+            "d. Scope management plan"
+        ],
+        "answer": 0,
+        "explanation": "WBS Dictionary has detailed descriptions. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 3.2."
+    },
+    {
+        "id": 35,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "During a meeting with some of the project stakeholders, the project manager is asked to add work to the project scope. The project manager had access to correspondence about the project before the project charter was signed and remembers that the project sponsor specifically denied funding for the scope mentioned by these stakeholders. The BEST thing for the project manager to do is to:",
+        "options": [
+            "a. Let the sponsor know of the stakeholders\u00e2\u20ac\u2122 requests",
+            "b. Evaluate the impact of adding the scope",
+            "c. Tell the stakeholders the scope cannot be added",
+            "d. Add the work if there is time available in the project schedule"
+        ],
+        "answer": 2,
+        "explanation": "Tell the stakeholders the scope cannot be added. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 3.2."
+    },
+    {
+        "id": 36,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Your project management plan results in a project schedule that is too long. If the project network diagram cannot change but you have extra personnel resources, what is the BEST thing to do?",
+        "options": [
+            "a. Fast track the project",
+            "b. Level the resources",
+            "c. Crash the project",
+            "d. Monte Carlo analysis"
+        ],
+        "answer": 2,
+        "explanation": "Crash the project to add resources. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 37,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "An activity has an early start (ES) of day 3, a late start (LS) of day 13, an early finish (EF) of day 9, and a late finish (LF) of day 19. The activity:",
+        "options": [
+            "a. Is on the critical path",
+            "b. Has a lag",
+            "c. Is progressing well",
+            "d. Is not on the critical path"
+        ],
+        "answer": 3,
+        "explanation": "The activity is not on the critical path (float of 10 days). ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 38,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Early in the life of your project, you are having a discussion with the sponsor about what estimating techniques should be used. You want a form of expert judgment, but the sponsor argues for analogous estimating. It would be BEST to:",
+        "options": [
+            "a. Agree to analogous estimating, as it is a form of expert judgment",
+            "b. Suggest life cycle costing",
+            "c. Determine why the sponsor wants such an accurate estimate",
+            "d. Try to convince the sponsor to allow expert judgment because it is typically more accurate"
+        ],
+        "answer": 0,
+        "explanation": "Agree to analogous estimating, as it is a form of expert judgment. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 39,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "A schedule performance index, SPI, of 0.75 means:",
+        "options": [
+            "a. Project is over budget",
+            "b. Project is ahead of schedule",
+            "c. Project is progressing at 75% of the rate originally planned",
+            "d. Project is progressing at 25% of the rate originally planned"
+        ],
+        "answer": 2,
+        "explanation": "Project is progressing at 75% of the rate originally planned. ECO Domain 2 Task 2.4. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 40,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "You are the program-level manager with several project activities underway. In the executing process group, you begin to become concerned about the accuracy of progress reports from the projects. What would BEST support your opinion that there is a problem?",
+        "options": [
+            "a. Quality Audits",
+            "b. Risk Quantification Reports",
+            "c. Regression Analysis",
+            "d. Monte Carlo Analysis"
+        ],
+        "answer": 0,
+        "explanation": "Quality Audits. ECO Domain 2 Task 2.5. PMBOK 7th Edition, Section 3.5."
+    },
+    {
+        "id": 41,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "You are a project manager for a major information systems project. Someone from the quality department comes to see you about beginning a quality audit of your project. The team, already under pressure to complete the project as soon as possible, objects to the audit. You should explain to the team that the purpose of a quality audit is:",
+        "options": [
+            "a. To ensure compliance with standards",
+            "b. To identify lessons learned",
+            "c. To assign corrective actions",
+            "d. To update the risk register"
+        ],
+        "answer": 0,
+        "explanation": "To ensure compliance with standards. ECO Domain 2 Task 2.5. PMBOK 7th Edition, Section 3.5."
+    },
+    {
+        "id": 42,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "What is the net present value (NPV) of a project with an initial investment of $30,000 and cash inflows of $10,000 per year for 5 years, assuming a discount rate of 10%?",
+        "options": [
+            "a. $20,000",
+            "b. $10,000",
+            "c. - $10,000",
+            "d. Cannot be determined from the given information"
+        ],
+        "answer": 3,
+        "explanation": "Cannot be determined from the given information. (Need to calculate NPV.) For closed-ended math, explain: NPV = -30k + sum (10k / (1.1)^t for t=1 to 5). ECO Domain 2 Task 2.4. PMBOK 7th Edition, Section 3.4."
+    },
+    {
+        "id": 43,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which of the following is a technique used to identify project risks?",
+        "options": [
+            "a. Focus groups",
+            "b. Brainstorming",
+            "c. Processing",
+            "d. Escalating"
+        ],
+        "answer": 1,
+        "explanation": "Brainstorming. ECO Domain 2 Task 2.6. PMBOK 7th Edition, Section 3.7."
+    },
+    {
+        "id": 44,
+        "type": "single",
+        "domain": 1,
+        "module": "6",
+        "question": "Which of the following is a tool used in the design phase of a project?",
+        "options": [
+            "a. Storyboarding",
+            "b. Wireframes",
+            "c. Evolutionary",
+            "d. Interactive"
+        ],
+        "answer": 0,
+        "explanation": "Storyboarding. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 45,
+        "type": "single",
+        "domain": 1,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements traceability matrix?",
+        "options": [
+            "a. To track the progress of project deliverables",
+            "b. To document and manage project risks",
+            "c. To link product requirements to the deliverables that satisfy them",
+            "d. To measure and assess project performance"
+        ],
+        "answer": 2,
+        "explanation": "To link product requirements to the deliverables that satisfy them. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 46,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "Which process involves activities such as testing and inspecting to ensure that project deliverables meet quality standards?",
+        "options": [
+            "a. Control Quality",
+            "b. Quality Audit",
+            "c. Manage Quality",
+            "d. Inspection"
+        ],
+        "answer": 0,
+        "explanation": "Control Quality. ECO Domain 2 Task 2.5. PMBOK 7th Edition, Section 3.5."
+    },
+    {
+        "id": 47,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What is a key output of the business case development process?",
+        "options": [
+            "a. Strategic alignment",
+            "b. Assessment of risk exposure",
+            "c. Economic feasibility study",
+            "d. Expected key performance measures"
+        ],
+        "answer": 0,
+        "explanation": "All are key outputs, but select all if multiple, but single, perhaps c. Economic feasibility study. ECO Domain 2 Task 2.7. PMBOK 7th Edition, Section 2.1."
+    },
+    {
+        "id": 48,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "What is the typical range of contingency reserves for high-risk projects?",
+        "options": [
+            "a. 25% to 50%",
+            "b. 20% to 40%",
+            "c. 10% to 20%",
+            "d. 5% to 10%"
+        ],
+        "answer": 0,
+        "explanation": "25% to 50%. ECO Domain 2 Task 2.4. PMBOK 7th Edition, Section 3.4."
+    },
+    {
+        "id": 49,
+        "type": "single",
+        "domain": 1,
+        "module": "5",
+        "question": "How should user stories be prioritized in an agile project?",
+        "options": [
+            "a. Based on the team's availability",
+            "b. Based on the effort required",
+            "c. Based on the business value",
+            "d. Based on the project schedule"
+        ],
+        "answer": 2,
+        "explanation": "Based on the business value. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 50,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "A project team is working closely with the product owner to determine inputs for the scope. Due to the complexity of the project, the team will develop a hierarchical description of the project requirements in order to deliver the expected business value. Which artifact will be developed?",
+        "options": [
+            "a. Risk breakdown structure (RBS)",
+            "b. Definition of done (DoD)",
+            "c. Return on investment (ROI)",
+            "d. Work breakdown structure (WBS)"
+        ],
+        "answer": 3,
+        "explanation": "Work breakdown structure (WBS). ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.2.1."
+    },
+    {
+        "id": 51,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Once the make-or-buy analysis is completed, which document defines the project delivery method?",
+        "options": [
+            "a. Procurement statement of work (SOW)",
+            "b. Procurement strategy",
+            "c. Terms of reference",
+            "d. Change request"
+        ],
+        "answer": 1,
+        "explanation": "Procurement strategy. ECO Domain 2 Task 2.3. PMBOK 7th Edition, Section 3.6."
+    },
+    {
+        "id": 52,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What should a project manager use to determine how much money is needed to complete a project?",
+        "options": [
+            "a. Earned value management (EVM)",
+            "b. Estimate at completion (EAC)",
+            "c. Earned value analysis (EVA)",
+            "d. Budget at completion (BAC)"
+        ],
+        "answer": 2,
+        "explanation": "Earned value analysis (EVA). ECO Domain 2 Task 2.4. PMBOK 7th Edition, Section 3.4."
+    },
+    {
+        "id": 53,
+        "type": "single",
+        "domain": 1,
+        "module": "5",
+        "question": "What is an agile control method that shows where the project is going over time?",
+        "options": [
+            "a. Burnup chart",
+            "b. Backlog",
+            "c. Burndown chart",
+            "d. Kanban board"
+        ],
+        "answer": 0,
+        "explanation": "Burnup chart. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 54,
+        "type": "single",
+        "domain": 1,
+        "module": "6",
+        "question": "At a requirements workshop, the attendees have stated that all of the elicited requirements are \"must haves.\" Which tool can be used to prioritize the requirements?",
+        "options": [
+            "a. Use case",
+            "b. Multivoting",
+            "c. Peer review",
+            "d. Wireframe"
+        ],
+        "answer": 1,
+        "explanation": "Multivoting. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 55,
+        "type": "single",
+        "domain": 2,
+        "module": "6",
+        "question": "Which of the following is a technique used to validate requirements?",
+        "options": [
+            "a. Verify Requirements",
+            "b. Peer Reviews",
+            "c. Control quality",
+            "d. Valid scope"
+        ],
+        "answer": 1,
+        "explanation": "Peer Reviews. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 56,
+        "type": "single",
+        "domain": 2,
+        "module": "5",
+        "question": "What is the purpose of a sprint review meeting?",
+        "options": [
+            "a. To refine and prioritize the backlog",
+            "b. To discuss and evaluate procurement needs",
+            "c. To review and decide on changes",
+            "d. To showcase the work completed during the iteration"
+        ],
+        "answer": 3,
+        "explanation": "To showcase the work completed during the iteration. ECO Domain 3 Task 3.2. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 57,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which meeting is typically held to ensure all potential bidders have a clear and common understanding of the procurement?",
+        "options": [
+            "a. Bidder conference",
+            "b. Daily standup",
+            "c. Backlog refinement",
+            "d. Kickoff"
+        ],
+        "answer": 0,
+        "explanation": "Bidder conference. ECO Domain 2 Task 2.3. PMBOK 7th Edition, Section 3.6."
+    },
+    {
+        "id": 58,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "When should risk management be performed in a project?",
+        "options": [
+            "a. Only at the beginning of the project during the planning phase",
+            "b. Only when the risks become apparent or unavoidable",
+            "c. Proactively throughout the project's duration",
+            "d. Only at the end of the project during the closing phase"
+        ],
+        "answer": 2,
+        "explanation": "Proactively throughout the project's duration. ECO Domain 1 Task 1.3. PMBOK 7th Edition, Section 3.7."
+    },
+    {
+        "id": 59,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "How should change requests be prioritized in a project?",
+        "options": [
+            "a. Based on business value",
+            "b. Based on date of submission",
+            "c. Based on alphabetical order of the items",
+            "d. Based on complexity of implementation"
+        ],
+        "answer": 0,
+        "explanation": "Based on business value. ECO Domain 1 Task 1.5. PMBOK 7th Edition, Section 3.1."
+    },
+    {
+        "id": 60,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "During project planning, the project manager identifies that a key resource will be unavailable for two months. What should the project manager do NEXT?",
+        "options": [
+            "a. Update the resource management plan",
+            "b. Crash the schedule",
+            "c. Fast track the project",
+            "d. Inform the sponsor"
+        ],
+        "answer": 0,
+        "explanation": "Update the resource management plan. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 2.3."
+    },
+    {
+        "id": 61,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which tool is used to determine the critical path in a project schedule?",
+        "options": [
+            "a. Gantt chart",
+            "b. Network diagram",
+            "c. Pareto chart",
+            "d. Histogram"
+        ],
+        "answer": 1,
+        "explanation": "Network diagram. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 62,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the primary purpose of a risk register?",
+        "options": [
+            "a. To track project costs",
+            "b. To document identified risks and their responses",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To document identified risks and their responses. ECO Domain 2 Task 2.6. PMBOK 7th Edition, Section 3.7."
+    },
+    {
+        "id": 63,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "In a predictive project, what is the purpose of the change control board (CCB)?",
+        "options": [
+            "a. To develop the project charter",
+            "b. To approve or reject change requests",
+            "c. To create the WBS",
+            "d. To monitor project risks"
+        ],
+        "answer": 1,
+        "explanation": "To approve or reject change requests. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 3.1."
+    },
+    {
+        "id": 64,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which estimating technique uses historical data from similar projects to estimate project duration or cost?",
+        "options": [
+            "a. Analogous estimating",
+            "b. Parametric estimating",
+            "c. Single-point estimating",
+            "d. Story point estimating"
+        ],
+        "answer": 0,
+        "explanation": "Analogous estimating. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 65,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the term for adding extra features to a project that were not part of the approved scope?",
+        "options": [
+            "a. Proactive risk mitigation",
+            "b. Goldplating",
+            "c. Approved scope alteration",
+            "d. Contingency planning"
+        ],
+        "answer": 1,
+        "explanation": "Goldplating. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 3.2."
+    },
+    {
+        "id": 66,
+        "type": "single",
+        "domain": 2,
+        "module": "6",
+        "question": "Which process group includes activities to define and document stakeholders' needs to meet project objectives?",
+        "options": [
+            "a. Establish Relationships and Dependencies",
+            "b. Determine Traceability and Monitoring Approach",
+            "c. Select and Approve Requirements",
+            "d. Manage Changes to Requirements"
+        ],
+        "answer": 2,
+        "explanation": "Select and Approve Requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 67,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the primary purpose of a cost baseline?",
+        "options": [
+            "a. To track project risks",
+            "b. To serve as a reference for comparing actual costs",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To serve as a reference for comparing actual costs. ECO Domain 2 Task 2.4. PMBOK 7th Edition, Section 3.4."
+    },
+    {
+        "id": 68,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "In a predictive project, what is the purpose of the scope baseline?",
+        "options": [
+            "a. To document stakeholder requirements",
+            "b. To serve as a reference for scope validation",
+            "c. To track project costs",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To serve as a reference for scope validation. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 3.2."
+    },
+    {
+        "id": 69,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "Which tool is used to monitor project performance in terms of cost and schedule?",
+        "options": [
+            "a. Earned value management (EVM)",
+            "b. Risk register",
+            "c. WBS dictionary",
+            "d. Stakeholder register"
+        ],
+        "answer": 0,
+        "explanation": "Earned value management (EVM). ECO Domain 2 Task 2.4. PMBOK 7th Edition, Section 3.4."
+    },
+    {
+        "id": 70,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the primary purpose of a quality management plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how quality will be managed and controlled",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how quality will be managed and controlled. ECO Domain 2 Task 2.5. PMBOK 7th Edition, Section 3.5."
+    },
+    {
+        "id": 71,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which process involves identifying and documenting project roles and responsibilities?",
+        "options": [
+            "a. Develop Project Charter",
+            "b. Plan Resource Management",
+            "c. Define Scope",
+            "d. Control Quality"
+        ],
+        "answer": 1,
+        "explanation": "Plan Resource Management. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 2.3."
+    },
+    {
+        "id": 72,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the primary purpose of a procurement management plan?",
+        "options": [
+            "a. To track project risks",
+            "b. To define how procurement will be managed",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how procurement will be managed. ECO Domain 2 Task 2.3. PMBOK 7th Edition, Section 3.6."
+    },
+    {
+        "id": 73,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which tool is used to analyze the impact of risks on project objectives?",
+        "options": [
+            "a. Risk breakdown structure (RBS)",
+            "b. Sensitivity analysis",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 1,
+        "explanation": "Sensitivity analysis. ECO Domain 2 Task 2.6. PMBOK 7th Edition, Section 3.7."
+    },
+    {
+        "id": 74,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "In a predictive project, what is the purpose of the schedule baseline?",
+        "options": [
+            "a. To document stakeholder requirements",
+            "b. To serve as a reference for schedule control",
+            "c. To track project costs",
+            "d. To outline the project scope"
+        ],
+        "answer": 1,
+        "explanation": "To serve as a reference for schedule control. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 75,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which process involves developing a detailed project budget?",
+        "options": [
+            "a. Plan Cost Management",
+            "b. Estimate Costs",
+            "c. Determine Budget",
+            "d. Control Costs"
+        ],
+        "answer": 2,
+        "explanation": "Determine Budget. ECO Domain 2 Task 2.4. PMBOK 7th Edition, Section 3.4."
+    },
+    {
+        "id": 76,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the primary purpose of a communication management plan?",
+        "options": [
+            "a. To track project risks",
+            "b. To define how communication will be managed",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how communication will be managed. ECO Domain 1 Task 1.8. PMBOK 7th Edition, Section 2.5."
+    },
+    {
+        "id": 77,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which tool is used to prioritize risks based on their probability and impact?",
+        "options": [
+            "a. Risk register",
+            "b. Probability and impact matrix",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 1,
+        "explanation": "Probability and impact matrix. ECO Domain 2 Task 2.6. PMBOK 7th Edition, Section 3.7."
+    },
+    {
+        "id": 78,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "In a predictive project, what is the purpose of the cost performance index (CPI)?",
+        "options": [
+            "a. To measure cost efficiency",
+            "b. To track project risks",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 0,
+        "explanation": "To measure cost efficiency. ECO Domain 2 Task 2.4. PMBOK 7th Edition, Section 3.4."
+    },
+    {
+        "id": 79,
+        "type": "single",
+        "domain": 2,
+        "module": "2",
+        "question": "Which process involves identifying and analyzing stakeholder needs and expectations?",
+        "options": [
+            "a. Identify Stakeholders",
+            "b. Plan Stakeholder Engagement",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 0,
+        "explanation": "Identify Stakeholders. ECO Domain 1 Task 1.2. PMBOK 7th Edition, Section 2.4."
+    },
+    {
+        "id": 80,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the primary purpose of a resource management plan?",
+        "options": [
+            "a. To track project risks",
+            "b. To define how resources will be managed",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how resources will be managed. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 2.3."
+    },
+    {
+        "id": 81,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which tool is used to track the status of project activities?",
+        "options": [
+            "a. Gantt chart",
+            "b. Risk register",
+            "c. WBS dictionary",
+            "d. Stakeholder register"
+        ],
+        "answer": 0,
+        "explanation": "Gantt chart. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 82,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "In a predictive project, what is the purpose of the quality baseline?",
+        "options": [
+            "a. To document stakeholder requirements",
+            "b. To serve as a reference for quality control",
+            "c. To track project costs",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To serve as a reference for quality control. ECO Domain 2 Task 2.5. PMBOK 7th Edition, Section 3.5."
+    },
+    {
+        "id": 83,
+        "type": "single",
+        "domain": 3,
+        "module": "4",
+        "question": "Which process involves monitoring and controlling project work to meet objectives?",
+        "options": [
+            "a. Direct and Manage Project Work",
+            "b. Monitor and Control Project Work",
+            "c. Perform Integrated Change Control",
+            "d. Close Project"
+        ],
+        "answer": 1,
+        "explanation": "Monitor and Control Project Work. ECO Domain 1 Task 1.3. PMBOK 7th Edition, Section 3.1."
+    },
+    {
+        "id": 84,
+        "type": "single",
+        "domain": 3,
+        "module": "3",
+        "question": "What is the primary purpose of a risk management plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how risks will be managed",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how risks will be managed. ECO Domain 2 Task 2.6. PMBOK 7th Edition, Section 3.7."
+    },
+    {
+        "id": 85,
+        "type": "single",
+        "domain": 3,
+        "module": "4",
+        "question": "Which tool is used to identify the root cause of a problem?",
+        "options": [
+            "a. Fishbone diagram",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Fishbone diagram. ECO Domain 2 Task 2.5. PMBOK 7th Edition, Section 3.5."
+    },
+    {
+        "id": 86,
+        "type": "single",
+        "domain": 3,
+        "module": "3",
+        "question": "In a predictive project, what is the purpose of the procurement statement of work (SOW)?",
+        "options": [
+            "a. To define the procurement requirements",
+            "b. To track project risks",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 0,
+        "explanation": "To define the procurement requirements. ECO Domain 2 Task 2.3. PMBOK 7th Edition, Section 3.6."
+    },
+    {
+        "id": 87,
+        "type": "single",
+        "domain": 3,
+        "module": "4",
+        "question": "Which process involves closing out all procurement contracts?",
+        "options": [
+            "a. Control Procurements",
+            "b. Close Procurements",
+            "c. Plan Procurement Management",
+            "d. Conduct Procurements"
+        ],
+        "answer": 1,
+        "explanation": "Close Procurements. ECO Domain 2 Task 2.3. PMBOK 7th Edition, Section 3.6."
+    },
+    {
+        "id": 88,
+        "type": "single",
+        "domain": 3,
+        "module": "3",
+        "question": "What is the primary purpose of a change management plan?",
+        "options": [
+            "a. To track project risks",
+            "b. To define how changes will be managed",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how changes will be managed. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 3.1."
+    },
+    {
+        "id": 89,
+        "type": "single",
+        "domain": 3,
+        "module": "3",
+        "question": "Which tool is used to estimate the duration of project activities?",
+        "options": [
+            "a. Three-point estimating",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Three-point estimating. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.3."
+    },
+    {
+        "id": 90,
+        "type": "single",
+        "domain": 3,
+        "module": "3",
+        "question": "In a predictive project, what is the purpose of the project management plan?",
+        "options": [
+            "a. To document stakeholder requirements",
+            "b. To serve as a comprehensive guide for project execution",
+            "c. To track project costs",
+            "d. To outline the project scope"
+        ],
+        "answer": 1,
+        "explanation": "To serve as a comprehensive guide for project execution. ECO Domain 2 Task 2.2. PMBOK 7th Edition, Section 3.1."
+    },
+    {
+        "id": 91,
+        "type": "single",
+        "domain": 3,
+        "module": "4",
+        "question": "Which process involves ensuring that project deliverables meet quality requirements?",
+        "options": [
+            "a. Control Quality",
+            "b. Manage Quality",
+            "c. Plan Quality Management",
+            "d. Validate Scope"
+        ],
+        "answer": 0,
+        "explanation": "Control Quality. ECO Domain 2 Task 2.5. PMBOK 7th Edition, Section 3.5."
+    },
+    {
+        "id": 92,
+        "type": "single",
+        "domain": 3,
+        "module": "3",
+        "question": "What is the primary purpose of a scope management plan?",
+        "options": [
+            "a. To track project risks",
+            "b. To define how scope will be managed",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how scope will be managed. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 3.2."
+    },
+    {
+        "id": 93,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which tool is used to monitor the progress of agile projects?",
+        "options": [
+            "a. Burndown chart",
+            "b. Gantt chart",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 0,
+        "explanation": "Burndown chart. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 94,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "In an agile project, what is the purpose of the product backlog?",
+        "options": [
+            "a. To track project costs",
+            "b. To list prioritized requirements",
+            "c. To outline the project schedule",
+            "d. To document stakeholder engagement"
+        ],
+        "answer": 1,
+        "explanation": "To list prioritized requirements. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 95,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which process involves refining the product backlog in an agile project?",
+        "options": [
+            "a. Sprint Planning",
+            "b. Backlog Refinement",
+            "c. Daily Scrum",
+            "d. Sprint Review"
+        ],
+        "answer": 1,
+        "explanation": "Backlog Refinement. ECO Domain 3 Task 3.2. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 96,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the primary purpose of a daily scrum meeting?",
+        "options": [
+            "a. To showcase completed work",
+            "b. To plan the next sprint",
+            "c. To synchronize team activities",
+            "d. To refine the backlog"
+        ],
+        "answer": 2,
+        "explanation": "To synchronize team activities. ECO Domain 3 Task 3.2. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 97,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which tool is used to visualize workflow in an agile project?",
+        "options": [
+            "a. Kanban board",
+            "b. Gantt chart",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 0,
+        "explanation": "Kanban board. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 98,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "In an agile project, what is the purpose of the definition of done (DoD)?",
+        "options": [
+            "a. To track project risks",
+            "b. To define when a task is complete",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define when a task is complete. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 99,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which process involves selecting the work to be done in the next iteration?",
+        "options": [
+            "a. Sprint Planning",
+            "b. Backlog Refinement",
+            "c. Daily Scrum",
+            "d. Sprint Review"
+        ],
+        "answer": 0,
+        "explanation": "Sprint Planning. ECO Domain 3 Task 3.2. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 100,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the primary purpose of a sprint retrospective?",
+        "options": [
+            "a. To showcase completed work",
+            "b. To plan the next sprint",
+            "c. To improve team processes",
+            "d. To refine the backlog"
+        ],
+        "answer": 2,
+        "explanation": "To improve team processes. ECO Domain 3 Task 3.2. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 101,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which tool is used to estimate effort in an agile project?",
+        "options": [
+            "a. Story points",
+            "b. Three-point estimating",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 0,
+        "explanation": "Story points. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 102,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "In an agile project, what is the role of the product owner?",
+        "options": [
+            "a. To manage the project schedule",
+            "b. To prioritize the product backlog",
+            "c. To facilitate team meetings",
+            "d. To monitor project risks"
+        ],
+        "answer": 1,
+        "explanation": "To prioritize the product backlog. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 1.3."
+    },
+    {
+        "id": 103,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which process involves reviewing completed work with stakeholders in an agile project?",
+        "options": [
+            "a. Sprint Planning",
+            "b. Backlog Refinement",
+            "c. Daily Scrum",
+            "d. Sprint Review"
+        ],
+        "answer": 3,
+        "explanation": "Sprint Review. ECO Domain 3 Task 3.2. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 104,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the primary purpose of velocity in an agile project?",
+        "options": [
+            "a. To track project costs",
+            "b. To measure team productivity",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To measure team productivity. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 105,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which tool is used to limit work in progress in an agile project?",
+        "options": [
+            "a. Kanban board",
+            "b. Gantt chart",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 0,
+        "explanation": "Kanban board. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 106,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "In an agile project, what is the role of the scrum master?",
+        "options": [
+            "a. To prioritize the product backlog",
+            "b. To facilitate the scrum process",
+            "c. To manage the project budget",
+            "d. To monitor project risks"
+        ],
+        "answer": 1,
+        "explanation": "To facilitate the scrum process. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 1.3."
+    },
+    {
+        "id": 107,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which process involves identifying the work to be done in an agile project?",
+        "options": [
+            "a. Sprint Planning",
+            "b. Backlog Refinement",
+            "c. Daily Scrum",
+            "d. Sprint Review"
+        ],
+        "answer": 0,
+        "explanation": "Sprint Planning. ECO Domain 3 Task 3.2. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 108,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the primary purpose of a burnup chart in an agile project?",
+        "options": [
+            "a. To track project costs",
+            "b. To show progress toward completion",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To show progress toward completion. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 109,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which tool is used to prioritize features in an agile project?",
+        "options": [
+            "a. MoSCoW prioritization",
+            "b. Three-point estimating",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 0,
+        "explanation": "MoSCoW prioritization. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 110,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "In an agile project, what is the purpose of the sprint goal?",
+        "options": [
+            "a. To track project risks",
+            "b. To define the focus of the sprint",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define the focus of the sprint. ECO Domain 3 Task 3.2. PMBOK 7th Edition, Section 3.3.2."
+    },
+    {
+        "id": 111,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves analyzing stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Plan Stakeholder Engagement",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 0,
+        "explanation": "Needs Assessment. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 112,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a business case?",
+        "options": [
+            "a. To track project costs",
+            "b. To justify the need for the project",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To justify the need for the project. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 2.1."
+    },
+    {
+        "id": 113,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to elicit requirements in a business analysis context?",
+        "options": [
+            "a. Brainstorming",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Brainstorming. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 114,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a use case?",
+        "options": [
+            "a. To track project risks",
+            "b. To describe stakeholder interactions with the system",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To describe stakeholder interactions with the system. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 115,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves validating requirements in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 1,
+        "explanation": "Define and Approve Requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 116,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements traceability matrix?",
+        "options": [
+            "a. To track project costs",
+            "b. To link requirements to deliverables",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To link requirements to deliverables. ECO Domain 4 Task 4.3. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 117,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to prioritize requirements in a business analysis context?",
+        "options": [
+            "a. Multivoting",
+            "b. Three-point estimating",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 0,
+        "explanation": "Multivoting. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 118,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a process model?",
+        "options": [
+            "a. To track project risks",
+            "b. To visualize workflows",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To visualize workflows. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 119,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves managing changes to requirements in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Changes to Requirements",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 2,
+        "explanation": "Manage Changes to Requirements. ECO Domain 4 Task 4.4. PMBOK 7th Edition, Section 4.4."
+    },
+    {
+        "id": 120,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a stakeholder analysis?",
+        "options": [
+            "a. To track project costs",
+            "b. To identify stakeholder needs and influence",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To identify stakeholder needs and influence. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 121,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to analyze requirements in a business analysis context?",
+        "options": [
+            "a. Decision tree",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Decision tree. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 122,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a data flow diagram?",
+        "options": [
+            "a. To track project risks",
+            "b. To visualize data movement",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To visualize data movement. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 123,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves approving requirements in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 1,
+        "explanation": "Define and Approve Requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 124,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a solution evaluation?",
+        "options": [
+            "a. To track project costs",
+            "b. To assess the effectiveness of the solution",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To assess the effectiveness of the solution. ECO Domain 4 Task 4.5. PMBOK 7th Edition, Section 4.5."
+    },
+    {
+        "id": 125,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to validate a solution in a business analysis context?",
+        "options": [
+            "a. Prototyping",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Prototyping. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 126,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a gap analysis?",
+        "options": [
+            "a. To track project risks",
+            "b. To identify differences between current and desired states",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To identify differences between current and desired states. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 127,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves eliciting requirements in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 0,
+        "explanation": "Needs Assessment. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 128,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements management plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how requirements will be managed",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how requirements will be managed. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 129,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to document requirements in a business analysis context?",
+        "options": [
+            "a. Requirements document",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Requirements document. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 130,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a SWOT analysis?",
+        "options": [
+            "a. To track project risks",
+            "b. To assess strengths, weaknesses, opportunities, and threats",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To assess strengths, weaknesses, opportunities, and threats. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 131,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves prioritizing requirements in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 1,
+        "explanation": "Define and Approve Requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 132,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a feasibility study?",
+        "options": [
+            "a. To track project costs",
+            "b. To assess the viability of a project",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To assess the viability of a project. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 133,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to model requirements in a business analysis context?",
+        "options": [
+            "a. Use case diagram",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Use case diagram. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 134,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a stakeholder map?",
+        "options": [
+            "a. To track project risks",
+            "b. To visualize stakeholder relationships",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To visualize stakeholder relationships. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 135,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves monitoring requirements in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Changes to Requirements",
+            "d. Monitor Requirements"
+        ],
+        "answer": 3,
+        "explanation": "Manage Changes to Requirements. ECO Domain 4 Task 4.4. PMBOK 7th Edition, Section 4.4."
+    },
+    {
+        "id": 136,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a business analysis plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how business analysis will be conducted",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how business analysis will be conducted. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 137,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to analyze stakeholder influence in a business analysis context?",
+        "options": [
+            "a. Power/interest grid",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Power/interest grid. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 138,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a decision table?",
+        "options": [
+            "a. To track project risks",
+            "b. To document decision-making criteria",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To document decision-making criteria. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 139,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves assessing stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 0,
+        "explanation": "Needs Assessment. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 140,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements elicitation plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how requirements will be gathered",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how requirements will be gathered. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 141,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to validate requirements in a business analysis context?",
+        "options": [
+            "a. Peer review",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Peer review. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 142,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a context diagram?",
+        "options": [
+            "a. To track project risks",
+            "b. To show system boundaries and interactions",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To show system boundaries and interactions. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 143,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves documenting requirements in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 1,
+        "explanation": "Define and Approve Requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 144,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a solution scope?",
+        "options": [
+            "a. To track project costs",
+            "b. To define the boundaries of the solution",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define the boundaries of the solution. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 145,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to prioritize stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Kano model",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Kano model. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 146,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a traceability matrix?",
+        "options": [
+            "a. To track project risks",
+            "b. To link requirements to deliverables",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To link requirements to deliverables. ECO Domain 4 Task 4.3. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 147,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves analyzing requirements in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 1,
+        "explanation": "Define and Approve Requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 148,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements validation plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how requirements will be validated",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how requirements will be validated. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 149,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to elicit stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Interviews",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Interviews. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 150,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a stakeholder engagement plan?",
+        "options": [
+            "a. To track project risks",
+            "b. To define how stakeholders will be engaged",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how stakeholders will be engaged. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 151,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves approving stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 1,
+        "explanation": "Define and Approve Requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 152,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements prioritization plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how requirements will be prioritized",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how requirements will be prioritized. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 153,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to model stakeholder interactions in a business analysis context?",
+        "options": [
+            "a. Use case diagram",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Use case diagram. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 154,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a solution assessment?",
+        "options": [
+            "a. To track project risks",
+            "b. To evaluate the effectiveness of the solution",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To evaluate the effectiveness of the solution. ECO Domain 4 Task 4.5. PMBOK 7th Edition, Section 4.5."
+    },
+    {
+        "id": 155,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves validating stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 1,
+        "explanation": "Define and Approve Requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 156,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements approval process?",
+        "options": [
+            "a. To track project costs",
+            "b. To formalize agreement on requirements",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To formalize agreement on requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 157,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to analyze stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Affinity diagram",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Affinity diagram. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 158,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a requirements change management plan?",
+        "options": [
+            "a. To track project risks",
+            "b. To define how changes to requirements will be managed",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how changes to requirements will be managed. ECO Domain 4 Task 4.4. PMBOK 7th Edition, Section 4.4."
+    },
+    {
+        "id": 159,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves prioritizing stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 1,
+        "explanation": "Define and Approve Requirements. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 160,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements communication plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how requirements will be communicated",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how requirements will be communicated. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 161,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to validate stakeholder interactions in a business analysis context?",
+        "options": [
+            "a. Prototyping",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Prototyping. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 162,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a requirements traceability plan?",
+        "options": [
+            "a. To track project risks",
+            "b. To define how requirements will be traced",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how requirements will be traced. ECO Domain 4 Task 4.3. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 163,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves eliciting stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 0,
+        "explanation": "Needs Assessment. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 164,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements documentation plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how requirements will be documented",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how requirements will be documented. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 165,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to prioritize requirements in a business analysis context?",
+        "options": [
+            "a. Weighted scoring",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Weighted scoring. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 166,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a stakeholder requirements document?",
+        "options": [
+            "a. To track project risks",
+            "b. To document stakeholder needs",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To document stakeholder needs. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 167,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves monitoring stakeholder needs in a business analysis context?",
+        "options": [
+            "a. Needs Assessment",
+            "b. Define and Approve Requirements",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 3,
+        "explanation": "Monitor Stakeholder Engagement. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 2.4."
+    },
+    {
+        "id": 168,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the primary purpose of a requirements verification plan?",
+        "options": [
+            "a. To track project costs",
+            "b. To define how requirements will be verified",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how requirements will be verified. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.3."
+    },
+    {
+        "id": 169,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to analyze stakeholder interactions in a business analysis context?",
+        "options": [
+            "a. Stakeholder map",
+            "b. Pareto chart",
+            "c. Control chart",
+            "d. Histogram"
+        ],
+        "answer": 0,
+        "explanation": "Stakeholder map. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1."
+    },
+    {
+        "id": 170,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "In a business analysis context, what is the purpose of a solution evaluation plan?",
+        "options": [
+            "a. To track project risks",
+            "b. To define how the solution will be evaluated",
+            "c. To list project deliverables",
+            "d. To outline the project schedule"
+        ],
+        "answer": 1,
+        "explanation": "To define how the solution will be evaluated. ECO Domain 4 Task 4.5. PMBOK 7th Edition, Section 4.5."
+    },
+    {
+        "id": 171,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the purpose of a requirements traceability matrix?",
+        "options": [
+            "To track the progress of project deliverables.",
+            "To document and manage project risks.",
+            "To link product requirements to the deliverables that satisfy them.",
+            "To measure and assess project performance."
+        ],
+        "answer": 2,
+        "explanation": "To link product requirements to the deliverables that satisfy them. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 4.3; Google PM Course 3."
+    },
+    {
+        "id": 172,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "Which of the following is a technique used to gather requirements?",
+        "options": [
+            "Focus groups",
+            "Brainstorming",
+            "Processing",
+            "Escalating"
+        ],
+        "answer": 1,
+        "explanation": "Brainstorming is a technique for gathering requirements. ECO Domain 1 Task 1.5. PMBOK 7th Edition, Section 4.1; Google PM Course 1."
+    },
+    {
+        "id": 173,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which of the following is a tool used in business analysis for visualizing user interfaces?",
+        "options": [
+            "Storyboarding",
+            "Wireframes",
+            "Evolutionary",
+            "Interactive"
+        ],
+        "answer": 1,
+        "explanation": "Wireframes visualize user interfaces in business analysis. ECO Domain 4 Task 4.1. PMBOK 7th Edition, Section 4.1; Google PM Course 6."
+    },
+    {
+        "id": 174,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "Which process group includes activities to ensure that the project's deliverables meet the quality standards?",
+        "options": [
+            "Control quality.",
+            "Quality audit.",
+            "Manage quality.",
+            "Inspection."
+        ],
+        "answer": 2,
+        "explanation": "Manage quality ensures deliverables meet quality standards. ECO Domain 2 Task 2.5. PMBOK 7th Edition, Section 3.5; Google PM Course 4."
+    },
+    {
+        "id": 175,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What is a key consideration during the project initiation phase?",
+        "options": [
+            "Strategic alignment.",
+            "Assessment of risk exposure.",
+            "Economic feasibility study.",
+            "Expected key performance measures."
+        ],
+        "answer": 0,
+        "explanation": "Strategic alignment is key during initiation. ECO Domain 1 Task 1.6. PMBOK 7th Edition, Section 2.1; Google PM Course 2."
+    },
+    {
+        "id": 176,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the typical range for contingency reserves in project cost estimates?",
+        "options": [
+            "25% to 50%",
+            "20% to 40%",
+            "10% to 20%",
+            "5% to 10%"
+        ],
+        "answer": 2,
+        "explanation": "10% to 20% is typical for contingency reserves. ECO Domain 2 Task 2.4. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 177,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "How should user stories be prioritized in an Agile project?",
+        "options": [
+            "Based on the team's availability.",
+            "Based on the effort required.",
+            "Based on the business value.",
+            "Based on the project schedule."
+        ],
+        "answer": 2,
+        "explanation": "Prioritized based on business value. ECO Domain 3 Task 3.1. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 178,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "Which leadership style is most effective for motivating and inspiring team members?",
+        "options": [
+            "Transformational leadership",
+            "Directive leadership",
+            "Laissez-faire leadership",
+            "Servant leadership"
+        ],
+        "answer": 0,
+        "explanation": "Transformational leadership motivates and inspires. ECO Domain 1 Task 1.1. PMBOK 7th Edition, Section 1.3; Google PM Course 1."
+    },
+    {
+        "id": 179,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which stakeholders should be prioritized in stakeholder engagement?",
+        "options": [
+            "Stakeholders with the highest level of power and interest.",
+            "Stakeholders with the lowest level of power and interest.",
+            "Stakeholders with the highest level of power and the lowest level interest.",
+            "Stakeholders with the highest level of interest and involvement."
+        ],
+        "answer": 0,
+        "explanation": "High power and interest stakeholders are prioritized. ECO Domain 1 Task 1.2. PMBOK 7th Edition, Section 2.4; Google PM Course 2."
+    },
+    {
+        "id": 180,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "The issues you are facing on your project could have been predicted if a formal risk management process was used. Which document would have been most useful to you along the entire risk management process, from identifying risks to planning and implementing responses to monitoring risks?",
+        "options": [
+            "A Risk register",
+            "B List of risk triggers",
+            "C Risk mitigation",
+            "D Decision tree"
+        ],
+        "answer": 0,
+        "explanation": "Risk register is a repository for risk information. ECO Domain 2 Task 2.6. PMBOK 7th Edition, Section 3.7; Google PM Course 3."
+    },
+    {
+        "id": 181,
+        "type": "multiple",
+        "domain": 2,
+        "module": "3",
+        "question": "There is a complaint from your team that the requirements against which it will work are unclear. What are three criteria that well-defined requirements should meet? (Choose 3)",
+        "options": [
+            "A. Consistent",
+            "B. Clear and concise",
+            "C. Verifiable",
+            "D. Challenging",
+            "E. Linked with milestones"
+        ],
+        "answer": [
+            0,
+            1,
+            2
+        ],
+        "explanation": "Well-defined requirements are consistent, clear and concise, and verifiable. ECO Domain 2 Task 2.1. PMBOK 7th Edition, Section 4.3; Google PM Course 3."
+    },
+    {
+        "id": 182,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Team development has been problematic due to handling of assumptions. Team members reject the notion that assumptions reflect uncertainty. Others suggest exploring assumptions should be an integral of team building, following the Drexler/Sibbet Team Performance Model. What is the best way to describe the assumption handling in this model?",
+        "options": [
+            "A. A salesperson in charge has the responsibility of identifying all risks associated with a customer project.",
+            "B. By managing and organizing assumptions, you can avoid risks from the start.",
+            "C. A risk indicates uncertainty. Eliminating all uncertainties means a project would be risk-free.",
+            "D. Finding out more about assumptions should be an element of goal clarification by the team."
+        ],
+        "answer": 3,
+        "explanation": "Finding out more about assumptions is part of goal clarification. ECO Domain 1 Task 1.1. PMBOK 7th Edition, Section 2.3; Google PM Course 2."
+    },
+    {
+        "id": 183,
+        "type": "multiple",
+        "domain": 1,
+        "module": "2",
+        "question": "You were contacted this morning by a customer who complained about a member of your staff on customer's premises, complaining that they didn't fully blend in with her staff. In addition, she stressed that there are conflicts arising from different corporate cultures in her organization and yours. She requested that you motivate them to display greater stewardship. What is she referring to? (Choose 3)",
+        "options": [
+            "A. Care",
+            "B. Respect",
+            "C. Diligence",
+            "D. Formal leadership",
+            "E. Tayloring"
+        ],
+        "answer": [
+            0,
+            1,
+            2
+        ],
+        "explanation": "Stewardship includes care, respect, and diligence. ECO Domain 1 Task 1.1. PMBOK 7th Edition, Section 1.3; Google PM Course 2."
+    },
+    {
+        "id": 184,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "What is the main role of a project sponsor?",
+        "options": [
+            "a. To manage day-to-day operations",
+            "b. To provide resources and support",
+            "c. To execute project tasks",
+            "d. To monitor team performance"
+        ],
+        "answer": 1,
+        "explanation": "The project sponsor provides resources and support. ECO Domain 1, Task 1.1: Demonstrate an understanding of project roles, responsibilities, and organizational structures. PMBOK 7th Edition, Section 1.3; Google PM Course 1."
+    },
+    {
+        "id": 185,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which document formally authorizes a project?",
+        "options": [
+            "a. Project management plan",
+            "b. Project charter",
+            "c. Scope baseline",
+            "d. Risk register"
+        ],
+        "answer": 1,
+        "explanation": "The project charter formally authorizes the project. ECO Domain 1, Task 1.6: Demonstrate an understanding of project initiation documents. PMBOK 7th Edition, Section 2.2; Google PM Course 2."
+    },
+    {
+        "id": 186,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "In which organizational structure does the project manager have the most authority?",
+        "options": [
+            "a. Functional",
+            "b. Matrix",
+            "c. Projectized",
+            "d. Hybrid"
+        ],
+        "answer": 2,
+        "explanation": "In a projectized structure, the project manager has the most authority. ECO Domain 1, Task 1.4: Demonstrate an understanding of organizational influences on projects. PMBOK 7th Edition, Section 1.2; Google PM Course 1."
+    },
+    {
+        "id": 187,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What is the purpose of stakeholder analysis?",
+        "options": [
+            "a. To identify and prioritize stakeholders",
+            "b. To develop the project schedule",
+            "c. To estimate project costs",
+            "d. To define project risks"
+        ],
+        "answer": 0,
+        "explanation": "Stakeholder analysis identifies and prioritizes stakeholders. ECO Domain 1, Task 1.2: Demonstrate an understanding of stakeholder identification and engagement. PMBOK 7th Edition, Section 2.4; Google PM Course 2."
+    },
+    {
+        "id": 188,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which tool is used to decompose the project scope into smaller components?",
+        "options": [
+            "a. Gantt chart",
+            "b. Work breakdown structure (WBS)",
+            "c. Risk register",
+            "d. Stakeholder register"
+        ],
+        "answer": 1,
+        "explanation": "The work breakdown structure (WBS) decomposes the project scope. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.2.1; Google PM Course 3."
+    },
+    {
+        "id": 189,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "What is the role of the project manager in a matrix organization?",
+        "options": [
+            "a. Full authority over resources",
+            "b. Shared authority with functional managers",
+            "c. No authority over resources",
+            "d. Authority over the sponsor"
+        ],
+        "answer": 1,
+        "explanation": "In a matrix organization, the project manager shares authority with functional managers. ECO Domain 1, Task 1.4: Demonstrate an understanding of organizational influences on projects. PMBOK 7th Edition, Section 1.2; Google PM Course 1."
+    },
+    {
+        "id": 190,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which is a key input to the Develop Project Charter process?",
+        "options": [
+            "a. Business case",
+            "b. Project management plan",
+            "c. Scope baseline",
+            "d. Risk register"
+        ],
+        "answer": 0,
+        "explanation": "The business case is a key input to developing the project charter. ECO Domain 1, Task 1.6: Demonstrate an understanding of project initiation documents. PMBOK 7th Edition, Section 2.2; Google PM Course 2."
+    },
+    {
+        "id": 191,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the purpose of earned value management (EVM)?",
+        "options": [
+            "a. To estimate project duration",
+            "b. To measure project performance",
+            "c. To prioritize requirements",
+            "d. To identify stakeholders"
+        ],
+        "answer": 1,
+        "explanation": "EVM measures project performance. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 192,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which process group includes the development of the scope management plan?",
+        "options": [
+            "a. Initiating",
+            "b. Planning",
+            "c. Executing",
+            "d. Monitoring and Controlling"
+        ],
+        "answer": 1,
+        "explanation": "The planning process group includes the development of the scope management plan. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 3."
+    },
+    {
+        "id": 193,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What is the benefit of a project charter?",
+        "options": [
+            "a. It defines detailed tasks",
+            "b. It authorizes the project and appoints the project manager",
+            "c. It tracks project costs",
+            "d. It lists all risks"
+        ],
+        "answer": 1,
+        "explanation": "The project charter authorizes the project and appoints the project manager. ECO Domain 1, Task 1.6: Demonstrate an understanding of project initiation documents. PMBOK 7th Edition, Section 2.2; Google PM Course 2."
+    },
+    {
+        "id": 194,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "Which is a characteristic of a functional organization?",
+        "options": [
+            "a. Project manager has high authority",
+            "b. Resources are shared across projects",
+            "c. Team members report to functional managers",
+            "d. Projects are the primary focus"
+        ],
+        "answer": 2,
+        "explanation": "In a functional organization, team members report to functional managers. ECO Domain 1, Task 1.4: Demonstrate an understanding of organizational influences on projects. PMBOK 7th Edition, Section 1.2; Google PM Course 1."
+    },
+    {
+        "id": 195,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the formula for cost variance (CV) in EVM?",
+        "options": [
+            "a. EV - AC",
+            "b. EV - PV",
+            "c. AC - EV",
+            "d. PV - EV"
+        ],
+        "answer": 0,
+        "explanation": "Cost variance (CV) is EV - AC. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 196,
+        "type": "single",
+        "domain": 1,
+        "module": "5",
+        "question": "In agile, what does the term 'iterative' mean?",
+        "options": [
+            "a. Building the product in increments",
+            "b. Completing the project in one go",
+            "c. Focusing on planning only",
+            "d. Ignoring stakeholder feedback"
+        ],
+        "answer": 0,
+        "explanation": "Iterative means building the product in increments. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 197,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which is an output of the Identify Stakeholders process?",
+        "options": [
+            "a. Stakeholder register",
+            "b. Project charter",
+            "c. Scope baseline",
+            "d. Risk register"
+        ],
+        "answer": 0,
+        "explanation": "The stakeholder register is an output of Identify Stakeholders. ECO Domain 1, Task 1.2: Demonstrate an understanding of stakeholder identification and engagement. PMBOK 7th Edition, Section 2.4; Google PM Course 2."
+    },
+    {
+        "id": 198,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "What is the critical path in a project?",
+        "options": [
+            "a. The shortest sequence of activities",
+            "b. The longest sequence of activities",
+            "c. The sequence with the most resources",
+            "d. The sequence with the least risks"
+        ],
+        "answer": 1,
+        "explanation": "The critical path is the longest sequence of activities. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.3; Google PM Course 3."
+    },
+    {
+        "id": 199,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the purpose of a quality audit?",
+        "options": [
+            "a. To identify lessons learned",
+            "b. To ensure compliance with standards",
+            "c. To assign corrective actions",
+            "d. To update the risk register"
+        ],
+        "answer": 1,
+        "explanation": "Quality audit ensures compliance with standards. ECO Domain 2, Task 2.5: Manage quality and compliance. PMBOK 7th Edition, Section 3.5; Google PM Course 4."
+    },
+    {
+        "id": 200,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which estimating technique uses three estimates to define an approximate range?",
+        "options": [
+            "a. Analogous estimating",
+            "b. Parametric estimating",
+            "c. Three-point estimating",
+            "d. Bottom-up estimating"
+        ],
+        "answer": 2,
+        "explanation": "Three-point estimating uses optimistic, pessimistic, and most likely estimates. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.3; Google PM Course 3."
+    },
+    {
+        "id": 201,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "What is the role of a team member in a project?",
+        "options": [
+            "a. Provides resources and support",
+            "b. Leads and manages the project",
+            "c. Executes project tasks",
+            "d. Influences the project"
+        ],
+        "answer": 2,
+        "explanation": "Team members execute project tasks. ECO Domain 1, Task 1.1: Demonstrate an understanding of project roles, responsibilities, and organizational structures. PMBOK 7th Edition, Section 1.3; Google PM Course 1."
+    },
+    {
+        "id": 202,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which is a high-level input to the project charter?",
+        "options": [
+            "a. High-level requirements",
+            "b. Detailed schedule",
+            "c. Detailed budget",
+            "d. Detailed risks"
+        ],
+        "answer": 0,
+        "explanation": "High-level requirements are included in the project charter. ECO Domain 1, Task 1.6: Demonstrate an understanding of project initiation documents. PMBOK 7th Edition, Section 2.2; Google PM Course 2."
+    },
+    {
+        "id": 203,
+        "type": "single",
+        "domain": 1,
+        "module": "5",
+        "question": "What is a hybrid methodology in project management?",
+        "options": [
+            "a. Combination of predictive and agile approaches",
+            "b. Purely predictive approach",
+            "c. Purely agile approach",
+            "d. Waterfall approach"
+        ],
+        "answer": 0,
+        "explanation": "Hybrid methodology combines predictive and agile approaches. ECO Domain 1, Task 1.7: Demonstrate an understanding of emerging trends in project management. PMBOK 7th Edition, Section 1.4; Google PM Course 5."
+    },
+    {
+        "id": 204,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "What is the purpose of a communications management plan?",
+        "options": [
+            "a. To define how information will be distributed",
+            "b. To define the project scope",
+            "c. To define the project budget",
+            "d. To define the project risks"
+        ],
+        "answer": 0,
+        "explanation": "The communications management plan defines how information will be distributed. ECO Domain 1, Task 1.8: Demonstrate an understanding of communication fundamentals. PMBOK 7th Edition, Section 2.5; Google PM Course 3."
+    },
+    {
+        "id": 205,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which is a key component of the project charter?",
+        "options": [
+            "a. High-level risks",
+            "b. Detailed schedule",
+            "c. Detailed budget",
+            "d. Detailed tasks"
+        ],
+        "answer": 0,
+        "explanation": "High-level risks are included in the project charter. ECO Domain 1, Task 1.6: Demonstrate an understanding of project initiation documents. PMBOK 7th Edition, Section 2.2; Google PM Course 2."
+    },
+    {
+        "id": 206,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the purpose of the Close Project process?",
+        "options": [
+            "a. To finalize all activities",
+            "b. To define the project scope",
+            "c. To develop the project plan",
+            "d. To identify stakeholders"
+        ],
+        "answer": 0,
+        "explanation": "The Close Project process finalizes all activities. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 4."
+    },
+    {
+        "id": 207,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "Which tool is used in team development?",
+        "options": [
+            "a. Team-building activities",
+            "b. Cost-benefit analysis",
+            "c. Quality audits",
+            "d. Expert judgment"
+        ],
+        "answer": 0,
+        "explanation": "Team-building activities are used in team development. ECO Domain 1, Task 1.1: Demonstrate an understanding of project roles, responsibilities, and organizational structures. PMBOK 7th Edition, Section 2.3; Google PM Course 4."
+    },
+    {
+        "id": 208,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What does EVM measure?",
+        "options": [
+            "a. Project performance",
+            "b. Project scope",
+            "c. Project risks",
+            "d. Project stakeholders"
+        ],
+        "answer": 0,
+        "explanation": "EVM measures project performance. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 209,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "In a functional organization, who has authority over resources?",
+        "options": [
+            "a. Project manager",
+            "b. Functional manager",
+            "c. Sponsor",
+            "d. Team member"
+        ],
+        "answer": 1,
+        "explanation": "The functional manager has authority over resources in a functional organization. ECO Domain 1, Task 1.4: Demonstrate an understanding of organizational influences on projects. PMBOK 7th Edition, Section 1.2; Google PM Course 1."
+    },
+    {
+        "id": 210,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "What is the purpose of the stakeholder register?",
+        "options": [
+            "a. To document stakeholder information",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To develop the project schedule"
+        ],
+        "answer": 0,
+        "explanation": "The stakeholder register documents stakeholder information. ECO Domain 1, Task 1.2: Demonstrate an understanding of stakeholder identification and engagement. PMBOK 7th Edition, Section 2.4; Google PM Course 2."
+    },
+    {
+        "id": 211,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the purpose of the scope management plan?",
+        "options": [
+            "a. To define how scope will be managed",
+            "b. To define how costs will be managed",
+            "c. To define how risks will be managed",
+            "d. To define how quality will be managed"
+        ],
+        "answer": 0,
+        "explanation": "The scope management plan defines how scope will be managed. ECO Domain 2, Task 2.1: Manage the project scope. PMBOK 7th Edition, Section 3.2; Google PM Course 3."
+    },
+    {
+        "id": 212,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the purpose of the Validate Scope process?",
+        "options": [
+            "a. To accept deliverables",
+            "b. To define scope",
+            "c. To control scope",
+            "d. To close the project"
+        ],
+        "answer": 0,
+        "explanation": "Validate Scope is to accept deliverables. ECO Domain 2, Task 2.1: Manage the project scope. PMBOK 7th Edition, Section 3.2; Google PM Course 4."
+    },
+    {
+        "id": 213,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a technique for developing the project schedule?",
+        "options": [
+            "a. Critical path method",
+            "b. Multivoting",
+            "c. Brainstorming",
+            "d. Interviews"
+        ],
+        "answer": 0,
+        "explanation": "Critical path method is used for developing the project schedule. ECO Domain 2, Task 2.2: Develop and manage the project schedule. PMBOK 7th Edition, Section 3.3; Google PM Course 3."
+    },
+    {
+        "id": 214,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "What is the purpose of a baseline in project management?",
+        "options": [
+            "a. To serve as a reference for measuring performance",
+            "b. To define the project charter",
+            "c. To identify stakeholders",
+            "d. To prioritize requirements"
+        ],
+        "answer": 0,
+        "explanation": "Baselines serve as references for measuring performance. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.1; Google PM Course 3."
+    },
+    {
+        "id": 215,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the formula for schedule variance (SV) in EVM?",
+        "options": [
+            "a. EV - PV",
+            "b. EV - AC",
+            "c. AC - EV",
+            "d. PV - EV"
+        ],
+        "answer": 0,
+        "explanation": "Schedule variance (SV) is EV - PV. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 216,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which is a key benefit of stakeholder engagement?",
+        "options": [
+            "a. Reduced project risks",
+            "b. Increased project costs",
+            "c. Delayed project schedule",
+            "d. Decreased team productivity"
+        ],
+        "answer": 0,
+        "explanation": "Stakeholder engagement reduces project risks. ECO Domain 1, Task 1.2: Demonstrate an understanding of stakeholder identification and engagement. PMBOK 7th Edition, Section 2.4; Google PM Course 2."
+    },
+    {
+        "id": 217,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "What is the role of a stakeholder in a project?",
+        "options": [
+            "a. To lead the project",
+            "b. To execute tasks",
+            "c. To influence or be influenced by the project",
+            "d. To provide resources"
+        ],
+        "answer": 2,
+        "explanation": "Stakeholders influence or are influenced by the project. ECO Domain 1, Task 1.2: Demonstrate an understanding of stakeholder identification and engagement. PMBOK 7th Edition, Section 2.4; Google PM Course 1."
+    },
+    {
+        "id": 218,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which is a tool for estimating project duration?",
+        "options": [
+            "a. PERT",
+            "b. RACI matrix",
+            "c. Stakeholder register",
+            "d. Lessons learned register"
+        ],
+        "answer": 0,
+        "explanation": "PERT is used for estimating project duration. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.3; Google PM Course 3."
+    },
+    {
+        "id": 219,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the purpose of a change log?",
+        "options": [
+            "a. To track changes to the project",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify stakeholders"
+        ],
+        "answer": 0,
+        "explanation": "The change log tracks changes to the project. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 4."
+    },
+    {
+        "id": 220,
+        "type": "single",
+        "domain": 1,
+        "module": "5",
+        "question": "In agile, what is a user story?",
+        "options": [
+            "a. A requirement from the user's perspective",
+            "b. A detailed project plan",
+            "c. A risk identification tool",
+            "d. A stakeholder analysis tool"
+        ],
+        "answer": 0,
+        "explanation": "A user story is a requirement from the user's perspective. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 221,
+        "type": "single",
+        "domain": 1,
+        "module": "6",
+        "question": "What is the purpose of a feasibility study in project management?",
+        "options": [
+            "a. To assess the viability of a project",
+            "b. To develop the project schedule",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "A feasibility study assesses the viability of a project. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 4.1; Google PM Course 6."
+    },
+    {
+        "id": 222,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which is a technique for risk identification?",
+        "options": [
+            "a. SWOT analysis",
+            "b. Gantt chart",
+            "c. WBS",
+            "d. RACI matrix"
+        ],
+        "answer": 0,
+        "explanation": "SWOT analysis is used for risk identification. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.7; Google PM Course 3."
+    },
+    {
+        "id": 223,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the purpose of a quality management plan?",
+        "options": [
+            "a. To define how quality will be managed",
+            "b. To define the project scope",
+            "c. To define the project budget",
+            "d. To define the project risks"
+        ],
+        "answer": 0,
+        "explanation": "The quality management plan defines how quality will be managed. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.5; Google PM Course 4."
+    },
+    {
+        "id": 224,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "What is the role of the sponsor in a project?",
+        "options": [
+            "a. To execute tasks",
+            "b. To provide resources and support",
+            "c. To manage the project",
+            "d. To influence the project"
+        ],
+        "answer": 1,
+        "explanation": "The sponsor provides resources and support. ECO Domain 1, Task 1.1: Demonstrate an understanding of project roles, responsibilities, and organizational structures. PMBOK 7th Edition, Section 1.3; Google PM Course 1."
+    },
+    {
+        "id": 225,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which is a key deliverable of the initiation phase?",
+        "options": [
+            "a. Project charter",
+            "b. Project plan",
+            "c. Scope baseline",
+            "d. Risk register"
+        ],
+        "answer": 0,
+        "explanation": "The project charter is a key deliverable of the initiation phase. ECO Domain 1, Task 1.6: Demonstrate an understanding of project initiation documents. PMBOK 7th Edition, Section 2.2; Google PM Course 2."
+    },
+    {
+        "id": 226,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "What is the purpose of the planning phase?",
+        "options": [
+            "a. To define how the project will be executed",
+            "b. To authorize the project",
+            "c. To execute the project",
+            "d. To close the project"
+        ],
+        "answer": 0,
+        "explanation": "The planning phase defines how the project will be executed. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 3."
+    },
+    {
+        "id": 227,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "Which process group includes the execution of the project work?",
+        "options": [
+            "a. Initiating",
+            "b. Planning",
+            "c. Executing",
+            "d. Monitoring and Controlling"
+        ],
+        "answer": 2,
+        "explanation": "The executing process group includes the execution of the project work. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 4."
+    },
+    {
+        "id": 228,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the purpose of the monitoring and controlling phase?",
+        "options": [
+            "a. To track project performance",
+            "b. To define the project scope",
+            "c. To develop the project plan",
+            "d. To identify stakeholders"
+        ],
+        "answer": 0,
+        "explanation": "The monitoring and controlling phase tracks project performance. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 4."
+    },
+    {
+        "id": 229,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "Which process group includes the closure of the project?",
+        "options": [
+            "a. Initiating",
+            "b. Planning",
+            "c. Executing",
+            "d. Closing"
+        ],
+        "answer": 3,
+        "explanation": "The closing process group includes the closure of the project. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 4."
+    },
+    {
+        "id": 230,
+        "type": "single",
+        "domain": 1,
+        "module": "5",
+        "question": "What is the purpose of agile methodologies?",
+        "options": [
+            "a. To provide flexibility and iterative development",
+            "b. To provide rigid planning",
+            "c. To provide detailed documentation",
+            "d. To provide fixed scope"
+        ],
+        "answer": 0,
+        "explanation": "Agile methodologies provide flexibility and iterative development. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 231,
+        "type": "single",
+        "domain": 1,
+        "module": "6",
+        "question": "What is the purpose of business analysis in project management?",
+        "options": [
+            "a. To identify business needs and solutions",
+            "b. To develop the project schedule",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "Business analysis identifies business needs and solutions. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 4.1; Google PM Course 6."
+    },
+    {
+        "id": 232,
+        "type": "single",
+        "domain": 1,
+        "module": "1",
+        "question": "What is the role of the project manager?",
+        "options": [
+            "a. To lead and manage the project",
+            "b. To provide resources",
+            "c. To execute tasks",
+            "d. To influence the project"
+        ],
+        "answer": 0,
+        "explanation": "The project manager leads and manages the project. ECO Domain 1, Task 1.1: Demonstrate an understanding of project roles, responsibilities, and organizational structures. PMBOK 7th Edition, Section 1.3; Google PM Course 1."
+    },
+    {
+        "id": 233,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "Which is a key tool for project planning?",
+        "options": [
+            "a. Gantt chart",
+            "b. RACI matrix",
+            "c. Stakeholder register",
+            "d. Lessons learned register"
+        ],
+        "answer": 0,
+        "explanation": "Gantt chart is a key tool for project planning. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.3; Google PM Course 3."
+    },
+    {
+        "id": 234,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "What is the purpose of a risk management plan?",
+        "options": [
+            "a. To define how risks will be managed",
+            "b. To define the project scope",
+            "c. To define the project budget",
+            "d. To define the project schedule"
+        ],
+        "answer": 0,
+        "explanation": "The risk management plan defines how risks will be managed. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.7; Google PM Course 4."
+    },
+    {
+        "id": 235,
+        "type": "single",
+        "domain": 1,
+        "module": "2",
+        "question": "Which is a key activity in the initiation phase?",
+        "options": [
+            "a. Identifying stakeholders",
+            "b. Executing the project",
+            "c. Monitoring the project",
+            "d. Closing the project"
+        ],
+        "answer": 0,
+        "explanation": "Identifying stakeholders is a key activity in the initiation phase. ECO Domain 1, Task 1.2: Demonstrate an understanding of stakeholder identification and engagement. PMBOK 7th Edition, Section 2.4; Google PM Course 2."
+    },
+    {
+        "id": 236,
+        "type": "single",
+        "domain": 1,
+        "module": "3",
+        "question": "What is the purpose of the project management plan?",
+        "options": [
+            "a. To guide project execution",
+            "b. To authorize the project",
+            "c. To close the project",
+            "d. To identify stakeholders"
+        ],
+        "answer": 0,
+        "explanation": "The project management plan guides project execution. ECO Domain 1, Task 1.5: Demonstrate an understanding of project planning fundamentals. PMBOK 7th Edition, Section 3.1; Google PM Course 3."
+    },
+    {
+        "id": 237,
+        "type": "single",
+        "domain": 1,
+        "module": "4",
+        "question": "Which is a key activity in the execution phase?",
+        "options": [
+            "a. Performing the work",
+            "b. Planning the project",
+            "c. Initiating the project",
+            "d. Closing the project"
+        ],
+        "answer": 0,
+        "explanation": "Performing the work is a key activity in the execution phase. ECO Domain 1, Task 1.3: Demonstrate an understanding of project life cycles and processes. PMBOK 7th Edition, Section 3.1; Google PM Course 4."
+    },
+    {
+        "id": 238,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the purpose of the cost management plan?",
+        "options": [
+            "a. To define how costs will be managed",
+            "b. To define the project scope",
+            "c. To define the project risks",
+            "d. To define the project quality"
+        ],
+        "answer": 0,
+        "explanation": "The cost management plan defines how costs will be managed. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 239,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a technique for cost estimating?",
+        "options": [
+            "a. Parametric estimating",
+            "b. Multivoting",
+            "c. Brainstorming",
+            "d. Interviews"
+        ],
+        "answer": 0,
+        "explanation": "Parametric estimating is a technique for cost estimating. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 240,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the purpose of the Control Costs process?",
+        "options": [
+            "a. To monitor project costs",
+            "b. To define project costs",
+            "c. To estimate project costs",
+            "d. To plan project costs"
+        ],
+        "answer": 0,
+        "explanation": "The Control Costs process monitors project costs. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 241,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a key input to the Plan Cost Management process?",
+        "options": [
+            "a. Project charter",
+            "b. Project schedule",
+            "c. Project risks",
+            "d. Project quality"
+        ],
+        "answer": 0,
+        "explanation": "The project charter is a key input to the Plan Cost Management process. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 242,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the formula for cost performance index (CPI)?",
+        "options": [
+            "a. EV / AC",
+            "b. EV / PV",
+            "c. AC / EV",
+            "d. PV / EV"
+        ],
+        "answer": 0,
+        "explanation": "Cost performance index (CPI) is EV / AC. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 243,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a tool for cost control?",
+        "options": [
+            "a. Earned value management",
+            "b. Multivoting",
+            "c. Brainstorming",
+            "d. Interviews"
+        ],
+        "answer": 0,
+        "explanation": "Earned value management is a tool for cost control. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 244,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "What is the purpose of the Estimate Costs process?",
+        "options": [
+            "a. To develop an approximation of the monetary resources needed",
+            "b. To define the project scope",
+            "c. To define the project risks",
+            "d. To define the project quality"
+        ],
+        "answer": 0,
+        "explanation": "The Estimate Costs process develops an approximation of the monetary resources needed. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 245,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the purpose of the Determine Budget process?",
+        "options": [
+            "a. To aggregate the estimated costs",
+            "b. To define the project scope",
+            "c. To define the project risks",
+            "d. To define the project quality"
+        ],
+        "answer": 0,
+        "explanation": "The Determine Budget process aggregates the estimated costs. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 246,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a key output of the Estimate Costs process?",
+        "options": [
+            "a. Cost estimates",
+            "b. Project charter",
+            "c. Scope baseline",
+            "d. Risk register"
+        ],
+        "answer": 0,
+        "explanation": "Cost estimates are a key output of the Estimate Costs process. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 247,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the purpose of forecasting in cost control?",
+        "options": [
+            "a. To predict future costs",
+            "b. To define the project scope",
+            "c. To define the project risks",
+            "d. To define the project quality"
+        ],
+        "answer": 0,
+        "explanation": "Forecasting predicts future costs. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 248,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a technique for cost estimating?",
+        "options": [
+            "a. Bottom-up estimating",
+            "b. Multivoting",
+            "c. Brainstorming",
+            "d. Interviews"
+        ],
+        "answer": 0,
+        "explanation": "Bottom-up estimating is a technique for cost estimating. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 249,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the purpose of the cost baseline?",
+        "options": [
+            "a. To serve as a reference for comparing actual costs",
+            "b. To define the project scope",
+            "c. To define the project risks",
+            "d. To define the project quality"
+        ],
+        "answer": 0,
+        "explanation": "The cost baseline serves as a reference for comparing actual costs. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 250,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a key input to the Determine Budget process?",
+        "options": [
+            "a. Cost estimates",
+            "b. Project charter",
+            "c. Scope baseline",
+            "d. Risk register"
+        ],
+        "answer": 0,
+        "explanation": "Cost estimates are a key input to the Determine Budget process. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 251,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the formula for estimate at completion (EAC)?",
+        "options": [
+            "a. BAC / CPI",
+            "b. EV / AC",
+            "c. EV / PV",
+            "d. AC / EV"
+        ],
+        "answer": 0,
+        "explanation": "Estimate at completion (EAC) is BAC / CPI. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 252,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a tool for cost management?",
+        "options": [
+            "a. Cost baseline",
+            "b. Gantt chart",
+            "c. WBS",
+            "d. RACI matrix"
+        ],
+        "answer": 0,
+        "explanation": "The cost baseline is a tool for cost management. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 253,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the purpose of the earned value technique?",
+        "options": [
+            "a. To integrate scope, cost, and schedule",
+            "b. To define the project scope",
+            "c. To define the project risks",
+            "d. To define the project quality"
+        ],
+        "answer": 0,
+        "explanation": "The earned value technique integrates scope, cost, and schedule. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 254,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a key output of the Plan Cost Management process?",
+        "options": [
+            "a. Cost management plan",
+            "b. Project charter",
+            "c. Scope baseline",
+            "d. Risk register"
+        ],
+        "answer": 0,
+        "explanation": "The cost management plan is a key output of the Plan Cost Management process. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 255,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the purpose of the to-complete performance index (TCPI)?",
+        "options": [
+            "a. To determine the cost performance needed to complete the project",
+            "b. To define the project scope",
+            "c. To define the project risks",
+            "d. To define the project quality"
+        ],
+        "answer": 0,
+        "explanation": "The to-complete performance index (TCPI) determines the cost performance needed to complete the project. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 256,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a technique for cost budgeting?",
+        "options": [
+            "a. Funding limit reconciliation",
+            "b. Multivoting",
+            "c. Brainstorming",
+            "d. Interviews"
+        ],
+        "answer": 0,
+        "explanation": "Funding limit reconciliation is a technique for cost budgeting. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 257,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the purpose of the variance analysis in cost control?",
+        "options": [
+            "a. To analyze variances in cost performance",
+            "b. To define the project scope",
+            "c. To define the project risks",
+            "d. To define the project quality"
+        ],
+        "answer": 0,
+        "explanation": "Variance analysis analyzes variances in cost performance. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 258,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a key input to the Estimate Costs process?",
+        "options": [
+            "a. Project schedule",
+            "b. Project charter",
+            "c. Scope baseline",
+            "d. Risk register"
+        ],
+        "answer": 2,
+        "explanation": "The scope baseline is a key input to the Estimate Costs process. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 259,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the formula for estimate to complete (ETC)?",
+        "options": [
+            "a. EAC - AC",
+            "b. EV - AC",
+            "c. AC - EV",
+            "d. PV - EV"
+        ],
+        "answer": 0,
+        "explanation": "Estimate to complete (ETC) is EAC - AC. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 260,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a tool for cost estimating?",
+        "options": [
+            "a. Reserve analysis",
+            "b. Multivoting",
+            "c. Brainstorming",
+            "d. Interviews"
+        ],
+        "answer": 0,
+        "explanation": "Reserve analysis is a tool for cost estimating. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 261,
+        "type": "single",
+        "domain": 2,
+        "module": "4",
+        "question": "What is the purpose of the trend analysis in cost control?",
+        "options": [
+            "a. To examine project performance over time",
+            "b. To define the project scope",
+            "c. To define the project risks",
+            "d. To define the project quality"
+        ],
+        "answer": 0,
+        "explanation": "Trend analysis examines project performance over time. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 4."
+    },
+    {
+        "id": 262,
+        "type": "single",
+        "domain": 2,
+        "module": "3",
+        "question": "Which is a key output of the Determine Budget process?",
+        "options": [
+            "a. Cost baseline",
+            "b. Project charter",
+            "c. Scope baseline",
+            "d. Risk register"
+        ],
+        "answer": 0,
+        "explanation": "The cost baseline is a key output of the Determine Budget process. ECO Domain 2, Task 2.4: Monitor and control project performance. PMBOK 7th Edition, Section 3.4; Google PM Course 3."
+    },
+    {
+        "id": 263,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the product backlog in agile?",
+        "options": [
+            "a. To list prioritized requirements",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The product backlog lists prioritized requirements. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 4.2; Google PM Course 5."
+    },
+    {
+        "id": 264,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key event in Scrum?",
+        "options": [
+            "a. Sprint planning",
+            "b. Project planning",
+            "c. Scope planning",
+            "d. Risk planning"
+        ],
+        "answer": 0,
+        "explanation": "Sprint planning is a key event in Scrum. ECO Domain 3, Task 3.2: Plan and manage the iteration. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 265,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the daily scrum?",
+        "options": [
+            "a. To synchronize team activities",
+            "b. To plan the project",
+            "c. To define the scope",
+            "d. To identify risks"
+        ],
+        "answer": 0,
+        "explanation": "The daily scrum synchronizes team activities. ECO Domain 3, Task 3.2: Plan and manage the iteration. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 266,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which tool is used to visualize workflow in Kanban?",
+        "options": [
+            "a. Kanban board",
+            "b. Gantt chart",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 0,
+        "explanation": "The Kanban board visualizes workflow in Kanban. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 267,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the definition of done?",
+        "options": [
+            "a. To define when a task is complete",
+            "b. To define the project scope",
+            "c. To define the project budget",
+            "d. To define the project risks"
+        ],
+        "answer": 0,
+        "explanation": "The definition of done defines when a task is complete. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 268,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key role in Scrum?",
+        "options": [
+            "a. Scrum master",
+            "b. Project manager",
+            "c. Sponsor",
+            "d. Stakeholder"
+        ],
+        "answer": 0,
+        "explanation": "The scrum master is a key role in Scrum. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 1.3; Google PM Course 5."
+    },
+    {
+        "id": 269,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the sprint review?",
+        "options": [
+            "a. To showcase completed work",
+            "b. To plan the sprint",
+            "c. To refine the backlog",
+            "d. To improve team processes"
+        ],
+        "answer": 0,
+        "explanation": "The sprint review showcases completed work. ECO Domain 3, Task 3.2: Plan and manage the iteration. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 270,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the sprint retrospective?",
+        "options": [
+            "a. To improve team processes",
+            "b. To showcase completed work",
+            "c. To plan the sprint",
+            "d. To refine the backlog"
+        ],
+        "answer": 0,
+        "explanation": "The sprint retrospective improves team processes. ECO Domain 3, Task 3.2: Plan and manage the iteration. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 271,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which tool is used to estimate effort in agile?",
+        "options": [
+            "a. Story points",
+            "b. Three-point estimating",
+            "c. Parametric estimating",
+            "d. Analogous estimating"
+        ],
+        "answer": 0,
+        "explanation": "Story points are used to estimate effort in agile. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 272,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the role of the product owner in agile?",
+        "options": [
+            "a. To prioritize the backlog",
+            "b. To facilitate the process",
+            "c. To execute tasks",
+            "d. To monitor risks"
+        ],
+        "answer": 0,
+        "explanation": "The product owner prioritizes the backlog. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 1.3; Google PM Course 5."
+    },
+    {
+        "id": 273,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of velocity in agile?",
+        "options": [
+            "a. To measure team productivity",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "Velocity measures team productivity. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 274,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which tool is used to limit work in progress in agile?",
+        "options": [
+            "a. Kanban board",
+            "b. Gantt chart",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 0,
+        "explanation": "The Kanban board limits work in progress. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 275,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the role of the scrum master in agile?",
+        "options": [
+            "a. To facilitate the process",
+            "b. To prioritize the backlog",
+            "c. To execute tasks",
+            "d. To monitor risks"
+        ],
+        "answer": 0,
+        "explanation": "The scrum master facilitates the process. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 1.3; Google PM Course 5."
+    },
+    {
+        "id": 276,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the sprint goal?",
+        "options": [
+            "a. To define the focus of the sprint",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The sprint goal defines the focus of the sprint. ECO Domain 3, Task 3.2: Plan and manage the iteration. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 277,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key practice in agile?",
+        "options": [
+            "a. Iterative development",
+            "b. Waterfall development",
+            "c. Predictive planning",
+            "d. Fixed scope"
+        ],
+        "answer": 0,
+        "explanation": "Iterative development is a key practice in agile. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 278,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of backlog refinement?",
+        "options": [
+            "a. To prioritize and clarify items in the backlog",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "Backlog refinement prioritizes and clarifies items in the backlog. ECO Domain 3, Task 3.2: Plan and manage the iteration. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 279,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key metric in agile?",
+        "options": [
+            "a. Velocity",
+            "b. CPI",
+            "c. SPI",
+            "d. EV"
+        ],
+        "answer": 0,
+        "explanation": "Velocity is a key metric in agile. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 280,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the burndown chart?",
+        "options": [
+            "a. To show remaining work in the sprint",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The burndown chart shows remaining work in the sprint. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 281,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key principle of agile?",
+        "options": [
+            "a. Customer collaboration over contract negotiation",
+            "b. Contract negotiation over customer collaboration",
+            "c. Detailed documentation over working software",
+            "d. Following a plan over responding to change"
+        ],
+        "answer": 0,
+        "explanation": "Customer collaboration over contract negotiation is a key principle of agile. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 282,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the agile manifesto?",
+        "options": [
+            "a. To outline agile principles",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The agile manifesto outlines agile principles. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 283,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key value of agile?",
+        "options": [
+            "a. Responding to change over following a plan",
+            "b. Following a plan over responding to change",
+            "c. Contract negotiation over customer collaboration",
+            "d. Detailed documentation over working software"
+        ],
+        "answer": 0,
+        "explanation": "Responding to change over following a plan is a key value of agile. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 284,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the agile triangle?",
+        "options": [
+            "a. To balance constraints in agile projects",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The agile triangle balances constraints in agile projects. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 285,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key framework in agile?",
+        "options": [
+            "a. Scrum",
+            "b. Waterfall",
+            "c. Predictive",
+            "d. Traditional"
+        ],
+        "answer": 0,
+        "explanation": "Scrum is a key framework in agile. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 286,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the product vision in agile?",
+        "options": [
+            "a. To define the overall goal of the product",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The product vision defines the overall goal of the product. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 4.2; Google PM Course 5."
+    },
+    {
+        "id": 287,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key tool in agile?",
+        "options": [
+            "a. Burndown chart",
+            "b. Gantt chart",
+            "c. Pareto chart",
+            "d. Control chart"
+        ],
+        "answer": 0,
+        "explanation": "The burndown chart is a key tool in agile. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 288,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the release plan in agile?",
+        "options": [
+            "a. To plan the release of increments",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The release plan plans the release of increments. ECO Domain 3, Task 3.2: Plan and manage the iteration. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 289,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key ceremony in Scrum?",
+        "options": [
+            "a. Sprint review",
+            "b. Project review",
+            "c. Scope review",
+            "d. Risk review"
+        ],
+        "answer": 0,
+        "explanation": "Sprint review is a key ceremony in Scrum. ECO Domain 3, Task 3.2: Plan and manage the iteration. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 290,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the iteration plan in agile?",
+        "options": [
+            "a. To plan the work for the iteration",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The iteration plan plans the work for the iteration. ECO Domain 3, Task 3.2: Plan and manage the iteration. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 291,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key metric in Scrum?",
+        "options": [
+            "a. Velocity",
+            "b. CPI",
+            "c. SPI",
+            "d. EV"
+        ],
+        "answer": 0,
+        "explanation": "Velocity is a key metric in Scrum. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 292,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the burnup chart?",
+        "options": [
+            "a. To show completed work",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The burnup chart shows completed work. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.3.2; Google PM Course 5."
+    },
+    {
+        "id": 293,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key value in the agile manifesto?",
+        "options": [
+            "a. Working software over comprehensive documentation",
+            "b. Comprehensive documentation over working software",
+            "c. Contract negotiation over customer collaboration",
+            "d. Following a plan over responding to change"
+        ],
+        "answer": 0,
+        "explanation": "Working software over comprehensive documentation is a key value in the agile manifesto. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 294,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "What is the purpose of the agile principles?",
+        "options": [
+            "a. To guide agile practices",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The agile principles guide agile practices. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 295,
+        "type": "single",
+        "domain": 3,
+        "module": "5",
+        "question": "Which is a key principle in agile?",
+        "options": [
+            "a. Welcome changing requirements",
+            "b. Avoid changing requirements",
+            "c. Focus on contract negotiation",
+            "d. Focus on detailed documentation"
+        ],
+        "answer": 0,
+        "explanation": "Welcome changing requirements is a key principle in agile. ECO Domain 3, Task 3.1: Apply Agile principles and practices. PMBOK 7th Edition, Section 3.1; Google PM Course 5."
+    },
+    {
+        "id": 296,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the purpose of needs assessment in business analysis?",
+        "options": [
+            "a. To identify business needs",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "Needs assessment identifies business needs. ECO Domain 4, Task 4.1: Perform needs assessment. PMBOK 7th Edition, Section 4.1; Google PM Course 6."
+    },
+    {
+        "id": 297,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used for eliciting requirements?",
+        "options": [
+            "a. Brainstorming",
+            "b. Gantt chart",
+            "c. WBS",
+            "d. RACI matrix"
+        ],
+        "answer": 0,
+        "explanation": "Brainstorming is used for eliciting requirements. ECO Domain 4, Task 4.1: Perform needs assessment. PMBOK 7th Edition, Section 4.1; Google PM Course 6."
+    },
+    {
+        "id": 298,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the purpose of a use case in business analysis?",
+        "options": [
+            "a. To describe interactions",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "Use case describes interactions. ECO Domain 4, Task 4.1: Perform needs assessment. PMBOK 7th Edition, Section 4.1; Google PM Course 6."
+    },
+    {
+        "id": 299,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which process involves approving requirements?",
+        "options": [
+            "a. Define and Approve Requirements",
+            "b. Needs Assessment",
+            "c. Manage Stakeholder Engagement",
+            "d. Monitor Stakeholder Engagement"
+        ],
+        "answer": 0,
+        "explanation": "Define and Approve Requirements involves approving requirements. ECO Domain 4, Task 4.3: Approve requirements. PMBOK 7th Edition, Section 4.3; Google PM Course 6."
+    },
+    {
+        "id": 300,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "What is the purpose of a traceability matrix?",
+        "options": [
+            "a. To link requirements to deliverables",
+            "b. To define the project scope",
+            "c. To estimate project costs",
+            "d. To identify project risks"
+        ],
+        "answer": 0,
+        "explanation": "The traceability matrix links requirements to deliverables. ECO Domain 4, Task 4.3: Approve requirements. PMBOK 7th Edition, Section 4.3; Google PM Course 6."
+    },
+    {
+        "id": 301,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Which tool is used to prioritize requirements?",
+        "options": [
+            "a. Multivoting",
+            "b. Gantt chart",
+            "c. WBS",
+            "d. RACI matrix"
+        ],
+        "answer": 0,
+        "explanation": "Multivoting is used to prioritize requirements. ECO Domain 4, Task 4.1: Perform needs assessment. PMBOK 7th Edition, Section 4.2; Google PM Course 6."
+    },
+    {
+        "id": 302,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Who is the project sponsor?",
+        "options": [
+            "a. The person involved in the project who has a vested interest in the project's success",
+            "b. The person who will use the product produced by a project",
+            "c. The person who plans, organizes, and oversees the project",
+            "d. The person who is accountable for the project and ensures the project delivers the agreed-upon value to a business"
+        ],
+        "answer": 3,
+        "explanation": "A project sponsor is the person who is accountable for the project. They ensure the project delivers the agreed-upon value to the business. ECO Domain 4, Task 4.2; PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 303,
+        "type": "multiple",
+        "domain": 4,
+        "module": "6",
+        "question": "When choosing a project team, a project manager considers required roles, team size, and which three additional factors?",
+        "options": [
+            "a. Availability",
+            "b. Motivation",
+            "c. Necessary skills",
+            "d. Stakeholder preferences"
+        ],
+        "answer": [
+            0,
+            1,
+            2
+        ],
+        "explanation": "Everyone on the team needs to be available to join the project. This means they are not staffed on another big project and have the time to contribute. Beyond availability, team members also need to have key skills and be motivated to complete their tasks. Everyone on the team needs to have the right skills to do the job. If they don\u2019t have the necessary skills, the project manager should ensure that they receive timely training to avoid project delays. Beyond key skills, team members also need to be available and motivated. Stakeholder preferences about team members are not a factor project managers need to consider when building the team. ECO Domain 4, Task 4.2; PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 304,
+        "type": "multiple",
+        "domain": 4,
+        "module": "6",
+        "question": "Which two factors are determined on a stakeholder power grid? Select all that apply.",
+        "options": [
+            "a. Influence",
+            "b. Interest",
+            "c. Input",
+            "d. Impact"
+        ],
+        "answer": [
+            0,
+            1
+        ],
+        "explanation": "The stakeholder power grid is a two-by-two grid used for conducting a stakeholder analysis. The power grid assigns each stakeholder a level of importance to the project using two measures: interest and influence. ECO Domain 4, Task 4.2; PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 305,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": "Who is the project sponsor?",
+        "options": [
+            "a. The person involved in the project who has a vested interest in the project's success",
+            "b. The person who will use the product produced by a project",
+            "c. The person who plans, organizes, and oversees the project",
+            "d. The person who is accountable for the project and ensures the project delivers the agreed-upon value to a business"
+        ],
+        "answer": 3,
+        "explanation": "A project sponsor is the person who is accountable for the project. They ensure the project delivers the agreed-upon value to the business. ECO Domain 4, Task 4.2; PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 306,
+        "type": "multiple",
+        "domain": 4,
+        "module": "6",
+        "question": "When choosing a project team, a project manager considers required roles, team size, and which three additional factors?",
+        "options": [
+            "a. Availability",
+            "b. Motivation",
+            "c. Necessary skills",
+            "d. Stakeholder preferences"
+        ],
+        "answer": [
+            0,
+            1,
+            2
+        ],
+        "explanation": "Everyone on the team needs to be available to join the project. This means they are not staffed on another big project and have the time to contribute. Beyond availability, team members also need to have key skills and be motivated to complete their tasks. Everyone on the team needs to have the right skills to do the job. If they don\u2019t have the necessary skills, the project manager should ensure that they receive timely training to avoid project delays. Beyond key skills, team members also need to be available and motivated. Stakeholder preferences about team members are not a factor project managers need to consider when building the team. ECO Domain 4, Task 4.2; PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 307,
+        "type": "multiple",
+        "domain": 4,
+        "module": "6",
+        "question": "Which two factors are determined on a stakeholder power grid? Select all that apply.",
+        "options": [
+            "a. Influence",
+            "b. Interest",
+            "c. Input",
+            "d. Impact"
+        ],
+        "answer": [
+            0,
+            1
+        ],
+        "explanation": "The stakeholder power grid is a two-by-two grid used for conducting a stakeholder analysis. The power grid assigns each stakeholder a level of importance to the project using two measures: interest and influence. ECO Domain 4, Task 4.2; PMBOK 7th Edition, Section 4.2."
+    },
+    {
+        "id": 308,
+        "type": "single",
+        "domain": 4,
+        "module": "6",
+        "question": null,
+        "options": [
+            "a. None",
+            "b. None",
+            "c. None",
+            "d. None"
+        ],
+        "answer": 0,
+        "explanation": ""
+    }
+]

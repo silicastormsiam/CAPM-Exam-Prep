@@ -1,0 +1,35 @@
+Who is the project sponsor?
+The person involved in the project who has a vested interest in the project's success
+The person who will use the product produced by a project
+The person who plans, organizes, and oversees the project 
+The person who is accountable for the project and ensures the project delivers the agreed-upon value to a business
+Correct
+A project sponsor is the person who is accountable for the project. They ensure the project delivers the agreed-upon value to the business.
+
+
+//
+When choosing a project team, a project manager considers required roles, team size, and which three additional factors?
+Availability
+Correct
+Everyone on the team needs to be available to join the project. This means they are not staffed on another big project and have the time to contribute. Beyond availability, team members also need to have key skills and be motivated to complete their tasks. 
+Motivation
+Necessary skills
+Correct
+Everyone on the team needs to have the right skills to do the job. If they don’t have the necessary skills, the project manager should ensure that they receive timely training to avoid project delays. Beyond key skills, team members also need to be available and motivated. 
+Stakeholder preferences
+This should not be selected
+Stakeholder preferences about team members are not a factor project managers need to consider when building the team. Team members need to have the necessary skills, be available to join the team, and be motivated to complete their tasks.
+//
+Which two factors are determined on a stakeholder power grid? Select all that apply.
+Influence
+Correct
+The stakeholder power grid is a two-by-two grid used for conducting a stakeholder analysis. The power grid assigns each stakeholder a level of importance to the project using two measures: interest and influence. 
+Interest
+Correct
+The stakeholder power grid is a two-by-two grid used for conducting a stakeholder analysis. The power grid assigns each stakeholder a level of importance to the project using two measures: interest and influence. 
+Input
+Impact
+ //
+
+
+

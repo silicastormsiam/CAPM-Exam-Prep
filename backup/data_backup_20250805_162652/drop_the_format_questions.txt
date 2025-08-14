@@ -1,0 +1,186 @@
+Set-Content -Path "M:\OneDrive\Documents\GitHub\excel_to_json\data\drop_the_format_questions.txt" -Value @"
+Question: A manager and the head of engineering discuss a change to a major work package. After the meeting, the manager contacts you and tells you to complete the paperwork to make the change. This is an example of:
+Option A: Management attention to scope management.
+Option B: Management planning.
+Option C: A project expediter position.
+Option D: A change control system.
+Answer: C
+Explanation: The correct answer is A project expediter position. In this situation, the project manager acts as the secretary of the project and does the paperwork. So this is an example of a project expediter position where the project manager does not have any authority and power. The project manager does only paperwork. Knowledge Area: Organizational Influences and Project Lifecycle
+//
+Question: During a team meeting, a team member asks about the measurements that will be used on the project to judge performance. The team member feels that some of the measures related to activities assigned to him are not valid measurements. The project is BEST considered in what part of the project management process?
+Option A: Initiating
+Option B: Executing
+Option C: Monitoring & Controlling
+Option D: Closing
+Answer: B
+Explanation: The correct answer is Executing. The question states that the team member feels some of the measures on his activities are not valid. Therefore, he must be working during the executing phase of the project where project deliverables are produced and project members perform most of the work they should do. Knowledge Area: Project Management Processes
+//
+Question: Your company just won a major new project. It will begin in three months and is valued at 2m USD. You are the project manager for an existing project. What is the FIRST thing you should do once you hear of the new project?
+Option A: Ask management how the new project will use resources
+Option B: Resource level your project
+Option C: Crash your project
+Option D: Ask management how the new project will affect your project
+Answer: D
+Explanation: The correct answer is Ask management how the new project will affect your project. Since this is another project that your company is going to execute, you need to be sure whether it will impact your project. Knowledge Area: Integration Management Knowledge Area
+//
+Question: You are a new project manager who has never managed a project before. It would be BEST in this situation to rely on _____ during planning in order to improve your chance of success.
+Option A: Your intuition and training
+Option B: Stakeholder analysis
+Option C: Historical information
+Option D: Configuration management
+Answer: C
+Explanation: The correct answer is Historical information. The first thing to explore before starting a new project is the historical information about similar projects in the organizational process assets library of the organization. Knowledge Area: Integration Management Knowledge Area
+//
+Question: During project execution, a team member comes to the project manager because he is not sure of what work he needs to accomplish on the project. Which of the following documents contain detailed descriptions of work packages?
+Option A: WBS Dictionary
+Option B: Activity List
+Option C: Project scope statement
+Option D: Scope management plan
+Answer: A
+Explanation: The correct answer is WBS Dictionary. Work packages in a Work Breakdown Structure contain only nouns or a couple of words regarding work or deliverable. Detailed information on what needs to be done, responsible, prerequisites, successors, due date, etc. are included in the Work Breakdown Structure Dictionary. Knowledge Area: Scope Management Knowledge Area
+//
+Question: What is the primary focus of chapters 3, 4, 5, and 6 in the PMBOK guide according to the Project Management Institute (PMI)?
+Option A: They contain information that accounts for approximately 50 percent of the CAPM exam
+Option B: They cover only 25 percent of the exam content
+Option C: They are the least important sections for exam preparation
+Option D: They are not relevant to the CAPM certification
+Answer: A
+Explanation: According to the Project Management Institute (PMI), chapters 3, 4, 5, and 6 of the PMBOK guide are the most important sections to memorize because they contain information that accounts for approximately 50 percent of the exam.
+//
+Question: How many hours of project management training are required to be eligible for the CAPM exam?
+Option A: 35 hours
+Option B: 23 hours
+Option C: 40 hours
+Option D: 15 hours
+Answer: B
+Explanation: To be eligible for the CAPM exam, candidates must have completed a total of 23 hours of education related to project management.
+//
+Question: What is the cost of the CAPM exam for non-PMI members as of February 2024?
+Option A: $225
+Option B: $300
+Option C: $364
+Option D: $555
+Answer: B
+Explanation: As of February 2024, the cost of the CAPM exam for non-PMI members is $300.
+//
+Question: What is the passing score believed to guarantee success on the CAPM exam?
+Option A: 70 percent
+Option B: 61 percent
+Option C: 50 percent
+Option D: 80 percent
+Answer: B
+Explanation: It is believed that a success rate of 61 percent will guarantee passing the CAPM exam, though this is not officially verified, and candidates are advised to aim for at least 70 percent on practice tests.
+//
+Question: How many attempts are permitted to take the CAPM exam within a single year if the first attempt is unsuccessful?
+Option A: Two attempts
+Option B: Three attempts
+Option C: Four attempts
+Option D: One attempt
+Answer: B
+Explanation: PMI permits up to three attempts at the CAPM test within a single year if the first attempt is unsuccessful.
+//
+Question: Which is an example of leveraging evolving trends and emerging practices in Project Integration Management?
+Option A: Hybrid methodologies
+Option B: Risk register updates
+Option C: Outsourced project resources
+Option D: Reliance on lessons learned documents
+Answer: A
+Explanation: The correct answer is Hybrid methodologies. Hybrid methodologies represent evolving trends and practices in managing project integration.
+//
+Question: What should a project manager use to determine how much money is needed to complete a project?
+Option A: Earned value management (EVM)
+Option B: Estimate at completion (EAC)
+Option C: Earned value analysis (EVA)
+Option D: Budget at completion (BAC)
+Answer: C
+Explanation: The correct answer is Earned value analysis (EVA). EVA helps determine the projected cost to complete the project based on performance.
+//
+Question: The project manager is creating the communications management plan. Which group of inputs is required to begin?
+Option A: Work performance reports, change requests, and risk register
+Option B: Work performance data, project documents, and stakeholder engagement plan
+Option C: Project charter, project management plan, and project documents
+Option D: Work performance data, stakeholder register, and team management plan
+Answer: C
+Explanation: The correct answer is Project charter, project management plan, and project documents. These inputs are necessary to start developing the communications management plan.
+//
+Question: Which of the following is one of the Enterprise environmental factor?
+Option A: Government standards
+Option B: Regulations
+Option C: Historical information
+Option D: Marketplace conditions
+Answer: D
+Explanation: Enterprise environmental factors include government standards, regulations, and marketplace conditions. Historical information is typically considered an organizational process asset, not an enterprise environmental factor. Therefore, the correct answer is D.
+//
+Question: Which of the following is a strategy for dealing with negative risks or threats?
+Option A: Avoid
+Option B: Transfer
+Option C: Accept
+Option D: All the above
+Answer: D
+Explanation: Strategies for dealing with negative risks or threats include Avoid, Transfer, and Accept, as mentioned in the options. Therefore the correct answer is D.
+//
+Question: What is the correct order of team development that the teams go through?
+Option A: Adjourning, Performing, Norming
+Option B: Adjourning, Forming, Norming
+Option C: Forming, Storming, Performing
+Option D: None of above
+Answer: C
+Explanation: The correct order of team development, as per the Tuckman model, is Forming, Storming, Norming, Performing, and Adjourning. Among the options, Forming, Storming, Performing is part of the sequence. Therefore the correct answer is C.
+//
+Question: Interpersonal skills of an effective project manager include?
+Option A: Leadership
+Option B: Influencing
+Option C: Effective decision making
+Option D: All the above
+Answer: D
+Explanation: Interpersonal skills of an effective project manager include Leadership, Influencing, and Effective decision making, as listed in the options. Therefore the correct answer is D.
+//
+Question: In which organizational structure does the project manager have maximum control over the team?
+Option A: Functional
+Option B: Strong Matrix
+Option C: Balanced Matrix
+Option D: Projectized
+Answer: D
+Explanation: In a Projectized organizational structure, the project manager has the maximum control over the team, as the team reports directly to the project manager. Therefore the correct answer is D.
+//
+Question: Which of the following is one of the Tools and Techniques of Control Quality Process?
+Option A: Cost-benefit analysis
+Option B: Meetings
+Option C: Process Analysis
+Option D: Inspection
+Answer: D
+Explanation: Cost-benefit analysis and meetings are the techniques that are used for the Plan Quality Management process. Process analysis is used in Perform Quality Assurance process and is used to identify the required improvements. Thus, it is safe to eliminate the first three choices, as they do not fall in the correct process group. We are left with the last choice which is Inspection. The correct answer is D.
+//
+Question: Which technique is used for determining the reason for variances between the baseline and actual performance?
+Option A: Variance analysis
+Option B: An organizational process asset
+Option C: Earned value
+Option D: Pareto Chart
+Answer: A
+Explanation: Pareto chart is a quality tool, organizations process asset is not a technique – it is an asset and earned value measures the work performed on the project. Variance analysis is the technique that is used in the Control Scope process in Project Scope Management for finding the cause and variance between the agreed baseline and the actual performance. Therefore the correct answer is A.
+//
+Question: When choosing a project team, a project manager considers required roles, team size, and which three additional factors?
+Option A: Availability
+Option B: Motivation
+Option C: Necessary skills
+Option D: Stakeholder preferences
+Answer: A,B,C
+Explanation: Everyone on the team needs to be available to join the project. This means they are not staffed on another big project and have the time to contribute. Beyond availability, team members also need to have key skills and be motivated to complete their tasks. Everyone on the team needs to have the right skills to do the job. If they don’t have the necessary skills, the project manager should ensure that they receive timely training to avoid project delays. Beyond key skills, team members also need to be available and motivated. Stakeholder preferences about team members are not a factor project managers need to consider when building the team. ECO Domain 4, Task 4.2; PMBOK 7th Edition, Section 4.2.
+//
+Question: Which two factors are determined on a stakeholder power grid? Select all that apply.
+Option A: Influence
+Option B: Interest
+Option C: Input
+Option D: Impact
+Answer: A,B
+Explanation: The stakeholder power grid is a two-by-two grid used for conducting a stakeholder analysis. The power grid assigns each stakeholder a level of importance to the project using two measures: interest and influence. ECO Domain 4, Task 4.2; PMBOK 7th Edition, Section 4.2.
+//
+Question: Who is the project sponsor?
+Option A: The person involved in the project who has a vested interest in the project's success
+Option B: The person who will use the product produced by a project
+Option C: The person who plans, organizes, and oversees the project
+Option D: The person who is accountable for the project and ensures the project delivers the agreed-upon value to a business
+Answer: D
+Explanation: A project sponsor is the person who is accountable for the project. They ensure the project delivers the agreed-upon value to the business. ECO Domain 4, Task 4.2; PMBOK 7th Edition, Section 4.2.
+//
+"@

@@ -1,0 +1,25 @@
+You will receive a raw project management multiple-choice question block. It includes the question text, four answer options listed one after another without labels, and an explanation that contains the correct answer context.
+
+Your task:
+
+1. Add explicit option labels as "Option A:", "Option B:", "Option C:", and "Option D:" before each answer choice, preserving the original option order.
+
+2. Determine the correct answer by analyzing the explanation and match it to the corresponding option.
+
+3. Insert an "Answer:" line specifying the correct option letter (A, B, C, or D).
+
+4. Return the fully formatted question block in this exact structure:
+
+Question: [Question text]  
+Option A: [First answer option]  
+Option B: [Second answer option]  
+Option C: [Third answer option]  
+Option D: [Fourth answer option]  
+Answer: [Correct option letter]  
+Explanation: [Explanation text]
+
+Strictly do not change the wording of any question, options, or explanation beyond adding labels and the answer line. If the correct answer cannot be confidently identified, respond with "Answer: Unknown".
+
+Only provide the formatted question block in your response — no extra commentary or explanation.
+
+Output with a // separating each question.

@@ -1,0 +1,12 @@
+# File: Dockerfile.react
+# Owner: Andrew John Holland
+# Purpose: Build React frontend for CAPM Exam Prep
+# Version: 1.0 (August 04, 2025)
+# Change Log:
+# [2025-08-04] Created Dockerfile for React (ID: stabilization-20250804-13)
+FROM node:18
+WORKDIR /app
+COPY package.json ./
+RUN npm install
+COPY . .
+CMD ["npm", "start"]
