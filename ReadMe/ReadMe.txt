@@ -1,1 +1,0 @@
-CAPM Exam Preparation Notes
